@@ -119,6 +119,22 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
 .grid3,.grid6,.church-grid{grid-template-columns:1fr}
 .hero{padding:3rem 0 3rem}
 }
+
+.subscribe{background:var(--ink);color:#fff;padding:3.2rem 0}
+.subscribe .wrap{display:flex;align-items:center;justify-content:space-between;gap:2.4rem;flex-wrap:wrap}
+.subscribe h2{font-size:clamp(1.5rem,2.6vw,2rem);color:#fff}
+.sub-lede{color:#b9b9b9;font-size:15px;margin-top:.55rem;max-width:30em;line-height:1.6}
+.sub-form{display:flex;gap:.7rem;flex-wrap:wrap;align-items:stretch}
+.sub-form input[type=email]{width:280px;max-width:100%;background:#fff;border:1.5px solid #fff;padding:.9rem 1rem;font:inherit;font-size:15px;color:var(--ink);border-radius:0}
+.sub-form input[type=email]:focus{outline:2px solid #fff;outline-offset:2px}
+.sub-btn{background:#fff;color:var(--ink);border:2px solid #fff;padding:.9rem 1.7rem;font:inherit;font-size:15px;font-weight:600;cursor:pointer;border-radius:0;transition:background .15s ease,color .15s ease}
+.sub-btn:hover{background:transparent;color:#fff}
+.sub-btn:disabled{opacity:.6;cursor:wait}
+.sub-ok,.sub-err,.sub-conn{display:none;margin-top:.8rem;font-size:14.5px}
+.sub-ok{color:#fff;font-weight:600}
+.sub-err,.sub-conn{border:1.5px solid #6f6f6f;color:#d9d9d9;padding:.6rem .9rem;line-height:1.5}
+.sub-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+@media(max-width:760px){.subscribe .wrap{flex-direction:column;align-items:flex-start}.sub-form{width:100%}.sub-form input[type=email]{flex:1 1 100%;width:100%}}
 </style>
 </head>
 <body>
@@ -163,7 +179,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
   <div class="wrap hero-in">
     <div>
       <span class="eyebrow">For Christian young people and their churches</span>
-      <h1>Follow Jesus. Build real things. Give them away.</h1>
+      <h1>Follow Jesus. Learn new skills. Build real things. Give them away.</h1>
       <p class="lead">Build with Jesus pairs the one to eight guide with the Bible and the teachings of Jesus. Young people read, build and serve with an AI agent beside them, and every finished thing goes to their church or their community.</p>
       <div class="cta-row">
         <a class="btn btn-solid" href="/register">Register your interest</a>
@@ -294,6 +310,24 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
   </div>
 </section>
 
+<section class="subscribe" id="subscribe">
+  <div class="wrap">
+    <div>
+      <h2>Stay close to the work.</h2>
+      <p class="sub-lede">One short note now and then: build days, new builds, things worth copying. Nothing else.</p>
+    </div>
+    <div>
+      <form class="sub-form" id="sub-form">
+        <input type="email" id="sub-email" name="email" placeholder="you@example.com" required aria-label="Your email">
+        <input type="text" name="website" class="sub-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button type="submit" class="sub-btn" id="sub-btn">Subscribe</button>
+      </form>
+      <p class="sub-ok" id="sub-ok">&#10003; You're on the list. Talk soon.</p>
+      <p class="sub-err" id="sub-err">Something went wrong. Please try again.</p>
+      <p class="sub-conn" id="sub-conn">Almost ready: this form is being connected right now. Please try again shortly.</p>
+    </div>
+  </div>
+</section>
 <footer>
   <div class="wrap">
     <div class="foot-in">
@@ -328,5 +362,31 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
   </div>
 </footer>
 
+<script>
+// Footer subscribe. WEBHOOK_URL: same ActivePieces endpoint as the register page (shared for now).
+(function(){
+  var WEBHOOK_URL = "https://cloud.activepieces.com/api/v1/webhooks/tBkbJcEi4Ak48qC5pjDXa";
+  var form=document.getElementById('sub-form'),btn=document.getElementById('sub-btn'),
+      ok=document.getElementById('sub-ok'),err=document.getElementById('sub-err'),conn=document.getElementById('sub-conn');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var fd=new FormData(form);
+    if(fd.get('website')){return false;}
+    var email=(fd.get('email')||'').trim();
+    if(!email){return false;}
+    err.style.display='none';conn.style.display='none';
+    if(!WEBHOOK_URL){conn.style.display='block';return false;}
+    btn.disabled=true;btn.textContent='Sending...';
+    var payload={name:'',email:email,programme:'',over18:'',message:'',source:'buildwithjesus.com footer subscribe',at:new Date().toISOString()};
+    function done(){form.style.display='none';ok.style.display='block';}
+    fetch(WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
+    .then(function(r){if(r.ok||r.status===200||r.status===201||r.status===204){done();}else{throw new Error('HTTP '+r.status);}})
+    .catch(function(){
+      fetch(WEBHOOK_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)}).then(done).catch(function(){
+        btn.disabled=false;btn.textContent='Subscribe';err.style.display='block';});
+    });
+  });
+})();
+</script>
 </body>
 </html>
