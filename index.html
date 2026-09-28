@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Build with Jesus | Build real things for your church and community</title>
+<meta name="description" content="Young people follow Jesus, read the Bible with an agent beside them, and build real things their church and community actually use.">
+<link rel="canonical" href="https://buildwithjesus.com/">
+<meta property="og:title" content="Build with Jesus">
+<meta property="og:description" content="Young people follow Jesus, read the Bible with an agent beside them, and build real things their church and community actually use.">
+<meta property="og:url" content="https://buildwithjesus.com/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0d0d0d;--paper:#ffffff;--grey:#f4f4f4;--line:#e3e3e3;--mut:#5c5c5c;--soft:#8f8f8f;--r-none:0px}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1120px;margin:0 auto;padding:0 1.5rem}
+h1,h2,h3,.disp{font-family:'Fraunces',Georgia,serif;font-weight:600;line-height:1.12;letter-spacing:-.01em}
+a{color:inherit}
+/* nav */
+nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+.nav-in{max-width:1120px;margin:0 auto;padding:.85rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none}
+.brand svg{width:34px;height:34px;display:block}
+.wm{font-family:'Fraunces',serif;font-weight:600;letter-spacing:.12em;font-size:15px;white-space:nowrap}
+.wm .th{font-weight:300}
+.nav-links{display:flex;gap:1.6rem;align-items:center}
+.nav-links a{text-decoration:none;font-size:14.5px;font-weight:500;color:var(--ink)}
+.nav-links a:hover{color:var(--mut)}
+.nav-links a.btn-solid{color:var(--paper)}
+.nav-links a.btn-solid:hover{color:var(--ink);background:var(--paper)}
+.btn{display:inline-block;text-decoration:none;font-weight:600;font-size:15px;padding:.85rem 1.6rem;border:2px solid var(--ink);border-radius:0;transition:background .15s ease,color .15s ease;cursor:pointer}
+.btn-solid{background:var(--ink);color:var(--paper)}
+.btn-solid:hover{background:var(--paper);color:var(--ink)}
+.btn-line{background:transparent;color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:var(--paper)}
+.btn-sm{padding:.6rem 1.1rem;font-size:14px}
+/* hero */
+.hero{padding:5rem 0 4.5rem;border-bottom:1px solid var(--line)}
+.hero-in{display:grid;grid-template-columns:1.15fr .85fr;gap:3.5rem;align-items:center}
+.eyebrow{display:inline-block;font-size:12.5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;border:1.5px solid var(--ink);padding:.45rem .9rem;margin-bottom:1.6rem}
+h1{font-size:clamp(2.3rem,4.6vw,3.6rem)}
+.hero p.lead{margin:1.5rem 0 2.2rem;color:var(--mut);font-size:18px;max-width:34em}
+.cta-row{display:flex;gap:1rem;flex-wrap:wrap}
+.hero-note{margin-top:1.4rem;font-size:14px;color:var(--soft)}
+.mark-panel{background:var(--grey);border:1px solid var(--line);padding:2.6rem;display:flex;align-items:center;justify-content:center}
+.mark-panel svg{width:100%;max-width:380px;height:auto;color:var(--ink)}
+/* sections */
+section{padding:4.8rem 0}
+.sec-head{margin-bottom:2.8rem;max-width:44em}
+.sec-head h2{font-size:clamp(1.7rem,3vw,2.4rem)}
+.sec-head p{margin-top:.9rem;color:var(--mut)}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+.grid3 .card{border:1px solid var(--line);padding:2rem;background:var(--paper)}
+.card .num{font-family:'Fraunces',serif;font-weight:300;font-size:2.4rem;display:block;margin-bottom:.9rem}
+.card h3{font-size:1.25rem;margin-bottom:.7rem}
+.card p{font-size:15.5px;color:var(--mut)}
+.grid6{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+.build{border:1px solid var(--line);padding:1.6rem}
+.build h4{font-family:'Fraunces',serif;font-size:1.08rem;font-weight:600;margin-bottom:.45rem}
+.build p{font-size:14.5px;color:var(--mut)}
+/* dark band */
+.dark{background:var(--ink);color:var(--paper)}
+.dark .sec-head p{color:#b9b9b9}
+.dark .btn-solid{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+.dark .btn-solid:hover{background:transparent;color:var(--paper)}
+.dark .btn-line{color:var(--paper);border-color:var(--paper)}
+.dark .btn-line:hover{background:var(--paper);color:var(--ink)}
+.church-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-bottom:2.6rem}
+.church-grid .item{border:1px solid #3a3a3a;padding:1.8rem}
+.church-grid h3{font-size:1.15rem;margin-bottom:.6rem}
+.church-grid p{font-size:15px;color:#b9b9b9}
+/* bible section */
+.bible{display:grid;grid-template-columns:1.05fr .95fr;gap:3rem;align-items:start}
+.bible blockquote{border-left:4px solid var(--ink);padding-left:1.4rem;font-family:'Fraunces',serif;font-size:1.35rem;line-height:1.4}
+.bible blockquote cite{display:block;font-family:'Inter',sans-serif;font-style:normal;font-size:13.5px;color:var(--soft);margin-top:.7rem}
+.bible .prose p{margin-bottom:1rem;color:var(--mut)}
+.bible .prose p strong{color:var(--ink)}
+/* faq */
+.faq-item{border-top:1px solid var(--line);padding:1.5rem 0}
+.faq-item h3{font-size:1.12rem;margin-bottom:.5rem}
+.faq-item p{color:var(--mut);font-size:15.5px;max-width:52em}
+/* final */
+.final{padding:5.5rem 0;text-align:center}
+.final h2{font-size:clamp(1.9rem,3.6vw,2.9rem);max-width:22em;margin:0 auto 2rem}
+/* footer */
+footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;color:var(--mut)}
+.foot-in{display:flex;justify-content:space-between;align-items:flex-start;gap:2rem;flex-wrap:wrap}
+.foot-brand{display:flex;align-items:center;gap:.7rem}
+.foot-brand svg{width:30px;height:30px;color:var(--ink)}
+.foot-brand .wm{font-size:13.5px}
+.foot-links{display:flex;gap:1.6rem;flex-wrap:wrap}
+.foot-links a{text-decoration:none;color:var(--mut)}
+.foot-links a:hover{color:var(--ink)}
+.foot-note{margin-top:2rem;color:var(--soft);font-size:13px}
+.bon{display:none}
+@media(max-width:900px){
+.bod{display:none}.bon{display:inline}
+.nav-links a:not(.btn){display:none}
+.hero-in,.bible{grid-template-columns:1fr}
+.mark-panel{order:-1}
+.grid3,.grid6,.church-grid{grid-template-columns:1fr}
+.hero{padding:3rem 0 3rem}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-in">
+    <a class="brand" href="#top">
+      <svg class="mark" width="34" height="34" viewBox="0 0 160 160" role="img" aria-label="A phone with a silicon chip on its screen, a hammer and a nail on a wooden plank">
+  <rect x="14" y="118" width="132" height="22" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="30" y1="129" x2="58" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="96" y1="129" x2="130" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="36" y1="88" x2="36" y2="117" stroke="currentColor" stroke-width="4"/>
+  <line x1="29" y1="88" x2="43" y2="88" stroke="currentColor" stroke-width="6"/>
+  <g transform="translate(112,117) rotate(22)">
+    <line x1="0" y1="1" x2="0" y2="-56" stroke="currentColor" stroke-width="8"/>
+    <rect x="-17" y="-73" width="34" height="15" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  </g>
+  <rect x="54" y="18" width="52" height="100" rx="7" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="69" y1="30" x2="91" y2="30" stroke="currentColor" stroke-width="4"/>
+  <line x1="74" y1="108" x2="86" y2="108" stroke="currentColor" stroke-width="4"/>
+  <rect x="67" y="53" width="26" height="26" rx="2" fill="none" stroke="currentColor" stroke-width="4"/>
+  <g stroke="currentColor" stroke-width="4">
+    <line x1="74" y1="47" x2="74" y2="53"/><line x1="80" y1="47" x2="80" y2="53"/><line x1="86" y1="47" x2="86" y2="53"/>
+    <line x1="74" y1="79" x2="74" y2="85"/><line x1="80" y1="79" x2="80" y2="85"/><line x1="86" y1="79" x2="86" y2="85"/>
+    <line x1="61" y1="60" x2="67" y2="60"/><line x1="61" y1="66" x2="67" y2="66"/><line x1="61" y1="72" x2="67" y2="72"/>
+    <line x1="93" y1="60" x2="99" y2="60"/><line x1="93" y1="66" x2="99" y2="66"/><line x1="93" y1="72" x2="99" y2="72"/>
+  </g>
+</svg>
+      <span class="wm">BUILD <span class="th">WITH</span> JESUS</span>
+    </a>
+    <div class="nav-links">
+      <a href="#how">How it works</a>
+      <a href="#builds">The builds</a>
+      <a href="#churches">For churches</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn btn-solid btn-sm" href="https://www.afterschool.agency/register"><span class="bod">Register your interest</span><span class="bon">Register</span></a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap hero-in">
+    <div>
+      <span class="eyebrow">For Christian young people and their churches</span>
+      <h1>Follow Jesus. Build real things. Give them away.</h1>
+      <p class="lead">Build with Jesus pairs the one to eight guide with the Bible and the teachings of Jesus. Young people read, build and serve with an AI agent beside them, and every finished thing goes to their church or their community.</p>
+      <div class="cta-row">
+        <a class="btn btn-solid" href="https://www.afterschool.agency/register">Register your interest</a>
+        <a class="btn btn-line" href="https://www.onetoeight.guide/en/u/">Read the guide</a>
+      </div>
+      <p class="hero-note">For young people, and for the churches and youth groups who walk with them.</p>
+    </div>
+    <div class="mark-panel"><svg class="mark" width="380" height="380" viewBox="0 0 160 160" role="img" aria-label="A phone with a silicon chip on its screen, a hammer and a nail on a wooden plank">
+  <rect x="14" y="118" width="132" height="22" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="30" y1="129" x2="58" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="96" y1="129" x2="130" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="36" y1="88" x2="36" y2="117" stroke="currentColor" stroke-width="4"/>
+  <line x1="29" y1="88" x2="43" y2="88" stroke="currentColor" stroke-width="6"/>
+  <g transform="translate(112,117) rotate(22)">
+    <line x1="0" y1="1" x2="0" y2="-56" stroke="currentColor" stroke-width="8"/>
+    <rect x="-17" y="-73" width="34" height="15" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  </g>
+  <rect x="54" y="18" width="52" height="100" rx="7" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="69" y1="30" x2="91" y2="30" stroke="currentColor" stroke-width="4"/>
+  <line x1="74" y1="108" x2="86" y2="108" stroke="currentColor" stroke-width="4"/>
+  <rect x="67" y="53" width="26" height="26" rx="2" fill="none" stroke="currentColor" stroke-width="4"/>
+  <g stroke="currentColor" stroke-width="4">
+    <line x1="74" y1="47" x2="74" y2="53"/><line x1="80" y1="47" x2="80" y2="53"/><line x1="86" y1="47" x2="86" y2="53"/>
+    <line x1="74" y1="79" x2="74" y2="85"/><line x1="80" y1="79" x2="80" y2="85"/><line x1="86" y1="79" x2="86" y2="85"/>
+    <line x1="61" y1="60" x2="67" y2="60"/><line x1="61" y1="66" x2="67" y2="66"/><line x1="61" y1="72" x2="67" y2="72"/>
+    <line x1="93" y1="60" x2="99" y2="60"/><line x1="93" y1="66" x2="99" y2="66"/><line x1="93" y1="72" x2="99" y2="72"/>
+  </g>
+</svg></div>
+  </div>
+</header>
+
+<section id="how">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Read. Build. Give.</h2>
+      <p>The whole idea in three daily moves. The guide teaches the eight essentials; the Bible and the agent walk beside them; the week's work ends in someone else's hands.</p>
+    </div>
+    <div class="grid3">
+      <div class="card">
+        <span class="num">1</span>
+        <h3>Read</h3>
+        <p>A short passage each morning with one question to sit with. The agent helps teach the Bible passage, explains the setting, points to the teachings of Jesus, and can help shape a prayer for the day. It never replaces your pastor, and it never invents a verse.</p>
+      </div>
+      <div class="card">
+        <span class="num">2</span>
+        <h3>Build</h3>
+        <p>The day's small move on a real project: personal software, something for the family, and this term, something for the church. The eight essentials teach the craft and the character together.</p>
+      </div>
+      <div class="card">
+        <span class="num">3</span>
+        <h3>Give</h3>
+        <p>Finished things are given away. Presented to the youth group, handed to the church office, put to work on the noticeboard. Nothing sits in a folder. The gift is the point.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="builds">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Real things churches and communities actually need</h2>
+      <p>Every build is small enough to finish and worth finishing. Built on the young person's own machine, phone friendly, and handed over at the end.</p>
+    </div>
+    <div class="grid6">
+      <div class="build"><h4>The welcome card</h4><p>A one page site with service times, what to expect, and a map. The church's front door, built properly.</p></div>
+      <div class="build"><h4>The rota</h4><p>Volunteer scheduling for welcome team, setup and children's ministry. One link, no accounts, no app.</p></div>
+      <div class="build"><h4>The meal train</h4><p>Coordinate meals for a family walking through hard weeks. Private by default, no personal data exposed.</p></div>
+      <div class="build"><h4>The study sheet</h4><p>Last Sunday's talk turned into five discussion questions for youth group. The agent helps; the young person decides.</p></div>
+      <div class="build"><h4>The event page</h4><p>Carols night, community barbecue, the fete. An invite page and a QR code for the notice sheet.</p></div>
+      <div class="build"><h4>The op shop window</h4><p>A simple site for the church op shop or local charity shop. Hours, donations guide, a photo or two.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="churches">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>For churches and youth groups</h2>
+      <p>Your youth group is full of capacity. Your church is full of real needs. Put them in the same room.</p>
+    </div>
+    <div class="church-grid">
+      <div class="item"><h3>Run a build day</h3><p>A Saturday, a room with wifi, and snacks. The young people bring curiosity, the church brings one real need, and a finished thing comes out the other side.</p></div>
+      <div class="item"><h3>Sponsor a builder</h3><p>Fund places for young people in your own church. They build for the community that sponsored them, and the church keeps what they make.</p></div>
+      <div class="item"><h3>The church kit</h3><p>One page on how to run it: what a build day needs, how the term flows, and what to say to parents and guardians.</p></div>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-solid" href="https://www.afterschool.agency/register">Register your interest</a>
+      <a class="btn btn-line" href="https://www.onetoeight.org/agent">See the agent</a>
+    </div>
+  </div>
+</section>
+
+<section id="bible">
+  <div class="wrap bible">
+    <div class="prose">
+      <div class="sec-head"><h2>The agent reads with them, not for them</h2></div>
+      <p><strong>A reading companion, never an authority.</strong> It holds the reading plan, asks better questions than it answers, and sends a young person back to their church and its leaders for teaching.</p>
+      <p><strong>Quotes checked, content reviewed.</strong> Scripture is verified against a named translation, and a person reviews every line of faith content before it ships.</p>
+      <p><strong>Skill in service is an old pattern.</strong> The first person in the Bible described as filled with the Spirit was Bezalel, a craftsman called to build (Exodus 31). The workbench has always been holy ground.</p>
+    </div>
+    <div>
+      <blockquote>
+        Whatever you do, work at it with all your heart, as working for the Lord.
+        <cite>Colossians 3:23</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head"><h2>Questions churches ask first</h2></div>
+    <div class="faq-item"><h3>Is this an AI that does Bible study for them?</h3><p>No. The agent is a reading companion that points back to your church and its leaders. It helps teach the passage, keeps the rhythm going, and can help shape a prayer. Teaching stays with people.</p></div>
+    <div class="faq-item"><h3>Who is it for?</h3><p>Christian young people who want to build, whether they are still at school or just out of it. The pace is theirs, and everything happens on their own machine.</p></div>
+    <div class="faq-item"><h3>What does a church need to start?</h3><p>One real need and a room with wifi. A build day is a Saturday. The rest is the guide and the agent, and we walk you through the first one.</p></div>
+    <div class="faq-item"><h3>What does it cost?</h3><p>Nothing here is priced yet. We are shaping that with the first churches, and sponsored places will exist for families who need them.</p></div>
+    <div class="faq-item"><h3>What do young people need?</h3><p>A phone or a computer and some curiosity. Their work stays private on their own machine, and a church's data stays with the church.</p></div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>Build something your church will use this term.</h2>
+    <div class="cta-row" style="justify-content:center">
+      <a class="btn btn-solid" href="https://www.afterschool.agency/register">Register your interest</a>
+      <a class="btn btn-line" href="https://www.onetoeight.guide/en/u/">Read the guide</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-in">
+      <div class="foot-brand"><svg class="mark" width="30" height="30" viewBox="0 0 160 160" role="img" aria-label="A phone with a silicon chip on its screen, a hammer and a nail on a wooden plank">
+  <rect x="14" y="118" width="132" height="22" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="30" y1="129" x2="58" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="96" y1="129" x2="130" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="36" y1="88" x2="36" y2="117" stroke="currentColor" stroke-width="4"/>
+  <line x1="29" y1="88" x2="43" y2="88" stroke="currentColor" stroke-width="6"/>
+  <g transform="translate(112,117) rotate(22)">
+    <line x1="0" y1="1" x2="0" y2="-56" stroke="currentColor" stroke-width="8"/>
+    <rect x="-17" y="-73" width="34" height="15" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  </g>
+  <rect x="54" y="18" width="52" height="100" rx="7" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="69" y1="30" x2="91" y2="30" stroke="currentColor" stroke-width="4"/>
+  <line x1="74" y1="108" x2="86" y2="108" stroke="currentColor" stroke-width="4"/>
+  <rect x="67" y="53" width="26" height="26" rx="2" fill="none" stroke="currentColor" stroke-width="4"/>
+  <g stroke="currentColor" stroke-width="4">
+    <line x1="74" y1="47" x2="74" y2="53"/><line x1="80" y1="47" x2="80" y2="53"/><line x1="86" y1="47" x2="86" y2="53"/>
+    <line x1="74" y1="79" x2="74" y2="85"/><line x1="80" y1="79" x2="80" y2="85"/><line x1="86" y1="79" x2="86" y2="85"/>
+    <line x1="61" y1="60" x2="67" y2="60"/><line x1="61" y1="66" x2="67" y2="66"/><line x1="61" y1="72" x2="67" y2="72"/>
+    <line x1="93" y1="60" x2="99" y2="60"/><line x1="93" y1="66" x2="99" y2="66"/><line x1="93" y1="72" x2="99" y2="72"/>
+  </g>
+</svg><span class="wm">BUILD <span class="th">WITH</span> JESUS</span></div>
+      <div class="foot-links">
+        <a href="https://www.onetoeight.guide/en/u/">The Guide</a>
+        <a href="https://www.onetoeight.org/agent">Get the Agent</a>
+        <a href="https://www.onetoeight.org">One to eight</a>
+      </div>
+    </div>
+    <p class="foot-note">buildwithjesus.com. A work in progress, black and white for now. Built with the one to eight guide and the one to eight agent.</p>
+  </div>
+</footer>
+
+</body>
+</html>
