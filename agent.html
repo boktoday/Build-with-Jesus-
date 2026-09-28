@@ -38,6 +38,7 @@ a{color:inherit}
 .btn-line{background:transparent;color:var(--ink)}
 .btn-line:hover{background:var(--ink);color:#fff}
 .btn-sm{padding:.6rem 1.1rem;font-size:13.5px;border-width:2px}
+.bon{display:none}
 section{padding:4.6rem 0}
 .hero{padding:3.6rem 0 4rem}
 .hero-in{display:grid;grid-template-columns:1.25fr .75fr;gap:3rem;align-items:center}
@@ -68,7 +69,7 @@ section{padding:4.6rem 0}
 .foot a{text-decoration:none;color:var(--mut)}
 .foot a:hover{color:var(--ink)}
 @media(max-width:900px){.hero-in{grid-template-columns:1fr}.mark-panel{order:-1}.grid2,.won{grid-template-columns:1fr}
-@media(max-width:560px){.topnav .home{display:none}.wm{font-size:11.5px}.btn-sm{padding:.5rem .85rem;font-size:12.5px}}
+@media(max-width:560px){.topnav .home{display:none}.wm{font-size:11.5px}.btn-sm{padding:.5rem .85rem;font-size:12.5px}.bod{display:none}.bon{display:inline}}
 </style>
 </head>
 <body>
@@ -98,7 +99,7 @@ section{padding:4.6rem 0}
     <span class="wm">BUILD <span class="th">WITH</span> JESUS</span></a>
   <div class="topnav">
     <a class="home" href="/">Home</a>
-    <a class="btn btn-solid btn-sm" href="/register">Register your interest</a>
+    <a class="btn btn-solid btn-sm" href="/register"><span class="bod">Register your interest</span><span class="bon">Register</span></a>
   </div>
 </div>
 
