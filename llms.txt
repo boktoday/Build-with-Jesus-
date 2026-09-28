@@ -5,7 +5,8 @@
 For Christian young people and for the churches and youth groups who walk with them.
 
 ## Pages
-- [Home](https://buildwithjesus.com/): the project overview. Read. Build. Give.
+- [Home](https://buildwithjesus.com/): the project overview. Read. Learn. Build. Give.
+- [The agent](https://buildwithjesus.com/agent): what it does, what it will not do, and how to register interest.
 
 ## Key ideas
 - The daily loop: Read (a short Bible passage and one question; the agent helps teach the passage and can help shape a prayer), Learn (a short lesson from the eight essentials, one skill at a time), Build (a small move on a real project), Give (finished things go to the church or community).
