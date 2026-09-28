@@ -12,5 +12,6 @@ For Christian young people and for the churches and youth groups who walk with t
 - The daily loop: Read (a short Bible passage and one question; the agent helps teach the passage and can help shape a prayer), Learn (a short lesson from the eight essentials, one skill at a time), Build (a small move on a real project), Give (finished things go to the church or community).
 - Builds include: the welcome card, the rota, the meal train, the study sheet, the event page, the op shop window.
 - For churches: a build day, sponsor a builder, and a one page church kit.
+- The agent is a complete Hermes Agent profile that runs locally on the young person's machine: a morning minute with audio, an afternoon check-in, planning sessions, and the eight essentials curriculum built in.
 - The agent is a reading companion, never an authority. It points back to the local church and its leaders. Quotes are verified against a named translation.
 - Built on the one to eight guide: https://www.onetoeight.guide/en/u/
