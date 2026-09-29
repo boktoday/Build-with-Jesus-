@@ -2,7 +2,7 @@
 
 > Build with Jesus pairs the one to eight guide with the Bible and the teachings of Jesus. Young people read, build and serve with an AI agent beside them, and every finished thing goes to their church or their community.
 
-For Christian young people and for the churches and youth groups who walk with them.
+For Christian young people, and for the churches, religious schools, homeschool families and charities who run it with them.
 
 ## Pages
 - [Home](https://buildwithjesus.com/): the project overview. Read. Learn. Build. Give.
@@ -16,7 +16,7 @@ For Christian young people and for the churches and youth groups who walk with t
 - The daily loop: Read (a short Bible passage and one question; the agent helps teach the passage and can help shape a prayer), Learn (a short lesson from the eight essentials, one skill at a time), Build (a small move on a real project), Give (finished things go to the church or community).
 - Builds include: the welcome card, the rota, the meal train, the study sheet, the event page, the op shop window.
 - Example builds told in full (https://buildwithjesus.com/examples): a personal term planner, a charity meal train, an op shop one page site with a QR code, and a church volunteer rota; each with what the agent did and what changed.
-- For churches: a build day, sponsor a builder, and a one page church kit.
+- For churches, religious schools, homeschool families and charities: a build day, sponsor a builder, and a one page kit.
 - The agent is a complete Hermes Agent profile that runs locally on the young person's machine: a morning minute with audio, an afternoon check-in, planning sessions, and the eight essentials curriculum built in.
 - The agent costs $33.33, one payment.
 - The leaders guide costs $88, one purchase for every leader and every group, reused every term.

@@ -64,6 +64,7 @@ nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);border-bot
 .hero{padding:5rem 0 4.5rem;border-bottom:1px solid var(--line)}
 .hero-in{display:grid;grid-template-columns:1.15fr .85fr;gap:3.5rem;align-items:center}
 .eyebrow{display:inline-block;font-size:12.5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;border:1.5px solid var(--ink);padding:.45rem .9rem;margin-bottom:1.6rem}
+.eyebrow.verse{letter-spacing:.12em;line-height:1.75}
 h1{font-size:clamp(2.3rem,4.6vw,3.6rem)}
 .hero p.lead{margin:1.5rem 0 2.2rem;color:var(--mut);font-size:18px;max-width:34em}
 .cta-row{display:flex;gap:1rem;flex-wrap:wrap}
@@ -95,6 +96,7 @@ section{padding:4.8rem 0}
 .build h4 svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;vertical-align:-4px;margin-right:.55rem}
 /* dark band */
 .dark{background:var(--ink);color:var(--paper)}
+.dark .buyers{display:block;font-size:12px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#9a9a9a;margin-bottom:1rem}
 .dark .sec-head p{color:#b9b9b9}
 .dark .btn-solid{background:var(--paper);color:var(--ink);border-color:var(--paper)}
 .dark .btn-solid:hover{background:transparent;color:var(--paper)}
@@ -189,7 +191,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
     <div class="nav-links">
       <a href="#how">How it works</a>
       <a href="#builds">The builds</a>
-      <a href="#churches">For churches</a>
+      <a href="#churches">For Groups</a>
       <a href="#faq">FAQ</a>
       <a class="btn btn-solid btn-sm" href="/agent">Get the agent</a>
     <button class="menu-btn" id="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="site-menu"><span class="mb-l"></span><span class="mb-l"></span><span class="mb-l"></span></button>
@@ -198,7 +200,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
   <div class="menu" id="site-menu">
     <a href="#how">How it works</a>
     <a href="#builds">The builds</a>
-    <a href="#churches">For churches</a>
+    <a href="#churches">For Groups</a>
     <a href="#faq">FAQ</a>
     <a href="/agent">The agent</a>
     <a href="/leaders">The leaders guide</a>
@@ -211,14 +213,14 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
 <header class="hero" id="top">
   <div class="wrap hero-in">
     <div>
-      <span class="eyebrow">For Christian young people and their churches</span>
+      <span class="eyebrow verse">Establish the work of our hands. &middot; Psalm 90:17 (WEB)</span>
       <h1>Follow Jesus. Learn new skills. Build real things. Give them away.</h1>
       <p class="lead">Build with Jesus pairs the one to eight guide with the Bible and the teachings of Jesus. Young people read, build and serve with an AI agent beside them, and every finished thing goes to their church or their community.</p>
       <div class="cta-row">
         <a class="btn btn-solid" href="/agent">Get the agent</a>
         <a class="btn btn-line" href="https://www.onetoeight.guide/en/u/">Read the guide</a>
       </div>
-      <p class="hero-note">For young people, and for the churches and youth groups who walk with them.</p>
+      <p class="hero-note">For young people, and for the churches, schools and charities who walk with them.</p>
     </div>
     <div class="mark-panel"><svg class="mark" width="380" height="380" viewBox="0 0 160 160" role="img" aria-label="A phone with a silicon chip on its screen, a hammer and a nail on a wooden plank">
   <rect x="14" y="118" width="132" height="22" fill="#fff" stroke="currentColor" stroke-width="5"/>
@@ -314,8 +316,9 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
 <section class="dark" id="churches">
   <div class="wrap">
     <div class="sec-head">
+      <span class="buyers">Churches &middot; Religious schools &middot; Homeschool families &middot; Charities</span>
       <h2>For churches and youth groups</h2>
-      <p>Your youth group is full of capacity. Your church is full of real needs. Put them in the same room.</p>
+      <p>Your youth group is full of capacity. Your church is full of real needs. Put them in the same room. Religious schools, homeschool families and charities run the same programme.</p>
     </div>
     <div class="church-grid">
       <div class="item"><h3>Run a build day</h3><p>A Saturday, a room with wifi, and snacks. The young people bring curiosity, the church brings one real need, and a finished thing comes out the other side.</p></div>
