@@ -171,7 +171,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
       <a href="#builds">The builds</a>
       <a href="#churches">For churches</a>
       <a href="#faq">FAQ</a>
-      <a class="btn btn-solid btn-sm" href="/register"><span class="bod">Register your interest</span><span class="bon">Register</span></a>
+      <a class="btn btn-solid btn-sm" href="/agent">Get the agent</a>
     </div>
   </div>
 </nav>
@@ -183,7 +183,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
       <h1>Follow Jesus. Learn new skills. Build real things. Give them away.</h1>
       <p class="lead">Build with Jesus pairs the one to eight guide with the Bible and the teachings of Jesus. Young people read, build and serve with an AI agent beside them, and every finished thing goes to their church or their community.</p>
       <div class="cta-row">
-        <a class="btn btn-solid" href="/register">Register your interest</a>
+        <a class="btn btn-solid" href="/agent">Get the agent</a>
         <a class="btn btn-line" href="https://www.onetoeight.guide/en/u/">Read the guide</a>
       </div>
       <p class="hero-note">For young people, and for the churches and youth groups who walk with them.</p>
@@ -272,7 +272,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
       <div class="item"><h3>The church kit</h3><p>One page on how to run it: what a build day needs, how the term flows, and what to say to parents and guardians.</p></div>
     </div>
     <div class="cta-row">
-      <a class="btn btn-solid" href="/register">Register your interest</a>
+      <a class="btn btn-solid" href="/leaders">Get the leaders guide</a>
       <a class="btn btn-line" href="/agent">Get the agent</a>
     </div>
   </div>
@@ -310,8 +310,8 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
   <div class="wrap">
     <h2>Build something your church will use this term.</h2>
     <div class="cta-row" style="justify-content:center">
-      <a class="btn btn-solid" href="/register">Register your interest</a>
-      <a class="btn btn-line" href="https://www.onetoeight.guide/en/u/">Read the guide</a>
+      <a class="btn btn-solid" href="/agent">Get the agent</a>
+      <a class="btn btn-line" href="/leaders">Get the leaders guide</a>
     </div>
   </div>
 </section>
@@ -330,7 +330,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
       </form>
       <p class="sub-ok" id="sub-ok">&#10003; You're on the list. Talk soon.</p>
       <p class="sub-err" id="sub-err">Something went wrong. Please try again.</p>
-      <p class="sub-conn" id="sub-conn">Almost ready: this form is being connected right now. Please try again shortly.</p>
+      <p class="sub-conn" id="sub-conn">Almost there: the sign-up form goes live shortly. Please try again soon.</p>
     </div>
   </div>
 </section>
@@ -361,6 +361,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
       <div class="foot-links">
         <a href="https://www.onetoeight.guide/en/u/">The Guide</a>
         <a href="/agent">Get the agent</a>
+        <a href="/leaders">The leaders guide</a>
         <a href="https://www.onetoeight.org">One to eight</a>
       </div>
     </div>
@@ -369,7 +370,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
 </footer>
 
 <script>
-// Footer subscribe. WEBHOOK_URL: same ActivePieces endpoint as the register page (shared for now).
+// Footer subscribe. WEBHOOK_URL: same ActivePieces endpoint as the site forms (shared for now).
 (function(){
   var WEBHOOK_URL = "https://cloud.activepieces.com/api/v1/webhooks/tBkbJcEi4Ak48qC5pjDXa";
   var form=document.getElementById('sub-form'),btn=document.getElementById('sub-btn'),
@@ -385,10 +386,10 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
     btn.disabled=true;btn.textContent='Sending...';
     var payload={name:'',email:email,programme:'',over18:'',message:'',source:'buildwithjesus.com footer subscribe',at:new Date().toISOString()};
     function done(){form.style.display='none';ok.style.display='block';}
-    fetch(WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)})
+    fetch(WEBHOOK_URL,{method:'POST',headers:{'Content-Type':'text/plain;charset=UTF-8'},body:JSON.stringify(payload)})
     .then(function(r){if(r.ok||r.status===200||r.status===201||r.status===204){done();}else{throw new Error('HTTP '+r.status);}})
     .catch(function(){
-      fetch(WEBHOOK_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)}).then(done).catch(function(){
+      fetch(WEBHOOK_URL,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=UTF-8'},body:JSON.stringify(payload)}).then(done).catch(function(){
         btn.disabled=false;btn.textContent='Subscribe';err.style.display='block';});
     });
   });

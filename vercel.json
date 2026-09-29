@@ -1,4 +1,8 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/register", "destination": "/leaders", "permanent": false },
+    { "source": "/register.html", "destination": "/leaders", "permanent": false }
+  ]
 }
