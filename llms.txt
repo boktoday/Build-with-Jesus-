@@ -6,14 +6,17 @@ For Christian young people and for the churches and youth groups who walk with t
 
 ## Pages
 - [Home](https://buildwithjesus.com/): the project overview. Read. Learn. Build. Give.
-- [The agent](https://buildwithjesus.com/agent): what it does, what it will not do, and how young people work with it.
+- [The agent](https://buildwithjesus.com/agent): what it does, what it will not do, and how young people work with it. $33.33, one payment.
 - [The leaders guide](https://buildwithjesus.com/leaders): the coach for the adults who run the programme, written for church leaders and homeschool families.
+- [Bring the workshop to your church](https://buildwithjesus.com/workshop): Brendan travels to run the workshop in person, at one host church for the churches around it. Register your interest; a Southeast Asia itinerary is planned for early 2027.
 
 ## Key ideas
 - The daily loop: Read (a short Bible passage and one question; the agent helps teach the passage and can help shape a prayer), Learn (a short lesson from the eight essentials, one skill at a time), Build (a small move on a real project), Give (finished things go to the church or community).
 - Builds include: the welcome card, the rota, the meal train, the study sheet, the event page, the op shop window.
 - For churches: a build day, sponsor a builder, and a one page church kit.
 - The agent is a complete Hermes Agent profile that runs locally on the young person's machine: a morning minute with audio, an afternoon check-in, planning sessions, and the eight essentials curriculum built in.
+- The agent costs $33.33, one payment.
 - The agent is a reading companion, never an authority. It points back to the local church and its leaders. Quotes are verified against a named translation.
 - The leaders guide is the coach's companion: it walks church leaders and homeschool families through running the programme with their young people.
+- In person: Brendan travels to run the workshop at one host church for the churches around it; around $1,000 a day plus travel and expenses, agreed up front.
 - Built on the one to eight guide: https://www.onetoeight.guide/en/u/
