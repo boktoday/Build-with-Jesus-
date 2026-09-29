@@ -7,7 +7,7 @@ For Christian young people and for the churches and youth groups who walk with t
 ## Pages
 - [Home](https://buildwithjesus.com/): the project overview. Read. Learn. Build. Give.
 - [The agent](https://buildwithjesus.com/agent): what it does, what it will not do, and how young people work with it. $33.33, one payment.
-- [The leaders guide](https://buildwithjesus.com/leaders): the coach for the adults who run the programme, written for church leaders and homeschool families.
+- [The leaders guide](https://buildwithjesus.com/leaders): the coach for the adults who run the programme, written for church leaders and homeschool families. $88, one purchase for every leader and every group.
 - [Bring the workshop to your church](https://buildwithjesus.com/workshop): Brendan travels to run the workshop in person, at one host church for the churches around it. Register your interest; a Southeast Asia itinerary is planned for early 2027.
 - [Examples](https://buildwithjesus.com/examples): four example builds, one from each corner: personal software, a community charity, a local shop, and a church rota.
 
@@ -18,6 +18,7 @@ For Christian young people and for the churches and youth groups who walk with t
 - For churches: a build day, sponsor a builder, and a one page church kit.
 - The agent is a complete Hermes Agent profile that runs locally on the young person's machine: a morning minute with audio, an afternoon check-in, planning sessions, and the eight essentials curriculum built in.
 - The agent costs $33.33, one payment.
+- The leaders guide costs $88, one purchase for every leader and every group, reused every term.
 - The agent is a reading companion, never an authority. It points back to the local church and its leaders. Quotes are verified against a named translation.
 - The leaders guide is the coach's companion: it walks church leaders and homeschool families through running the programme with their young people.
 - In person: Brendan travels to run the workshop at one host church for the churches around it; around $1,000 a day plus travel and expenses, agreed up front.
