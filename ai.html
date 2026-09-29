@@ -5,17 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#ffffff">
-<title>Example builds | Build with Jesus</title>
-<meta name="description" content="Four example builds from young people: a personal planner, a community meal train, a local shop page and a church volunteer rota. What each one is, what the agent did, and what changed.">
-<link rel="canonical" href="https://buildwithjesus.com/examples">
-<meta property="og:title" content="Example builds | Build with Jesus">
-<meta property="og:description" content="Four example builds, one from each corner of the work: personal software, a community charity, a local shop, and a church.">
-<meta property="og:url" content="https://buildwithjesus.com/examples">
+<title>How we use AI | Build with Jesus</title>
+<meta name="description" content="Our plain statement on AI: a tool that serves people, scripture quoted exactly from the translations we ship, local-first privacy, and the human things that stay human.">
+<link rel="canonical" href="https://buildwithjesus.com/ai">
+<meta property="og:title" content="How we use AI | Build with Jesus">
+<meta property="og:description" content="A tool in the workshop, never a teacher in the pulpit. Where we stand on AI, in plain words.">
+<meta property="og:url" content="https://buildwithjesus.com/ai">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Build with Jesus">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Example builds | Build with Jesus">
-<meta name="twitter:description" content="Four example builds, one from each corner of the work: personal software, a community charity, a local shop, and a church.">
+<meta name="twitter:title" content="How we use AI | Build with Jesus">
+<meta name="twitter:description" content="A tool in the workshop, never a teacher in the pulpit. Where we stand on AI, in plain words.">
 <meta name="twitter:image" content="https://buildwithjesus.com/og.jpg">
 <meta property="og:image" content="https://buildwithjesus.com/og.jpg">
 <meta property="og:image:width" content="1200">
@@ -64,32 +64,35 @@ section{padding:4.6rem 0}
 .btns{display:flex;gap:.9rem;flex-wrap:wrap;margin-top:1.9rem}
 .mark-panel{background:var(--grey);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;padding:2.6rem;min-width:0}
 .mark-panel svg{max-width:100%;min-width:0}
-.ink{background:var(--ink);color:#fff}
-.ink .sec-head h2{color:#fff}
-.ink .sec-head p{color:#b3b3b3}
-.ink .btn-solid{background:#fff;color:var(--ink);border-color:#fff}
-.ink .btn-solid:hover{background:transparent;color:#fff}
-.ink .btn-line{color:#fff;border-color:#fff}
-.ink .btn-line:hover{background:#fff;color:var(--ink)}
 .sec-head{max-width:46em;margin-bottom:2.4rem}
 .sec-head h2{font-size:clamp(1.7rem,3.2vw,2.35rem);margin-bottom:.8rem}
 .sec-head p{color:var(--mut)}
+.hl{font-size:19px;color:var(--mut);max-width:46em}
+.stmt{border:1px solid var(--line);border-left:4px solid var(--ink);padding:2rem 2.2rem;max-width:52em}
+.stmt p{font-size:16.5px;color:var(--mut);margin-bottom:1rem}
+.stmt p:last-child{margin-bottom:0}
+.stmt strong{color:var(--ink)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+.card{border:1px solid var(--line);padding:2rem;background:var(--paper)}
+.card h3{font-size:1.2rem;margin-bottom:.65rem}
+.card p{font-size:15.5px;color:var(--mut)}
+.ink{background:var(--ink);color:#fff}
+.ink .sec-head h2{color:#fff}
+.ink .sec-head p{color:#b3b3b3}
+.won{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+.won .item{border:1px solid #3a3a3a;padding:1.8rem 2rem}
+.won .item p{color:#c9c9c9;font-size:15.5px}
+.won .item strong{display:block;color:#fff;font-size:16px;margin-bottom:.5rem}
+.ink .close{margin-top:2rem;color:#c9c9c9;font-size:17px}
+.note{font-size:14px;color:var(--soft);margin-top:1.6rem}
+.note a{color:var(--mut)}
 .cta-row{display:flex;gap:.9rem;flex-wrap:wrap;margin-top:1.6rem}
-.tag{display:inline-block;font-size:11.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--soft);border:1.5px solid var(--line);padding:.35rem .75rem;margin-bottom:1.1rem}
-.ex-h2{font-size:clamp(1.5rem,3vw,2rem);max-width:30em;margin-bottom:1.6rem}
-.ex-sketch{display:block;width:100%;height:auto;border:1px solid var(--line);margin-bottom:2rem}
-.ex{display:grid;grid-template-columns:1.1fr .9fr;gap:2.4rem;align-items:start}
-.ex-story p{color:var(--mut);margin-bottom:1rem}
-.ex-story p:last-child{margin-bottom:0}
-.ex-facts{border:1px solid var(--line);padding:1.6rem 1.8rem}
-.ex-facts p{font-size:15px;color:var(--mut);margin-bottom:.9rem}
-.ex-facts p:last-child{margin-bottom:0}
-.ex-facts strong{color:var(--ink)}
+.final{border-top:1px solid var(--line)}
 .foot{max-width:1080px;margin:0 auto;padding:2.2rem 1.5rem 3rem;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;font-size:13.5px;color:var(--mut)}
 .foot a{text-decoration:none;color:var(--mut)}
 .foot a:hover{color:var(--ink)}
-@media(max-width:900px){.hero-in{grid-template-columns:1fr}.mark-panel{order:-1}.ex{grid-template-columns:1fr}}
-@media(max-width:560px){.menu-btn{display:flex}.topnav .home{display:none}.wm{font-size:11.5px}.btn-sm{padding:.5rem .85rem;font-size:12.5px}.mark-panel{padding:2rem 1.2rem}.ex-facts{padding:1.3rem 1.4rem}}
+@media(max-width:900px){.hero-in{grid-template-columns:1fr}.mark-panel{order:-1}.grid2,.won{grid-template-columns:1fr}}
+@media(max-width:560px){.menu-btn{display:flex}.topnav .home{display:none}.wm{font-size:11.5px}.btn-sm{padding:.5rem .85rem;font-size:12.5px}.mark-panel{padding:2rem 1.2rem}.stmt{padding:1.5rem 1.4rem}.won .item{padding:1.5rem 1.5rem}.card{padding:1.5rem}}
 @media(max-width:400px){.wm{display:none}.btn-sm{padding:.45rem .7rem;font-size:12px}}
 </style>
 </head>
@@ -136,12 +139,12 @@ section{padding:4.6rem 0}
 <section class="hero">
   <div class="wrap hero-in">
     <div>
-      <span class="eyebrow">Examples</span>
-      <h1>What do you actually build?</h1>
-      <p class="lead">If building software sounds like something for other people, this page is for you. Four examples from the work so far: a personal project, a community charity, a local shop, and a church. Each one started as a real annoyance somewhere and ended as something handed over.</p>
+      <span class="eyebrow">Our position</span>
+      <h1>How we use AI.</h1>
+      <p class="lead">Build with Jesus puts AI tools in young hands, on purpose, under the eyes of the local church. This page is our plain statement of what that means: what the tool is for, what it will never do, and how we decide.</p>
       <div class="btns">
         <a class="btn btn-solid" href="/agent">Get the agent</a>
-        <a class="btn btn-line" href="https://www.onetoeight.guide/en/u/">Read the guide</a>
+        <a class="btn btn-line" href="/leaders">Get the leaders guide</a>
       </div>
     </div>
     <div class="mark-panel"><svg class="mk" viewBox="0 0 160 160" style="width:300px;max-width:100%;height:auto;display:block" role="img" aria-label="A phone with a silicon chip on its screen, a hammer and a nail on a wooden plank">
@@ -168,78 +171,47 @@ section{padding:4.6rem 0}
   </div>
 </section>
 
-<section style="border-top:1px solid var(--line)">
+<section id="short" style="padding-top:0">
   <div class="wrap">
-    <span class="tag">Example 1 &middot; Personal software</span>
-    <h2 class="ex-h2">The planner that ended the night-before panic.</h2>
-    <img class="ex-sketch" src="images/sketch-planner.jpg" alt="Three pencil sketches in the site colours: a tired young person at a desk at night, building a week plan at a laptop with a small robot helper, then relaxed with the finished plan on their phone.">
-    <div class="ex">
-      <div class="ex-story">
-        <p>One young person: a heavy term, three commitments and a part-time job, and a paper timetable that was out of date by Tuesday. Over two weekends they built a planner of their own. Every assignment, training session and shift in one place, the week laid out every Sunday evening. When something slips, the planner reshuffles the week instead of the week falling apart.</p>
-        <p>The agent taught each piece as it was needed and explained every change back, but the decisions were all theirs. It is the kind of build nobody hands you, because it only fits the person who made it.</p>
-      </div>
-      <div class="ex-facts">
-        <p><strong>The build.</strong> A personal study and life planner, one page, built for their own phone.</p>
-        <p><strong>The agent's part.</strong> Taught the planning logic piece by piece, answered the &#8220;why is this broken&#8221; moments, and never took the keyboard.</p>
-        <p><strong>What changed.</strong> No more night-before panic. Everything finished two days early, every time, that whole term.</p>
-      </div>
+    <div class="sec-head">
+      <h2>The short version</h2>
+    </div>
+    <div class="stmt">
+      <p><strong>A tool, not a voice.</strong> AI here is a workshop tool. It serves the person building; it never replaces them.</p>
+      <p><strong>The young person drives.</strong> The agent teaches, drafts and explains. Every decision stays with the builder, and they can say why every change went in.</p>
+      <p><strong>Scripture, exactly.</strong> Every verse comes from the translations shipped with the app, copied exactly and named. The agent never composes scripture, and when it cannot read the file it says so rather than reciting.</p>
+      <p><strong>Private by default.</strong> Everything runs on the young person's own machine. Nothing they write is sent anywhere.</p>
+      <p><strong>Human things stay human.</strong> Teaching, prayer, care and judgement are never delegated. The tool hands them back.</p>
     </div>
   </div>
 </section>
 
 <section style="border-top:1px solid var(--line)">
   <div class="wrap">
-    <span class="tag">Example 2 &middot; Community organisation</span>
-    <h2 class="ex-h2">Six weeks of dinners, not one missed night.</h2>
-    <img class="ex-sketch" src="images/sketch-mealtrain.jpg" alt="Three pencil sketches in the site colours: charity volunteers at a messy whiteboard, young people building a dinner roster at a laptop with a small robot helper, then a warm meal handed over at a doorstep.">
-    <div class="ex">
-      <div class="ex-story">
-        <p>A local charity supporting families through a hard stretch was coordinating meals on a whiteboard and a group chat, and every week something fell through the cracks. A group of young people built them a meal train instead: a night-by-night roster, private by default, no personal details on display. People claim a night, get a gentle reminder, and the coordinator can finally see what is covered.</p>
-        <p>The agent helped them think through the sign-up flow, and drafted the reminder messages. The young people rewrote them in their own words before anything went out. Nothing fancy. On time, every night.</p>
-      </div>
-      <div class="ex-facts">
-        <p><strong>The build.</strong> A meal train page for a local charity, private by default, no accounts to create.</p>
-        <p><strong>The agent's part.</strong> Walked the young people through the sign-up flow and drafted the reminders they then made their own.</p>
-        <p><strong>What changed.</strong> Every night covered for six weeks straight, and one very relieved coordinator.</p>
-      </div>
+    <div class="sec-head">
+      <h2>What the church keeps saying</h2>
+      <p>The church has thought about AI out loud, and its counsel is worth heeding.</p>
+    </div>
+    <div class="hl">
+      <p>The Vatican's guidelines on AI, now in effect, define it as &#8220;a gift of human creativity, which itself is a gift from God&#8221;: a gift to receive with gratitude and govern with care. The same guidance is firm about limits. AI may enhance human capabilities, but it can never replace human creativity, autonomy or moral responsibility. It must serve people, protect the vulnerable and answer to someone. Machine-made content should be labelled, and people should always know when they are dealing with a tool and when they are dealing with a person.</p>
+      <p style="margin-top:1.2rem">You will hear versions of this across the whole church, from Rome's commissions to the pastor down the road: receive the tool, keep the person. We wrote this page so that nobody has to guess where we stand.</p>
     </div>
   </div>
 </section>
 
 <section style="border-top:1px solid var(--line)">
   <div class="wrap">
-    <span class="tag">Example 3 &middot; Local business</span>
-    <h2 class="ex-h2">The op shop that stopped answering the same question.</h2>
-    <img class="ex-sketch" src="images/sketch-opshop.jpg" alt="Three pencil sketches in the site colours: a ringing phone at the op shop counter, two young people building the shop page at a laptop, then the window QR code being scanned by a passer-by.">
-    <div class="ex">
-      <div class="ex-story">
-        <p>The church op shop got the same three phone calls all day: are you open, do you take furniture, when is the sale. Two young people built the shop a one page site: the hours, what the shop happily accepts, and a photo rail of the good donations that week. Then they taped a QR code to the front window.</p>
-        <p>The agent turned their scribbled notes into first drafts, and taught them how to publish it themselves. The words that mattered, they wrote. The shop's window now does the talking before anyone reaches for the phone.</p>
-      </div>
-      <div class="ex-facts">
-        <p><strong>The build.</strong> A one page shop site: hours, a donations guide, and a photo rail, with a QR code in the window.</p>
-        <p><strong>The agent's part.</strong> Turned notes into first drafts and taught the publish-steps once, carefully.</p>
-        <p><strong>What changed.</strong> The phone quietened down, and donations went up. People could finally see what the shop actually wanted.</p>
-      </div>
+    <div class="sec-head">
+      <h2>How we use it here</h2>
+      <p>Six commitments, kept in the open so you can hold us to them.</p>
     </div>
-  </div>
-</section>
-
-<section style="border-top:1px solid var(--line)">
-  <div class="wrap">
-    <span class="tag">Example 4 &middot; Church group</span>
-    <h2 class="ex-h2">No more Sunday morning scramble.</h2>
-    <img class="ex-sketch" src="images/sketch-rota.jpg" alt="Three pencil sketches in the site colours: a crumpled paper roster on a church noticeboard, the youth group building the rota together with a small robot helper, then a filled tablet by the church door on Sunday morning.">
-    <div class="ex">
-      <div class="ex-story">
-        <p>The volunteer roster lived on a paper sheet that went missing and a group chat where nobody could see the gaps. The youth group built the church a rota instead: welcome team, setup, children's ministry, all in one link. No accounts, no app to install, and a late swap is one tap. The gaps are visible to everyone, so cover gets found in minutes rather than announced hopefully on a Sunday.</p>
-        <p>The agent asked the questions adults forget to ask, and tested the awkward cases with them: holidays, double-ups, the week everything happens at once. The paper sheet is now a fridge magnet, which is the highest honour a paper sheet can receive.</p>
-      </div>
-      <div class="ex-facts">
-        <p><strong>The build.</strong> A volunteer rota for the whole church, one link, no accounts, phone friendly.</p>
-        <p><strong>The agent's part.</strong> Tested the edge cases with the young people and asked the questions that found them.</p>
-        <p><strong>What changed.</strong> Gaps now show for everyone, and cover gets found in minutes.</p>
-      </div>
+    <div class="grid2">
+      <div class="card"><h3>A teacher that never takes over.</h3><p>The agent explains, quizzes and shows its working. The young person makes every call and has to say why before anything lands. The tool makes them quicker, not quieter.</p></div>
+      <div class="card"><h3>Scripture, handled strictly.</h3><p>Every quote comes from the Bible translations shipped with the app, copied exactly, with the translation named. The agent never composes a verse, and it points back to the local church for anything big.</p></div>
+      <div class="card"><h3>It points to your church.</h3><p>The agent is not a pastor and never poses as one. Questions about faith and life go back to the young person's own church and its leaders. It is built to send people toward real community.</p></div>
+      <div class="card"><h3>Labelled, on purpose.</h3><p>Where this site shows AI-made example images, we say so. The agent never pretends to be a person, and everything it makes is marked as its work. The young person signs their own.</p></div>
+      <div class="card"><h3>Private by default.</h3><p>Everything runs locally on the young person's own machine. Nothing they write is sent anywhere, a church's data stays with the church, and nobody's words are used to train someone else's model.</p></div>
+      <div class="card"><h3>Adults in the room.</h3><p>The leaders guide exists so the adults run the thing: what to watch for, where the tool stops and what goes back to people. In this programme AI is always supervised, never secret.</p></div>
     </div>
   </div>
 </section>
@@ -247,19 +219,39 @@ section{padding:4.6rem 0}
 <section class="ink">
   <div class="wrap">
     <div class="sec-head">
-      <h2>That is the shape of it.</h2>
-      <p>None of these needed a computer science degree. Each one started as a real annoyance somewhere and ended as something handed over to the person who needed it. That is the whole job: find the annoyance, build the small thing, give it away.</p>
+      <h2>What stays human</h2>
+      <p>Some things are not delegated, in any programme.</p>
+    </div>
+    <div class="won">
+      <div class="item"><p><strong>Teaching.</strong> The lesson, the sermon, the correction: people.</p></div>
+      <div class="item"><p><strong>Prayer.</strong> The agent can help find words. The prayer is yours.</p></div>
+      <div class="item"><p><strong>Care.</strong> The visits, the meals, the sitting with someone: people.</p></div>
+      <div class="item"><p><strong>Judgement.</strong> Decisions, direction, discipline: people.</p></div>
+    </div>
+    <p class="close">Anything that requires love, the tool hands back.</p>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Our test</h2>
+      <p>The measure of this is not what the tool can do. The measure is who the young person becomes.</p>
+    </div>
+    <div class="hl">
+      <p>More present to their church. More generous with what they build. Harder to fool. We put these tools to work on ordinary good: rosters, meal trains, shop pages, welcome cards, the things you can read on <a href="/examples" style="text-decoration:underline">the examples page</a>. Learning to drive these tools, and when to close the laptop, is part of what we teach. If the tool ever works against that, we change the tool. Where the church's guidance deepens, we follow it. We hold all of this with open hands.</p>
     </div>
     <div class="cta-row">
       <a class="btn btn-solid" href="/agent">Get the agent</a>
-      <a class="btn btn-line" href="/workshop">Bring the workshop to your church</a>
+      <a class="btn btn-line" href="/leaders">Get the leaders guide</a>
     </div>
+    <p class="note">The article behind this page: <a href="https://www.wordonfire.org/articles/lessons-from-the-vaticans-ai-guidelines/" style="text-decoration:underline">Lessons from the Vatican's AI Guidelines</a> at Word on Fire.</p>
   </div>
 </section>
 
 <div class="foot">
   <span>buildwithjesus.com</span>
-  <span><a href="/">Home</a> &middot; <a href="/leaders">Leaders guide</a> &middot; <a href="/agent">Get the agent</a> &middot; <a href="/ai">How we use AI</a></span>
+  <span><a href="/">Home</a> &middot; <a href="/leaders">Leaders guide</a> &middot; <a href="/agent">Get the agent</a></span>
 </div>
 
 <script>

@@ -39,6 +39,16 @@ a{color:inherit}
 .topnav{display:flex;align-items:center;gap:1.4rem}
 .topnav .home{font-size:14px;font-weight:500;text-decoration:none;color:var(--mut)}
 .topnav .home:hover{color:var(--ink)}
+.top{position:relative}
+.menu-btn{display:none;background:transparent;border:2px solid var(--ink);width:42px;height:38px;padding:0;cursor:pointer;flex:0 0 auto;align-items:center;justify-content:center;flex-direction:column;gap:4px}
+.menu-btn .mb-l{display:block;width:16px;height:2px;background:var(--ink)}
+.menu-btn:hover{background:var(--ink)}
+.menu-btn:hover .mb-l{background:#fff}
+.menu{display:none;position:absolute;left:1.5rem;right:1.5rem;top:calc(100% + .4rem);background:#fff;border:1px solid var(--line);box-shadow:0 14px 34px rgba(0,0,0,.08);z-index:60}
+.menu.open{display:block}
+.menu a{display:block;padding:.9rem 1.4rem;font-size:15.5px;font-weight:500;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line)}
+.menu a:last-child{border-bottom:0}
+.menu a:hover{background:var(--grey)}
 .btn{display:inline-block;font-size:15px;font-weight:600;padding:.95rem 1.9rem;text-decoration:none;border-radius:0;border:2px solid var(--ink);transition:background .15s ease,color .15s ease}
 .btn-solid{background:var(--ink);color:#fff}
 .btn-solid:hover{background:transparent;color:var(--ink)}
@@ -94,8 +104,8 @@ section{padding:4.6rem 0}
 .foot a{text-decoration:none;color:var(--mut)}
 .foot a:hover{color:var(--ink)}
 @media(max-width:900px){.hero-in{grid-template-columns:1fr}.mark-panel{order:-1}.grid2,.won{grid-template-columns:1fr}}
-@media(max-width:560px){.topnav .home{display:none}.wm{font-size:11.5px}.btn-sm{padding:.5rem .85rem;font-size:12.5px}.mark-panel{padding:2rem 1.2rem}.won .item{padding:1.5rem 1.5rem}.card{padding:1.5rem}}
-@media(max-width:400px){.wm{font-size:10px;letter-spacing:.07em}.btn-sm{padding:.45rem .7rem;font-size:12px}}
+@media(max-width:560px){.menu-btn{display:flex}.topnav .home{display:none}.wm{font-size:11.5px}.btn-sm{padding:.5rem .85rem;font-size:12.5px}.mark-panel{padding:2rem 1.2rem}.won .item{padding:1.5rem 1.5rem}.card{padding:1.5rem}}
+@media(max-width:400px){.wm{display:none}.btn-sm{padding:.45rem .7rem;font-size:12px}}
 </style>
 </head>
 <body>
@@ -126,6 +136,15 @@ section{padding:4.6rem 0}
   <div class="topnav">
     <a class="home" href="/">Home</a>
     <a class="btn btn-line btn-sm" href="/agent">Get the agent</a>
+    <button class="menu-btn" id="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="site-menu"><span class="mb-l"></span><span class="mb-l"></span><span class="mb-l"></span></button>
+  </div>
+  <div class="menu" id="site-menu">
+    <a href="/">Home</a>
+    <a href="/agent">The agent</a>
+    <a href="/leaders">The leaders guide</a>
+    <a href="/workshop">The workshop</a>
+    <a href="/examples">Examples</a>
+    <a href="/ai">How we use AI</a>
   </div>
 </div>
 
@@ -241,7 +260,7 @@ section{padding:4.6rem 0}
 
 <div class="foot">
   <span>buildwithjesus.com</span>
-  <span><a href="/">Home</a> &middot; <a href="/leaders">Leaders guide</a> &middot; <a href="/agent">Get the agent</a></span>
+  <span><a href="/">Home</a> &middot; <a href="/leaders">Leaders guide</a> &middot; <a href="/agent">Get the agent</a> &middot; <a href="/ai">How we use AI</a></span>
 </div>
 
 <script>
@@ -277,6 +296,17 @@ section{padding:4.6rem 0}
     });
     return false;
   });
+})();
+</script>
+<script>
+(function(){
+  var b=document.getElementById('menu-btn'),m=document.getElementById('site-menu');
+  if(!b||!m)return;
+  function set(o){m.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false');}
+  b.addEventListener('click',function(e){e.stopPropagation();set(!m.classList.contains('open'));});
+  m.addEventListener('click',function(e){if(e.target&&e.target.tagName==='A'){set(false);}});
+  document.addEventListener('click',function(e){if(!m.contains(e.target)&&!b.contains(e.target)){set(false);}});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){set(false);}});
 })();
 </script>
 </body>

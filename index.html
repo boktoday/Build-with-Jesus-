@@ -45,6 +45,15 @@ nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);border-bot
 .nav-links a:hover{color:var(--mut)}
 .nav-links a.btn-solid{color:var(--paper)}
 .nav-links a.btn-solid:hover{color:var(--ink);background:var(--paper)}
+.menu-btn{display:none;background:transparent;border:2px solid var(--ink);width:42px;height:38px;padding:0;cursor:pointer;flex:0 0 auto;align-items:center;justify-content:center;flex-direction:column;gap:4px}
+.menu-btn .mb-l{display:block;width:16px;height:2px;background:var(--ink)}
+.menu-btn:hover{background:var(--ink)}
+.menu-btn:hover .mb-l{background:#fff}
+.menu{display:none;position:absolute;left:1.5rem;right:1.5rem;top:calc(100% + .4rem);background:#fff;border:1px solid var(--line);box-shadow:0 14px 34px rgba(0,0,0,.08);z-index:60}
+.menu.open{display:block}
+.menu a{display:block;padding:.9rem 1.4rem;font-size:15.5px;font-weight:500;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line)}
+.menu a:last-child{border-bottom:0}
+.menu a:hover{background:var(--grey)}
 .btn{display:inline-block;text-decoration:none;font-weight:600;font-size:15px;padding:.85rem 1.6rem;border:2px solid var(--ink);border-radius:0;transition:background .15s ease,color .15s ease;cursor:pointer}
 .btn-solid{background:var(--ink);color:var(--paper)}
 .btn-solid:hover{background:var(--paper);color:var(--ink)}
@@ -119,7 +128,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
 .foot-links a:hover{color:var(--ink)}
 .foot-note{margin-top:2rem;color:var(--soft);font-size:13px}
 .bon{display:none}
-@media(max-width:900px){
+@media(max-width:900px){.menu-btn{display:flex}
 .bod{display:none}.bon{display:inline}
 .nav-links a:not(.btn){display:none}
 .hero-in,.bible{grid-template-columns:1fr}
@@ -144,7 +153,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
 .sub-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 @media(max-width:760px){.subscribe .wrap{flex-direction:column;align-items:flex-start}.sub-form{width:100%}.sub-form input[type=email]{flex:1 1 100%;width:100%}}
 @media(max-width:560px){.nav-in{padding:.7rem 1rem}.brand .wm{font-size:11px;letter-spacing:.08em}.btn-sm{padding:.5rem .8rem;font-size:12.5px}}
-@media(max-width:400px){.brand .wm{font-size:10px;letter-spacing:.07em}.btn-sm{padding:.45rem .7rem;font-size:12px}}
+@media(max-width:400px){.brand .wm{display:none}.btn-sm{padding:.45rem .7rem;font-size:12px}}
 </style>
 </head>
 <body>
@@ -181,7 +190,19 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
       <a href="#churches">For churches</a>
       <a href="#faq">FAQ</a>
       <a class="btn btn-solid btn-sm" href="/agent">Get the agent</a>
+    <button class="menu-btn" id="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="site-menu"><span class="mb-l"></span><span class="mb-l"></span><span class="mb-l"></span></button>
     </div>
+  </div>
+  <div class="menu" id="site-menu">
+    <a href="#how">How it works</a>
+    <a href="#builds">The builds</a>
+    <a href="#churches">For churches</a>
+    <a href="#faq">FAQ</a>
+    <a href="/agent">The agent</a>
+    <a href="/leaders">The leaders guide</a>
+    <a href="/workshop">The workshop</a>
+    <a href="/examples">Examples</a>
+    <a href="/ai">How we use AI</a>
   </div>
 </nav>
 
@@ -386,6 +407,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
         <a href="/agent">Get the agent</a>
         <a href="/leaders">The leaders guide</a>
         <a href="https://www.onetoeight.org">One to eight</a>
+        <a href="/ai">How we use AI</a>
       </div>
     </div>
     <p class="foot-note">buildwithjesus.com. A work in progress, black and white for now. Built with the one to eight guide and the one to eight agent.</p>
@@ -416,6 +438,17 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
         btn.disabled=false;btn.textContent='Subscribe';err.style.display='block';});
     });
   });
+})();
+</script>
+<script>
+(function(){
+  var b=document.getElementById('menu-btn'),m=document.getElementById('site-menu');
+  if(!b||!m)return;
+  function set(o){m.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false');}
+  b.addEventListener('click',function(e){e.stopPropagation();set(!m.classList.contains('open'));});
+  m.addEventListener('click',function(e){if(e.target&&e.target.tagName==='A'){set(false);}});
+  document.addEventListener('click',function(e){if(!m.contains(e.target)&&!b.contains(e.target)){set(false);}});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){set(false);}});
 })();
 </script>
 </body>
