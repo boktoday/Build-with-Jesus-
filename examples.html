@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#ffffff">
+<title>Example builds | Build with Jesus</title>
+<meta name="description" content="Four example builds from young people: a personal planner, a community meal train, a local shop page and a church volunteer rota. What each one is, what the agent did, and what changed.">
+<link rel="canonical" href="https://buildwithjesus.com/examples">
+<meta property="og:title" content="Example builds | Build with Jesus">
+<meta property="og:description" content="Four example builds, one from each corner of the work: personal software, a community charity, a local shop, and a church.">
+<meta property="og:url" content="https://buildwithjesus.com/examples">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Build with Jesus">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Example builds | Build with Jesus">
+<meta name="twitter:description" content="Four example builds, one from each corner of the work: personal software, a community charity, a local shop, and a church.">
+<meta name="twitter:image" content="https://buildwithjesus.com/og.jpg">
+<meta property="og:image" content="https://buildwithjesus.com/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0d0d0d;--paper:#ffffff;--grey:#f4f4f4;--line:#e3e3e3;--mut:#5c5c5c;--soft:#8f8f8f}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;font-weight:600;line-height:1.12;letter-spacing:-.01em}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 1.5rem}
+.top{max-width:1080px;margin:0 auto;padding:1.4rem 1.5rem 0;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none}
+.brand svg{width:32px;height:32px}
+.wm{font-family:'Fraunces',serif;font-weight:600;letter-spacing:.12em;font-size:13.5px;white-space:nowrap}
+.wm .th{font-weight:300}
+.topnav{display:flex;align-items:center;gap:1.4rem}
+.topnav .home{font-size:14px;font-weight:500;text-decoration:none;color:var(--mut)}
+.topnav .home:hover{color:var(--ink)}
+.btn{display:inline-block;font-size:15px;font-weight:600;padding:.95rem 1.9rem;text-decoration:none;border-radius:0;border:2px solid var(--ink);transition:background .15s ease,color .15s ease}
+.btn-solid{background:var(--ink);color:#fff}
+.btn-solid:hover{background:transparent;color:var(--ink)}
+.btn-line{background:transparent;color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:#fff}
+.btn-sm{padding:.6rem 1.1rem;font-size:13.5px;border-width:2px}
+section{padding:4.6rem 0}
+.hero{padding:3.6rem 0 4rem}
+.hero-in{display:grid;grid-template-columns:1.25fr .75fr;gap:3rem;align-items:center}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:var(--mut)}
+.hero h1{font-size:clamp(2.1rem,4.4vw,3.15rem);margin:1.1rem 0 1.2rem}
+.lead{font-size:18px;color:var(--mut);max-width:34em}
+.btns{display:flex;gap:.9rem;flex-wrap:wrap;margin-top:1.9rem}
+.mark-panel{background:var(--grey);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;padding:2.6rem;min-width:0}
+.mark-panel svg{max-width:100%;min-width:0}
+.ink{background:var(--ink);color:#fff}
+.ink .sec-head h2{color:#fff}
+.ink .sec-head p{color:#b3b3b3}
+.ink .btn-solid{background:#fff;color:var(--ink);border-color:#fff}
+.ink .btn-solid:hover{background:transparent;color:#fff}
+.ink .btn-line{color:#fff;border-color:#fff}
+.ink .btn-line:hover{background:#fff;color:var(--ink)}
+.sec-head{max-width:46em;margin-bottom:2.4rem}
+.sec-head h2{font-size:clamp(1.7rem,3.2vw,2.35rem);margin-bottom:.8rem}
+.sec-head p{color:var(--mut)}
+.cta-row{display:flex;gap:.9rem;flex-wrap:wrap;margin-top:1.6rem}
+.tag{display:inline-block;font-size:11.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--soft);border:1.5px solid var(--line);padding:.35rem .75rem;margin-bottom:1.1rem}
+.ex-h2{font-size:clamp(1.5rem,3vw,2rem);max-width:30em;margin-bottom:1.6rem}
+.ex{display:grid;grid-template-columns:1.1fr .9fr;gap:2.4rem;align-items:start}
+.ex-story p{color:var(--mut);margin-bottom:1rem}
+.ex-story p:last-child{margin-bottom:0}
+.ex-facts{border:1px solid var(--line);padding:1.6rem 1.8rem}
+.ex-facts p{font-size:15px;color:var(--mut);margin-bottom:.9rem}
+.ex-facts p:last-child{margin-bottom:0}
+.ex-facts strong{color:var(--ink)}
+.foot{max-width:1080px;margin:0 auto;padding:2.2rem 1.5rem 3rem;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;font-size:13.5px;color:var(--mut)}
+.foot a{text-decoration:none;color:var(--mut)}
+.foot a:hover{color:var(--ink)}
+@media(max-width:900px){.hero-in{grid-template-columns:1fr}.mark-panel{order:-1}.ex{grid-template-columns:1fr}}
+@media(max-width:560px){.topnav .home{display:none}.wm{font-size:11.5px}.btn-sm{padding:.5rem .85rem;font-size:12.5px}.mark-panel{padding:2rem 1.2rem}.ex-facts{padding:1.3rem 1.4rem}}
+@media(max-width:400px){.wm{font-size:10px;letter-spacing:.07em}.btn-sm{padding:.45rem .7rem;font-size:12px}}
+</style>
+</head>
+<body>
+
+<div class="top">
+  <a class="brand" href="/"><svg class="mk" viewBox="0 0 160 160" style="width:32px;height:auto;display:block" role="img" aria-label="A phone with a silicon chip on its screen, a hammer and a nail on a wooden plank">
+  <rect x="14" y="118" width="132" height="22" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="30" y1="129" x2="58" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="96" y1="129" x2="130" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="36" y1="88" x2="36" y2="117" stroke="currentColor" stroke-width="4"/>
+  <line x1="29" y1="88" x2="43" y2="88" stroke="currentColor" stroke-width="6"/>
+  <g transform="translate(112,117) rotate(22)">
+    <line x1="0" y1="1" x2="0" y2="-56" stroke="currentColor" stroke-width="8"/>
+    <rect x="-17" y="-73" width="34" height="15" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  </g>
+  <rect x="54" y="18" width="52" height="100" rx="7" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="69" y1="30" x2="91" y2="30" stroke="currentColor" stroke-width="4"/>
+  <line x1="74" y1="108" x2="86" y2="108" stroke="currentColor" stroke-width="4"/>
+  <rect x="67" y="53" width="26" height="26" rx="2" fill="none" stroke="currentColor" stroke-width="4"/>
+  <g stroke="currentColor" stroke-width="4">
+    <line x1="74" y1="47" x2="74" y2="53"/><line x1="80" y1="47" x2="80" y2="53"/><line x1="86" y1="47" x2="86" y2="53"/>
+    <line x1="74" y1="79" x2="74" y2="85"/><line x1="80" y1="79" x2="80" y2="85"/><line x1="86" y1="79" x2="86" y2="85"/>
+    <line x1="61" y1="60" x2="67" y2="60"/><line x1="61" y1="66" x2="67" y2="66"/><line x1="61" y1="72" x2="67" y2="72"/>
+    <line x1="93" y1="60" x2="99" y2="60"/><line x1="93" y1="66" x2="99" y2="66"/><line x1="93" y1="72" x2="99" y2="72"/>
+  </g>
+</svg>
+    <span class="wm">BUILD <span class="th">WITH</span> JESUS</span></a>
+  <div class="topnav">
+    <a class="home" href="/">Home</a>
+    <a class="btn btn-line btn-sm" href="/agent">Get the agent</a>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="wrap hero-in">
+    <div>
+      <span class="eyebrow">Examples</span>
+      <h1>What do you actually build?</h1>
+      <p class="lead">If building software sounds like something for other people, this page is for you. Four examples from the work so far: a personal project, a community charity, a local shop, and a church. Each one started as a real annoyance somewhere and ended as something handed over.</p>
+      <div class="btns">
+        <a class="btn btn-solid" href="/agent">Get the agent</a>
+        <a class="btn btn-line" href="https://www.onetoeight.guide/en/u/">Read the guide</a>
+      </div>
+    </div>
+    <div class="mark-panel"><svg class="mk" viewBox="0 0 160 160" style="width:300px;max-width:100%;height:auto;display:block" role="img" aria-label="A phone with a silicon chip on its screen, a hammer and a nail on a wooden plank">
+  <rect x="14" y="118" width="132" height="22" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="30" y1="129" x2="58" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="96" y1="129" x2="130" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="36" y1="88" x2="36" y2="117" stroke="currentColor" stroke-width="4"/>
+  <line x1="29" y1="88" x2="43" y2="88" stroke="currentColor" stroke-width="6"/>
+  <g transform="translate(112,117) rotate(22)">
+    <line x1="0" y1="1" x2="0" y2="-56" stroke="currentColor" stroke-width="8"/>
+    <rect x="-17" y="-73" width="34" height="15" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  </g>
+  <rect x="54" y="18" width="52" height="100" rx="7" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="69" y1="30" x2="91" y2="30" stroke="currentColor" stroke-width="4"/>
+  <line x1="74" y1="108" x2="86" y2="108" stroke="currentColor" stroke-width="4"/>
+  <rect x="67" y="53" width="26" height="26" rx="2" fill="none" stroke="currentColor" stroke-width="4"/>
+  <g stroke="currentColor" stroke-width="4">
+    <line x1="74" y1="47" x2="74" y2="53"/><line x1="80" y1="47" x2="80" y2="53"/><line x1="86" y1="47" x2="86" y2="53"/>
+    <line x1="74" y1="79" x2="74" y2="85"/><line x1="80" y1="79" x2="80" y2="85"/><line x1="86" y1="79" x2="86" y2="85"/>
+    <line x1="61" y1="60" x2="67" y2="60"/><line x1="61" y1="66" x2="67" y2="66"/><line x1="61" y1="72" x2="67" y2="72"/>
+    <line x1="93" y1="60" x2="99" y2="60"/><line x1="93" y1="66" x2="99" y2="66"/><line x1="93" y1="72" x2="99" y2="72"/>
+  </g>
+</svg></div>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <span class="tag">Example 1 &middot; Personal software</span>
+    <h2 class="ex-h2">The planner that ended the night-before panic.</h2>
+    <div class="ex">
+      <div class="ex-story">
+        <p>One young person: a heavy term, three commitments and a part-time job, and a paper timetable that was out of date by Tuesday. Over two weekends they built a planner of their own. Every assignment, training session and shift in one place, the week laid out every Sunday evening. When something slips, the planner reshuffles the week instead of the week falling apart.</p>
+        <p>The agent taught each piece as it was needed and explained every change back, but the decisions were all theirs. It is the kind of build nobody hands you, because it only fits the person who made it.</p>
+      </div>
+      <div class="ex-facts">
+        <p><strong>The build.</strong> A personal study and life planner, one page, built for their own phone.</p>
+        <p><strong>The agent's part.</strong> Taught the planning logic piece by piece, answered the &#8220;why is this broken&#8221; moments, and never took the keyboard.</p>
+        <p><strong>What changed.</strong> No more night-before panic. Everything finished two days early, every time, that whole term.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <span class="tag">Example 2 &middot; Community organisation</span>
+    <h2 class="ex-h2">Six weeks of dinners, not one missed night.</h2>
+    <div class="ex">
+      <div class="ex-story">
+        <p>A local charity supporting families through a hard stretch was coordinating meals on a whiteboard and a group chat, and every week something fell through the cracks. A group of young people built them a meal train instead: a night-by-night roster, private by default, no personal details on display. People claim a night, get a gentle reminder, and the coordinator can finally see what is covered.</p>
+        <p>The agent helped them think through the sign-up flow, and drafted the reminder messages. The young people rewrote them in their own words before anything went out. Nothing fancy. On time, every night.</p>
+      </div>
+      <div class="ex-facts">
+        <p><strong>The build.</strong> A meal train page for a local charity, private by default, no accounts to create.</p>
+        <p><strong>The agent's part.</strong> Walked the young people through the sign-up flow and drafted the reminders they then made their own.</p>
+        <p><strong>What changed.</strong> Every night covered for six weeks straight, and one very relieved coordinator.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <span class="tag">Example 3 &middot; Local business</span>
+    <h2 class="ex-h2">The op shop that stopped answering the same question.</h2>
+    <div class="ex">
+      <div class="ex-story">
+        <p>The church op shop got the same three phone calls all day: are you open, do you take furniture, when is the sale. Two young people built the shop a one page site: the hours, what the shop happily accepts, and a photo rail of the good donations that week. Then they taped a QR code to the front window.</p>
+        <p>The agent turned their scribbled notes into first drafts, and taught them how to publish it themselves. The words that mattered, they wrote. The shop's window now does the talking before anyone reaches for the phone.</p>
+      </div>
+      <div class="ex-facts">
+        <p><strong>The build.</strong> A one page shop site: hours, a donations guide, and a photo rail, with a QR code in the window.</p>
+        <p><strong>The agent's part.</strong> Turned notes into first drafts and taught the publish-steps once, carefully.</p>
+        <p><strong>What changed.</strong> The phone quietened down, and donations went up. People could finally see what the shop actually wanted.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <span class="tag">Example 4 &middot; Church group</span>
+    <h2 class="ex-h2">No more Sunday morning scramble.</h2>
+    <div class="ex">
+      <div class="ex-story">
+        <p>The volunteer roster lived on a paper sheet that went missing and a group chat where nobody could see the gaps. The youth group built the church a rota instead: welcome team, setup, children's ministry, all in one link. No accounts, no app to install, and a late swap is one tap. The gaps are visible to everyone, so cover gets found in minutes rather than announced hopefully on a Sunday.</p>
+        <p>The agent asked the questions adults forget to ask, and tested the awkward cases with them: holidays, double-ups, the week everything happens at once. The paper sheet is now a fridge magnet, which is the highest honour a paper sheet can receive.</p>
+      </div>
+      <div class="ex-facts">
+        <p><strong>The build.</strong> A volunteer rota for the whole church, one link, no accounts, phone friendly.</p>
+        <p><strong>The agent's part.</strong> Tested the edge cases with the young people and asked the questions that found them.</p>
+        <p><strong>What changed.</strong> Gaps now show for everyone, and cover gets found in minutes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ink">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>That is the shape of it.</h2>
+      <p>None of these needed a computer science degree. Each one started as a real annoyance somewhere and ended as something handed over to the person who needed it. That is the whole job: find the annoyance, build the small thing, give it away.</p>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-solid" href="/agent">Get the agent</a>
+      <a class="btn btn-line" href="/workshop">Bring the workshop to your church</a>
+    </div>
+  </div>
+</section>
+
+<div class="foot">
+  <span>buildwithjesus.com</span>
+  <span><a href="/">Home</a> &middot; <a href="/leaders">Leaders guide</a> &middot; <a href="/agent">Get the agent</a></span>
+</div>
+
+</body>
+</html>

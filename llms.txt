@@ -9,10 +9,12 @@ For Christian young people and for the churches and youth groups who walk with t
 - [The agent](https://buildwithjesus.com/agent): what it does, what it will not do, and how young people work with it. $33.33, one payment.
 - [The leaders guide](https://buildwithjesus.com/leaders): the coach for the adults who run the programme, written for church leaders and homeschool families.
 - [Bring the workshop to your church](https://buildwithjesus.com/workshop): Brendan travels to run the workshop in person, at one host church for the churches around it. Register your interest; a Southeast Asia itinerary is planned for early 2027.
+- [Examples](https://buildwithjesus.com/examples): four example builds, one from each corner: personal software, a community charity, a local shop, and a church rota.
 
 ## Key ideas
 - The daily loop: Read (a short Bible passage and one question; the agent helps teach the passage and can help shape a prayer), Learn (a short lesson from the eight essentials, one skill at a time), Build (a small move on a real project), Give (finished things go to the church or community).
 - Builds include: the welcome card, the rota, the meal train, the study sheet, the event page, the op shop window.
+- Example builds told in full (https://buildwithjesus.com/examples): a personal term planner, a charity meal train, an op shop one page site with a QR code, and a church volunteer rota; each with what the agent did and what changed.
 - For churches: a build day, sponsor a builder, and a one page church kit.
 - The agent is a complete Hermes Agent profile that runs locally on the young person's machine: a morning minute with audio, an afternoon check-in, planning sessions, and the eight essentials curriculum built in.
 - The agent costs $33.33, one payment.
