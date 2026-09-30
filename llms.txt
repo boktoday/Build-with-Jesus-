@@ -22,6 +22,7 @@ For Christian young people, and for the churches, religious schools, homeschool 
 - For churches, religious schools, homeschool families and charities: a build day, sponsor a builder, and a one page kit.
 - The agent is a complete Hermes Agent profile that runs locally on the young person's machine: a morning minute with audio, an afternoon check-in, planning sessions, and the eight essentials curriculum built in.
 - The agent costs $33.33 (AUD), one payment.
+- Practical setup for the agent: it is software installed on the young person's own laptop. Needs a personal machine with admin access, a one-time $20 OpenRouter credit, optionally a free small local model, and a free Telegram or WhatsApp account for the morning minute and check-ins. No ongoing subscription.
 - The leaders guide costs $88 (AUD), one purchase for every leader and every group, reused every term.
 - The agent is a reading companion, never an authority. It points back to the local church and its leaders. Quotes are verified against a named translation.
 - The leaders guide is the coach's companion: it walks church leaders and homeschool families through running the programme with their young people.
