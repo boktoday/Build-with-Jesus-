@@ -72,6 +72,17 @@ section{padding:4.2rem 0}
 .vid{position:relative;padding-top:56.25%;border:1px solid var(--line);background:var(--grey);margin:1.8rem 0 0;max-width:760px;margin-left:auto;margin-right:auto}
 .vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .vcap{text-align:center;font-size:14px;color:var(--soft);margin-top:.9rem}
+.prayer-player{margin-top:2.7rem;text-align:center}
+.pl{display:flex;align-items:center;gap:1.1rem;max-width:460px;margin:0 auto}
+.pl-btn{width:54px;height:54px;flex:0 0 auto;background:var(--ink);border:2px solid var(--ink);border-radius:0;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;transition:background .15s ease}
+.pl-btn:hover{background:transparent}
+.pl-ic{width:0;height:0;border-style:solid;border-width:9px 0 9px 15px;border-color:transparent transparent transparent #fff;margin-left:3px}
+.pl-btn:hover .pl-ic{border-left-color:var(--ink)}
+.pl-ic.pause{width:16px;height:18px;border:0;border-left:5px solid #fff;border-right:5px solid #fff;margin-left:0}
+.pl-btn:hover .pl-ic.pause{border-color:var(--ink)}
+.pl-track{flex:1;height:3px;background:var(--line);position:relative;cursor:pointer}
+.pl-fill{position:absolute;left:0;top:0;bottom:0;width:0;background:var(--ink)}
+.pl-time{font-size:13px;color:var(--mut);min-width:38px;text-align:right;font-variant-numeric:tabular-nums}
 .sec-head h2{font-size:clamp(1.6rem,3vw,2.1rem);margin-bottom:.7rem}
 .sec-head p{color:var(--mut)}
 .cta-row{display:flex;gap:.9rem;flex-wrap:wrap;margin-top:1.8rem}
@@ -164,6 +175,16 @@ section{padding:4.2rem 0}
       <p>Our Father in heaven, may your name be kept holy. Let your Kingdom come. Let your will be done on earth as it is in heaven. Give us today our daily bread. Forgive us our debts, as we also forgive our debtors. Bring us not into temptation, but deliver us from the evil one. For yours is the Kingdom, the power, and the glory forever. Amen.</p>
       <p class="who">The same passage, World English Bible</p>
     </div>
+
+    <div class="prayer-player">
+      <div class="pl">
+        <button class="pl-btn" id="pl-btn" aria-label="Play the prayer"><span class="pl-ic" id="pl-ic"></span></button>
+        <div class="pl-track" id="pl-track" aria-label="Seek"><div class="pl-fill" id="pl-fill"></div></div>
+        <span class="pl-time" id="pl-time">0:00</span>
+      </div>
+      <p class="vcap" style="margin-top:1.1rem">The Lord&#8217;s Prayer, read aloud &middot; King James Version</p>
+    </div>
+    <audio id="pl-audio" src="audio/lords-prayer.mp3" preload="metadata"></audio>
   </div>
 </section>
 
@@ -204,6 +225,22 @@ section{padding:4.2rem 0}
   m.addEventListener('click',function(e){if(e.target&&e.target.tagName==='A'){set(false);}});
   document.addEventListener('click',function(e){if(!m.contains(e.target)&&!b.contains(e.target)){set(false);}});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'){set(false);}});
+})();
+</script>
+<script>
+(function(){
+  var a=document.getElementById('pl-audio');
+  if(!a)return;
+  var btn=document.getElementById('pl-btn'),ic=document.getElementById('pl-ic'),
+      track=document.getElementById('pl-track'),fill=document.getElementById('pl-fill'),
+      time=document.getElementById('pl-time');
+  function fmt(s){s=Math.max(0,Math.floor(s||0));return Math.floor(s/60)+':'+('0'+s%60).slice(-2);}
+  btn.addEventListener('click',function(){ if(a.paused){a.play();}else{a.pause();} });
+  a.addEventListener('play',function(){ic.classList.add('pause');});
+  a.addEventListener('pause',function(){ic.classList.remove('pause');});
+  a.addEventListener('timeupdate',function(){ if(a.duration){fill.style.width=(a.currentTime/a.duration*100)+'%';} time.textContent=fmt(a.currentTime); });
+  a.addEventListener('ended',function(){ic.classList.remove('pause');fill.style.width='0%';time.textContent='0:00';});
+  track.addEventListener('click',function(e){ if(!a.duration)return; var r=track.getBoundingClientRect(); a.currentTime=(e.clientX-r.left)/r.width*a.duration; });
 })();
 </script>
 </body>
