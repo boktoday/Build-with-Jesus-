@@ -107,6 +107,10 @@ section{padding:4.8rem 0}
 .path a.plink{font-weight:600;text-decoration:none;border-bottom:2px solid var(--ink);padding-bottom:2px}
 .path a.plink:hover{color:var(--mut);border-color:var(--mut)}
 @media(max-width:760px){.path-grid{grid-template-columns:1fr}}
+.who-grid{display:grid;grid-template-columns:300px 1fr;gap:2.6rem;align-items:start}
+.who-photo{display:block}
+.who-photo img{width:100%;height:auto;display:block}
+@media(max-width:760px){.who-grid{grid-template-columns:1fr;gap:1.6rem}.who-photo{max-width:280px}}
 .build h4 svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;vertical-align:-4px;margin-right:.55rem}
 /* dark band */
 .dark{background:var(--ink);color:var(--paper)}
@@ -405,9 +409,12 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
     <div class="sec-head">
       <h2>Who&#8217;s behind this</h2>
     </div>
-    <div class="why-prose">
-      <p>Build with Jesus is made by Brendan O&#8217;Keefe. He founded onetoeight and wrote the one to eight guide, the free practical guide for young people now read in ten languages, and he travels to run the Build with Jesus workshop live at churches.</p>
-      <p>The agent, the lessons and this site are built the same way the young people build: start small, learn by making, finish well, and give the finished thing away.</p>
+    <div class="who-grid">
+      <a class="who-photo" href="https://www.onetoeight.org/about"><img src="images/brendan-okeefe.jpg" alt="Brendan O&#8217;Keefe, founder of one to eight" width="1024" height="1040" loading="lazy"></a>
+      <div class="why-prose">
+        <p>Build with Jesus is made by Brendan O&#8217;Keefe. He founded <a href="https://www.onetoeight.org/about">onetoeight</a> and wrote the one to eight guide, the free practical guide for young people now read in ten languages, and he travels to run the Build with Jesus workshop live at churches.</p>
+        <p>The agent, the lessons and this site are built the same way the young people build: start small, learn by making, finish well, and give the finished thing away.</p>
+      </div>
     </div>
   </div>
 </section>
