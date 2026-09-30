@@ -11,6 +11,7 @@ For Christian young people, and for the churches, religious schools, homeschool 
 - [Bring the workshop to your church](https://buildwithjesus.com/workshop): Brendan travels to run the workshop in person, at one host church for the churches around it. Register your interest; a Southeast Asia itinerary is planned for early 2027.
 - [Examples](https://buildwithjesus.com/examples): four example builds, one from each corner: personal software, a community charity, a local shop, and a church rota.
 - [How we use AI](https://buildwithjesus.com/ai): our plain statement on AI. A tool that serves people, scripture quoted exactly and named, local-first privacy, machine-made content labelled, and the teaching, prayer, care and judgement that stay human.
+- [Inspiration](https://buildwithjesus.com/inspiration): the Lord's Prayer, quoted exactly from the King James Version and the World English Bible, with a short film on praying it daily.
 
 ## Key ideas
 - The daily loop: Read (a short Bible passage and one question; the agent helps teach the passage and can help shape a prayer), Learn (a short lesson from the eight essentials, one skill at a time), Build (a small move on a real project), Give (finished things go to the church or community).
