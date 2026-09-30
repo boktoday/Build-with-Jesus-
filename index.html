@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Build with Jesus | Build real things for your church and community</title>
-<meta name="description" content="Young people follow Jesus, read the Bible with an agent beside them, and build real things their church and community actually use.">
+<meta name="description" content="Follow Jesus. Learn new skills. Build real things. Give them away. Young people build real things for their church, with the Bible and an AI agent beside them.">
 <link rel="canonical" href="https://buildwithjesus.com/">
 <meta property="og:title" content="Build with Jesus">
 <meta property="og:description" content="Young people follow Jesus, read the Bible with an agent beside them, and build real things their church and community actually use.">
@@ -14,8 +14,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Build with Jesus | Build real things for your church and community">
 <meta name="twitter:description" content="Young people follow Jesus, read the Bible with an agent beside them, and build real things their church and community actually use.">
-<meta name="twitter:image" content="https://buildwithjesus.com/og.jpg">
-<meta property="og:image" content="https://buildwithjesus.com/og.jpg">
+<meta name="twitter:image" content="https://buildwithjesus.com/og-card.jpg">
+<meta property="og:image" content="https://buildwithjesus.com/og-card.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:site_name" content="Build with Jesus">
@@ -99,6 +99,14 @@ section{padding:4.8rem 0}
 .why-prose p+p{margin-top:1rem}
 .ess-line{margin-top:2.2rem;color:var(--soft);font-size:14.5px;line-height:1.75;max-width:64em}
 .ess-line a{color:var(--mut)}
+.path-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem;max-width:1000px}
+.path{border:2px solid var(--ink);padding:1.8rem 1.9rem}
+.path .p-eyebrow{font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--soft);margin:0 0 .8rem}
+.path h3{font-size:1.45rem;margin:0 0 .6rem}
+.path p{color:var(--mut);font-size:15.5px;margin:0 0 1.2rem;max-width:34em}
+.path a.plink{font-weight:600;text-decoration:none;border-bottom:2px solid var(--ink);padding-bottom:2px}
+.path a.plink:hover{color:var(--mut);border-color:var(--mut)}
+@media(max-width:760px){.path-grid{grid-template-columns:1fr}}
 .build h4 svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;vertical-align:-4px;margin-right:.55rem}
 /* dark band */
 .dark{background:var(--ink);color:var(--paper)}
@@ -157,14 +165,15 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
 .sub-btn{background:#fff;color:var(--ink);border:2px solid #fff;padding:.9rem 1.7rem;font:inherit;font-size:15px;font-weight:600;cursor:pointer;border-radius:0;transition:background .15s ease,color .15s ease}
 .sub-btn:hover{background:transparent;color:#fff}
 .sub-btn:disabled{opacity:.6;cursor:wait}
-.sub-ok,.sub-err,.sub-conn{display:none;margin-top:.8rem;font-size:14.5px}
+.sub-ok,.sub-err{display:none;margin-top:.8rem;font-size:14.5px}
 .sub-ok{color:#fff;font-weight:600}
-.sub-err,.sub-conn{border:1.5px solid #6f6f6f;color:#d9d9d9;padding:.6rem .9rem;line-height:1.5}
+.sub-err{border:1.5px solid #6f6f6f;color:#d9d9d9;padding:.6rem .9rem;line-height:1.5}
 .sub-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 @media(max-width:760px){.subscribe .wrap{flex-direction:column;align-items:flex-start}.sub-form{width:100%}.sub-form input[type=email]{flex:1 1 100%;width:100%}}
 @media(max-width:560px){.nav-in{padding:.7rem 1rem}.brand .wm{font-size:11px;letter-spacing:.08em}.btn-sm{padding:.5rem .8rem;font-size:12.5px}}
 @media(max-width:400px){.brand .wm{display:none}.btn-sm{padding:.45rem .7rem;font-size:12px}}
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is this an AI that does Bible study for them?", "acceptedAnswer": {"@type": "Answer", "text": "No. It helps teach the passage and keeps the rhythm going, and every question worth asking goes back to your church and its leaders. Teaching stays with people."}}, {"@type": "Question", "name": "Who is it for?", "acceptedAnswer": {"@type": "Answer", "text": "Christian young people who want to build, whether they are still at school or just out of it. The pace is theirs, and everything happens on their own machine."}}, {"@type": "Question", "name": "What does a church need to start?", "acceptedAnswer": {"@type": "Answer", "text": "One real need and a room with wifi. A build day is a Saturday. The rest is the guide and the agent, and we walk you through the first one."}}, {"@type": "Question", "name": "What does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "The agent is $33.33 (AUD), one payment, yours to keep. The guide is free to read, the leaders guide is $88 (AUD), one purchase for every leader and every group, and build days are worked out with each church. Sponsored places will exist for families who need them."}}, {"@type": "Question", "name": "What do young people need?", "acceptedAnswer": {"@type": "Answer", "text": "A phone or a computer and some curiosity. Their work stays private on their own machine, and a church's data stays with the church."}}]}</script>
 <script defer src="https://assets.onedollarstats.com/stonks.js"></script>
 </head>
 <body>
@@ -254,14 +263,33 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
   </div>
 </header>
 
+<section id="paths">
+  <div class="wrap">
+    <div class="path-grid">
+      <div class="path">
+        <p class="p-eyebrow">I&#8217;m a young person</p>
+        <h3>Start with the guide. It&#8217;s free.</h3>
+        <p>Eight essentials, activities and audio, at your own pace. Add the agent and it walks beside you while you build.</p>
+        <a class="plink" href="https://www.onetoeight.guide/en/u/">Start with the guide &#8594;</a>
+      </div>
+      <div class="path">
+        <p class="p-eyebrow">I lead a church or youth group</p>
+        <h3>Bring it to your church.</h3>
+        <p>See how a build day works, what it costs, and how to run the programme with your young people.</p>
+        <a class="plink" href="/workshop">For groups and churches &#8594;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="why">
   <div class="wrap">
     <div class="sec-head">
-      <h2>Why Build with Jesus in this format?</h2>
+      <h2>What is Build with Jesus?</h2>
     </div>
     <div class="why-prose">
       <p>Build with Jesus is about using the latest tools to primarily build digital artefacts for young people, their churches and wider community.</p>
-      <p>In 2026, we now have the AI technology to empower any young person to build custom software and use AI agents for increased learning and productivity. Furthermore, building takes many other shapes, the one to eight guide and their AI agent encourages young people to participate outside of the digital world.</p>
+      <p>Today, we have the AI technology to empower any young person to build custom software and use AI agents for increased learning and productivity. Furthermore, building takes many other shapes, the one to eight guide and their AI agent encourages young people to participate outside of the digital world.</p>
     </div>
   </div>
 </section>
@@ -292,7 +320,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
       <div class="card">
         <span class="num">3</span>
         <h3>Build</h3>
-        <p>The day's small move on a real project: personal software, something for the family, and this term, something for the church. The eight essentials teach the craft and the character together.</p>
+        <p>The day's small move on a real project: personal software, something for the family, and each term, something for the church. The eight essentials teach the craft and the character together.</p>
       </div>
       <div class="card">
         <span class="num">4</span>
@@ -308,7 +336,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
   <div class="wrap">
     <div class="sec-head">
       <h2>Real things churches and communities actually need</h2>
-      <p>Every build is small enough to finish and worth finishing. Built on the young person's own machine, phone friendly, and handed over at the end.</p>
+      <p>Every build is small enough to finish and worth finishing. Built on the young person&#8217;s own machine, phone friendly, and handed over at the end. Find the annoyance, build the small thing, give it away.</p>
     </div>
     <div class="grid6">
       <div class="build"><h4><svg viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="15"/><line x1="3" y1="9" x2="21" y2="9"/><circle cx="6.2" cy="6.8" r=".9"/><circle cx="9" cy="6.8" r=".9"/></svg>The welcome card</h4><p>A one page site with service times, what to expect, and a map. The church's front door, built properly.</p></div>
@@ -318,7 +346,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
       <div class="build"><h4><svg viewBox="0 0 24 24"><line x1="6" y1="3.5" x2="6" y2="20.5"/><path d="M6 4.5h12l-2.5 4 2.5 4H6z"/></svg>The event page</h4><p>Carols night, community barbecue, the fete. An invite page and a QR code for the notice sheet.</p></div>
       <div class="build"><h4><svg viewBox="0 0 24 24"><path d="M3.5 4.5h8.2l8.8 8.8-8.2 8.2-8.8-8.8z"/><circle cx="7.8" cy="8.8" r="1.3"/></svg>The op shop window</h4><p>A simple site for the church op shop or local charity shop. Hours, donations guide, a photo or two.</p></div>
     </div>
-    <p class="builds-note">Want the whole story on a few of these? <a href="/examples">Four example builds, told properly</a>.</p>
+    <p class="builds-note"><a class="btn btn-line" href="/examples">See four example builds &#8594;</a></p>
   </div>
 </section>
 
@@ -362,7 +390,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
 <section id="insp-cta">
   <div class="wrap">
     <p class="cta-sub">The Lord's Prayer, read slowly, with a short watch on praying it daily.</p>
-    <a class="btn btn-solid btn-big" href="/inspiration">Inspiration</a>
+    <a class="btn btn-solid btn-big" href="/inspiration">Read the Lord&#8217;s Prayer</a>
   </div>
 </section>
 
@@ -387,10 +415,10 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
 <section id="faq">
   <div class="wrap">
     <div class="sec-head"><h2>Questions churches ask first</h2></div>
-    <div class="faq-item"><h3>Is this an AI that does Bible study for them?</h3><p>No. The agent is a reading companion that points back to your church and its leaders. It helps teach the passage, keeps the rhythm going, and can help shape a prayer. Teaching stays with people.</p></div>
+    <div class="faq-item"><h3>Is this an AI that does Bible study for them?</h3><p>No. It helps teach the passage and keeps the rhythm going, and every question worth asking goes back to your church and its leaders. Teaching stays with people.</p></div>
     <div class="faq-item"><h3>Who is it for?</h3><p>Christian young people who want to build, whether they are still at school or just out of it. The pace is theirs, and everything happens on their own machine.</p></div>
     <div class="faq-item"><h3>What does a church need to start?</h3><p>One real need and a room with wifi. A build day is a Saturday. The rest is the guide and the agent, and we walk you through the first one.</p></div>
-    <div class="faq-item"><h3>What does it cost?</h3><p>The agent is $33.33, one payment, yours to keep. The guide is free to read, the leaders guide is $88, one purchase for every leader and every group, and build days are worked out with each church. Sponsored places will exist for families who need them.</p></div>
+    <div class="faq-item"><h3>What does it cost?</h3><p>The agent is $33.33 (AUD), one payment, yours to keep. The guide is free to read, the leaders guide is $88 (AUD), one purchase for every leader and every group, and build days are worked out with each church. Sponsored places will exist for families who need them.</p></div>
     <div class="faq-item"><h3>What do young people need?</h3><p>A phone or a computer and some curiosity. Their work stays private on their own machine, and a church's data stays with the church.</p></div>
   </div>
 </section>
@@ -419,7 +447,6 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
       </form>
       <p class="sub-ok" id="sub-ok">&#10003; You're on the list. Talk soon.</p>
       <p class="sub-err" id="sub-err">Something went wrong. Please try again.</p>
-      <p class="sub-conn" id="sub-conn">Almost there: the sign-up form goes live shortly. Please try again soon.</p>
     </div>
   </div>
 </section>
@@ -454,6 +481,7 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
         <a href="https://www.onetoeight.org">One to eight</a>
         <a href="/inspiration">Inspiration</a>
         <a href="/ai">How we use AI</a>
+        <a href="/safety">Safety &amp; data</a>
       </div>
     </div>
     <p class="foot-note">buildwithjesus.com. A work in progress, black and white for now. Built with the one to eight guide and the one to eight agent.</p>
@@ -465,15 +493,14 @@ footer{border-top:1px solid var(--line);padding:2.6rem 0 3rem;font-size:14px;col
 (function(){
   var WEBHOOK_URL = "https://cloud.activepieces.com/api/v1/webhooks/tBkbJcEi4Ak48qC5pjDXa";
   var form=document.getElementById('sub-form'),btn=document.getElementById('sub-btn'),
-      ok=document.getElementById('sub-ok'),err=document.getElementById('sub-err'),conn=document.getElementById('sub-conn');
+      ok=document.getElementById('sub-ok'),err=document.getElementById('sub-err');
   form.addEventListener('submit',function(e){
     e.preventDefault();
     var fd=new FormData(form);
     if(fd.get('website')){return false;}
     var email=(fd.get('email')||'').trim();
     if(!email){return false;}
-    err.style.display='none';conn.style.display='none';
-    if(!WEBHOOK_URL){conn.style.display='block';return false;}
+    err.style.display='none';
     btn.disabled=true;btn.textContent='Sending...';
     var payload={name:'',email:email,programme:'',over18:'',message:'',source:'buildwithjesus.com footer subscribe',at:new Date().toISOString()};
     function done(){form.style.display='none';ok.style.display='block';}
