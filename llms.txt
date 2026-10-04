@@ -10,7 +10,6 @@ For Christian young people, and for the churches, religious schools, homeschool 
 - [The leaders guide](https://buildwithjesus.com/leaders): the coach for the adults who run the programme, written for church leaders and homeschool families. $88 (AUD), one purchase for every leader and every group.
 - [Bring the workshop to your church](https://buildwithjesus.com/workshop): Brendan travels to run the workshop in person, at one host church for the churches around it. Register your interest; a Southeast Asia itinerary is planned for early 2027.
 - [Bring it to your group](https://buildwithjesus.com/groups): two ways to run it with your young people: the in-person workshop, or the leaders guide. For churches, religious schools, homeschool families and charities.
-- [Examples](https://buildwithjesus.com/examples): four example builds, one from each corner: personal software, a community charity, a local shop, and a church rota.
 - [How we use AI](https://buildwithjesus.com/ai): our plain statement on AI. A tool that serves people, scripture quoted exactly and named, local-first privacy, machine-made content labelled, and the teaching, prayer, care and judgement that stay human.
 - [Inspiration](https://buildwithjesus.com/inspiration): the Lord's Prayer, quoted exactly from the King James Version and the World English Bible, with a short film on praying it daily.
 - [Safety and data](https://buildwithjesus.com/safety): what stays private, what the site collects, and how the programme runs with leaders in the room.
@@ -18,7 +17,6 @@ For Christian young people, and for the churches, religious schools, homeschool 
 ## Key ideas
 - The daily loop: Read (a short Bible passage and one question; the agent helps teach the passage and can help shape a prayer), Learn (a short lesson from the eight essentials, one skill at a time), Build (a small move on a real project), Give (finished things go to the church or community).
 - Builds include: the welcome card, the rota, the meal train, the study sheet, the event page, the op shop window.
-- Example builds told in full (https://buildwithjesus.com/examples): a personal term planner, a charity meal train, an op shop one page site with a QR code, and a church volunteer rota; each with what the agent did and what changed.
 - For churches, religious schools, homeschool families and charities: a build day, sponsor a builder, and a one page kit.
 - The agent is a complete Hermes Agent profile that runs locally on the young person's machine: a morning minute with audio, an afternoon check-in, planning sessions, and the eight essentials curriculum built in.
 - The agent costs $33.33 (AUD), one payment.

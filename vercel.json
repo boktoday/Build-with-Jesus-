@@ -3,6 +3,8 @@
   "trailingSlash": false,
   "redirects": [
     { "source": "/register", "destination": "/leaders", "permanent": false },
-    { "source": "/register.html", "destination": "/leaders", "permanent": false }
+    { "source": "/register.html", "destination": "/leaders", "permanent": false },
+    { "source": "/examples", "destination": "https://www.onetoeight.guide/en/u/", "permanent": false },
+    { "source": "/examples.html", "destination": "https://www.onetoeight.guide/en/u/", "permanent": false }
   ]
 }
