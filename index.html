@@ -30,7 +30,7 @@
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
-.wrap{max-width:1200px;margin:0 auto;padding:0 1.5rem}
+.wrap{max-width:1320px;margin:0 auto;padding:0 1.5rem}
 h1,h2,h3,.disp{font-family:'Newsreader',Georgia,serif;font-weight:500;line-height:1.12;letter-spacing:-.01em;color:#562C16}
 a{color:inherit}
 /* nav */
@@ -65,7 +65,7 @@ nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);border-bot
 #insp-cta p.cta-sub{color:var(--soft);font-size:14.5px;margin-bottom:1.3rem}
 /* hero */
 .hero{padding:5rem 0 4.5rem;border-bottom:1px solid var(--line);background:#fbf7ee}
-.hero-in{display:grid;grid-template-columns:1.15fr .85fr;gap:3.5rem;align-items:center}
+.hero-in{display:grid;grid-template-columns:.85fr 1.15fr;gap:3.5rem;align-items:center}
 .eyebrow{display:inline-block;font-size:12.5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;border:1.5px solid var(--ink);padding:.45rem .9rem;margin-bottom:1.6rem}
 .eyebrow.verse{letter-spacing:.12em;line-height:1.75}
 h1{font-size:clamp(2.3rem,4.6vw,3.6rem)}
@@ -192,6 +192,9 @@ button.ddb svg{width:9px;height:6px;stroke:currentColor;stroke-width:1.6;fill:no
 .nav-links .tlink:hover{color:var(--ink,#0d0d0d)}
 .menu .mlab{display:block;padding:.75rem 1.4rem .3rem;font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--soft,#8f8f8f)}
 @media(max-width:1000px){.topnav .dd{display:none}.nav-links .dd{display:none}}
+/* youtube embeds */
+.yt{position:relative;width:100%;padding-top:64.7%;border:2px solid #cfcfcf;background:#000}
+.yt iframe{position:absolute;inset:0;width:100%;height:100%;border:0;display:block}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is this an AI that does Bible study for them?", "acceptedAnswer": {"@type": "Answer", "text": "No. It helps teach the passage and keeps the rhythm going, and every question worth asking goes back to your church and its leaders. Teaching stays with people."}}, {"@type": "Question", "name": "Who is it for?", "acceptedAnswer": {"@type": "Answer", "text": "Christian young people who want to build, whether they are still at school or just out of it. The pace is theirs, and everything happens on their own machine."}}, {"@type": "Question", "name": "What does a church need to start?", "acceptedAnswer": {"@type": "Answer", "text": "One real need and a room with wifi. A build day is a Saturday. The rest is the guide and the agent, and we walk you through the first one."}}, {"@type": "Question", "name": "What does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "The agent is $33.33 (AUD), one payment, yours to keep. The guide is free to read, the leaders guide is $33.33 (AUD), one purchase that covers every leader, every group, and as many workshops as you run, and build days are worked out with each church. Sponsored places will exist for families who need them."}}, {"@type": "Question", "name": "What do young people need?", "acceptedAnswer": {"@type": "Answer", "text": "A personal laptop or desktop with admin access (not a school laptop), an OpenRouter account with $20 of credit, and a free Telegram or WhatsApp account on their phone. Setup takes about an hour, and the walkthrough holds their hand through it."}}, {"@type": "Question", "name": "Can they use it from their phone?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, much of the time. Once the agent is set up and working, much of the young person's interaction can happen from their phone, through Telegram or WhatsApp: asking questions, capturing ideas, and iterating quickly on their build from wherever they are. The laptop is the workbench; the phone keeps the thinking moving."}}]}</script>
 <script defer src="https://assets.onedollarstats.com/stonks.js"></script>
@@ -278,10 +281,7 @@ button.ddb svg{width:9px;height:6px;stroke:currentColor;stroke-width:1.6;fill:no
       </div>
       <p class="hero-note">For young people, and for the churches, schools and charities who walk with them.</p>
     </div>
-    <div class="mark-panel"><video controls playsinline preload="metadata" poster="images/hero-poster.jpg" width="1088" height="704" aria-label="A wise man welcomes you to Build with Jesus">
-      <source src="media/bwj-hero.mp4" type="video/mp4">
-      Your browser does not support embedded video. <a href="media/bwj-hero.mp4">Watch the welcome video</a>.
-    </video></div>
+    <div class="mark-panel"><div class="yt"><iframe src="https://www.youtube-nocookie.com/embed/oGQMWq7iq6M" title="A wise man welcomes you to Build with Jesus" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div>
   </div>
 </header>
 
