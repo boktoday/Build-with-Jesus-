@@ -76,6 +76,20 @@ section{padding:4.2rem 0}
 .foot a:hover{color:var(--ink)}
 @media(max-width:560px){.wm{font-size:11.5px}.btn-sm{padding:.5rem .85rem;font-size:12.5px}}
 @media(max-width:400px){.wm{display:none}.btn-sm{padding:.45rem .7rem;font-size:12px}}
+/* nav dropdowns */
+.dd{position:relative;display:inline-block}
+button.ddb{background:none;border:0;font-family:inherit;font-size:14px;font-weight:500;color:var(--mut,#5c5c5c);cursor:pointer;display:inline-flex;align-items:center;gap:.35rem;padding:0}
+button.ddb:hover{color:var(--ink,#0d0d0d)}
+button.ddb svg{width:9px;height:6px;stroke:currentColor;stroke-width:1.6;fill:none}
+.ddm{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);padding-top:.55rem;z-index:80;text-align:left}
+.ddm-in{background:#fff;border:1px solid var(--line,#e3e3e3);box-shadow:0 14px 34px rgba(0,0,0,.08);min-width:200px;padding:.4rem 0}
+.ddm a{display:block;padding:.55rem 1.15rem;font-size:14px;font-weight:500;color:var(--ink,#0d0d0d);text-decoration:none;white-space:nowrap}
+.ddm a:hover{background:var(--grey,#f4f4f4)}
+.dd:hover .ddm,.dd:focus-within .ddm,.dd.open .ddm{display:block}
+.nav-links .tlink{font-size:14px;font-weight:500;text-decoration:none;color:var(--mut,#5c5c5c)}
+.nav-links .tlink:hover{color:var(--ink,#0d0d0d)}
+.menu .mlab{display:block;padding:.75rem 1.4rem .3rem;font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--soft,#8f8f8f)}
+@media(max-width:1000px){.topnav .dd{display:none}.nav-links .dd{display:none}}
 </style>
 <script defer src="https://assets.onedollarstats.com/stonks.js"></script>
 </head>
@@ -108,21 +122,38 @@ section{padding:4.2rem 0}
     <a class="tlink" href="/agent">The agent</a>
     <a class="tlink" href="/leaders">The leaders guide</a>
     <a class="tlink" href="/workshop">The workshop</a>
-    <a class="tlink" href="/examples">Examples</a>
-    <a class="tlink" href="/groups">For groups</a>
-    <a class="tlink" href="/ai">How we use AI</a>
+    <div class="dd">
+      <button class="tlink ddb" type="button" aria-haspopup="true" aria-expanded="false">The programme <svg viewBox="0 0 10 6" aria-hidden="true"><polyline points="1,1 5,5 9,1"/></svg></button>
+      <div class="ddm"><div class="ddm-in">
+        <a href="/#how">How it works</a>
+        <a href="/groups">For groups</a>
+        <a href="/examples">Examples</a>
+        <a href="/#faq">FAQ</a>
+      </div></div>
+    </div>
+    <div class="dd">
+      <button class="tlink ddb" type="button" aria-haspopup="true" aria-expanded="false">About <svg viewBox="0 0 10 6" aria-hidden="true"><polyline points="1,1 5,5 9,1"/></svg></button>
+      <div class="ddm"><div class="ddm-in">
+        <a href="/inspiration">Inspiration</a>
+        <a href="/ai">How we use AI</a>
+        <a href="/safety">Safety &amp; data</a>
+      </div></div>
+    </div>
     <a class="btn btn-line btn-sm" href="/agent">Get the agent</a>
     <button class="menu-btn" id="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="site-menu"><span class="mb-l"></span><span class="mb-l"></span><span class="mb-l"></span></button>
   </div>
   <div class="menu" id="site-menu">
     <a href="/">Home</a>
+    <span class="mlab">The programme</span>
     <a href="/agent">The agent</a>
     <a href="/leaders">The leaders guide</a>
     <a href="/workshop">The workshop</a>
     <a href="/groups">For groups</a>
     <a href="/examples">Examples</a>
+    <span class="mlab">About</span>
     <a href="/inspiration">Inspiration</a>
     <a href="/ai">How we use AI</a>
+    <a href="/safety">Safety &amp; data</a>
   </div>
 </div>
 
@@ -209,6 +240,19 @@ section{padding:4.2rem 0}
   m.addEventListener('click',function(e){if(e.target&&e.target.tagName==='A'){set(false);}});
   document.addEventListener('click',function(e){if(!m.contains(e.target)&&!b.contains(e.target)){set(false);}});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'){set(false);}});
+})();
+
+/* dropdown menus */
+(function(){
+  document.querySelectorAll('.ddb').forEach(function(btn){
+    btn.addEventListener('click',function(e){
+      e.stopPropagation();
+      var dd=btn.parentElement, open=!dd.classList.contains('open');
+      document.querySelectorAll('.dd.open').forEach(function(o){o.classList.remove('open');var b=o.querySelector('.ddb');if(b)b.setAttribute('aria-expanded','false');});
+      if(open){dd.classList.add('open');btn.setAttribute('aria-expanded','true');}
+    });
+  });
+  document.addEventListener('click',function(){document.querySelectorAll('.dd.open').forEach(function(o){o.classList.remove('open');var b=o.querySelector('.ddb');if(b)b.setAttribute('aria-expanded','false');});});
 })();
 </script>
 </body>
