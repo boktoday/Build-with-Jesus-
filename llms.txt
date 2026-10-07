@@ -6,8 +6,8 @@ For Christian young people, and for the churches, religious schools, homeschool 
 
 ## Pages
 - [Home](https://buildwithjesus.com/): the project overview. Learn. Build. Give.
-- [The agent](https://buildwithjesus.com/agent): what it does, what it will not do, and how young people work with it. $33.33 (AUD), one payment.
-- [The leaders guide](https://buildwithjesus.com/leaders): the coach for the adults who run the programme, written for church leaders and homeschool families. $33.33 (AUD), one purchase for every leader and every group.
+- [The agent](https://buildwithjesus.com/agent): what it does, what it will not do, and how young people work with it. $29.99 (AUD), one payment.
+- [The leaders guide](https://buildwithjesus.com/leaders): the coach for the adults who run the programme, written for church leaders and homeschool families. $29.99 (AUD), one purchase for every leader and every group.
 - [Bring the workshop to your church](https://buildwithjesus.com/workshop): In 2027, Brendan O'Keefe plans to travel to run the workshop in person, at one host church for the churches around it. Register your interest; a Southeast Asia itinerary is planned for early 2027.
 - [Bring it to your group](https://buildwithjesus.com/groups): two ways to run it with your young people: the in-person workshop, or the leaders guide. For churches, religious schools, homeschool families and charities.
 - [Examples](https://buildwithjesus.com/examples): the kinds of builds young people do with the agent: websites, small apps and dashboards for their church, their community and themselves, plus real things made by hand from the guide's activities.
@@ -21,9 +21,9 @@ For Christian young people, and for the churches, religious schools, homeschool 
 - Builds include: the welcome card, the rota, the meal train, the study sheet, the event page, the op shop window.
 - For churches, religious schools, homeschool families and charities: a build day, sponsor a builder, and a one page kit.
 - The agent is a complete Hermes Agent profile that runs locally on the young person's machine: a morning minute with audio, an afternoon check-in, planning sessions, and the eight essentials curriculum built in.
-- The agent costs $33.33 (AUD), one payment.
+- The agent costs $29.99 (AUD), one payment.
 - Practical setup for the agent: it is software installed on the young person's own laptop. Needs a personal machine with admin access, a one-time $20 OpenRouter credit, optionally a free small local model, and a free Telegram or WhatsApp account for the morning minute and check-ins. No ongoing subscription.
-- The leaders guide costs $33.33 (AUD), one purchase for every leader and every group, reused every term.
+- The leaders guide costs $29.99 (AUD), one purchase for every leader and every group, reused every term.
 - The agent is an assistant, never an authority. It points back to the local church and its leaders. Quotes are verified against a named translation.
 - The leaders guide is the coach's handbook: it walks church leaders and homeschool families through running the programme with their young people.
 - In person, from 2027: Brendan plans to travel to run the workshop at one host church for the churches around it; around $1,000 a day (AUD) plus travel and expenses, agreed up front. Groups share the day; extra days in the same region are $850.
