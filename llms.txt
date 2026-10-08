@@ -2,7 +2,7 @@
 
 > Build with Jesus pairs the one to eight guide with the Bible and the teachings of Jesus. Young people read, build and serve with an AI agent beside them, and every finished thing goes to their church or their community.
 
-For Christian young people, and for the churches, religious schools, homeschool families and charities who run it with them.
+For Christian young people, for adults walking the same road (solo or with friends), and for the churches, religious schools, homeschool families and charities who run it with them.
 
 ## Pages
 - [Home](https://buildwithjesus.com/): the project overview. Learn. Build. Give.
@@ -22,6 +22,7 @@ For Christian young people, and for the churches, religious schools, homeschool 
 - For churches, religious schools, homeschool families and charities: a build day, sponsor a builder, and a one page kit.
 - The agent is a complete Hermes Agent profile that runs locally on the young person's machine: a morning minute with audio, an afternoon check-in, planning sessions, and the eight essentials curriculum built in.
 - The agent costs $29.99 (AUD), one payment.
+- The same walk is open to adults: solo or with friends, no group or church required.
 - Practical setup for the agent: it is software installed on the young person's own laptop. Needs a personal machine with admin access, a one-time $20 OpenRouter credit, optionally a free small local model, and a free Telegram or WhatsApp account for the morning minute and check-ins. No ongoing subscription.
 - The leaders guide costs $29.99 (AUD), one purchase for every leader and every group, reused every term.
 - The agent is an assistant, never an authority. It points back to the local church and its leaders. Quotes are verified against a named translation.
