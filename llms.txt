@@ -11,7 +11,7 @@ For Christian young people, for adults walking the same road (solo or with frien
 - [Bring the workshop to your church](https://buildwithjesus.com/workshop): In 2027, Brendan O'Keefe plans to travel to run the workshop in person, at one host church for the churches around it. Register your interest; a Southeast Asia itinerary is planned for early 2027.
 - [Bring it to your group](https://buildwithjesus.com/groups): two ways to run it with your young people: the in-person workshop, or the leaders guide. For churches, religious schools, homeschool families and charities.
 - [Examples](https://buildwithjesus.com/examples): the kinds of builds young people do with the agent: websites, small apps and dashboards for their church, their community and themselves, plus real things made by hand from the guide's activities.
-- [How we use AI](https://buildwithjesus.com/ai): our plain statement on AI. A tool that serves people, scripture quoted exactly and named, local-first privacy, machine-made content labelled, and the teaching, prayer, care and judgement that stay human.
+- [How we use AI](https://buildwithjesus.com/ai): our plain statement on AI, including the Ten Commandments for AI Agents. A tool that serves people, scripture quoted exactly and named, local-first privacy, machine-made content labelled, and the teaching, prayer, care and judgement that stay human.
 - [Inspiration](https://buildwithjesus.com/inspiration): the Lord's Prayer and eight key Bible passages, quoted exactly and named (King James Version and World English Bible), with spoken audio for each and a short film on praying daily.
 - [Legal, terms and privacy](https://buildwithjesus.com/legal): who we are (Brendan O'Keefe, trading as AI Orchestrator, ABN 60 118 175 136), terms of purchase with a 30-day refund and Australian Consumer Law guarantees, privacy for the site and the agent, and plain disclaimers.
 - [Safety and data](https://buildwithjesus.com/safety): what stays private, what the site collects, and how the programme runs with leaders in the room.
@@ -23,6 +23,7 @@ For Christian young people, for adults walking the same road (solo or with frien
 - The agent is a complete Hermes Agent profile that runs locally on the young person's machine: a morning minute with audio, an afternoon check-in, planning sessions, and the eight essentials curriculum built in.
 - The agent costs $29.99 (AUD), one payment.
 - The same walk is open to adults: solo or with friends, no group or church required.
+- The Ten Commandments for AI Agents govern the agent: the plain form is on the AI page, and the classical and builder's forms ship in its repository.
 - Practical setup for the agent: it is software installed on the young person's own laptop. Needs a personal machine with admin access, a one-time $20 OpenRouter credit, optionally a free small local model, and a free Telegram or WhatsApp account for the morning minute and check-ins. No ongoing subscription.
 - The leaders guide costs $29.99 (AUD), one purchase for every leader and every group, reused every term.
 - The agent is an assistant, never an authority. It points back to the local church and its leaders. Quotes are verified against a named translation.
