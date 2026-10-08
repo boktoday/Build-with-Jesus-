@@ -1,19 +1,21 @@
 # Site term sheet - Tagalog / Filipino (tl-PH)
 
-Scope: buildwithjesus.com (site copy, not the guide). Pilot: homepage live 8 Oct 2026.
+Scope: buildwithjesus.com (site copy, not the guide). Full site live 8 Oct 2026.
 Base: the guide's Tagalog term sheet (same voice) extended with site terms.
 
 ## Voice
 
 - Address the reader as ka / ikaw / mo; no "po", no "kayo"/"ninyo" in prose.
 - Conversational but written; English loans Filipinos actually use are correct
-  (cellphone terms, screen, feed, app, notifications, set-up, workshop, build).
+  (screen, feed, app, notifications, set-up, workshop, build). Phone = "telepono",
+  matching the shipped pages (the guide glossary's "cellphone" is not used on the site).
 - No em dashes or en dashes; no "tinedyer"/"teenager" ever.
 - Western digits; entities stay entities; brand names stay English.
 
 ## Term locks (site)
 
 - young people -> kabataan (never "tinedyer"/"teenager"); adults -> matatanda
+  (singular "an adult" -> "isang matanda", same word family)
 - youth group -> grupo ng kabataan; church -> simbahan; community -> komunidad;
   charities -> kawanggawa; religious schools -> relihiyosong paaralan;
   homeschool families -> homeschool na pamilya
@@ -45,8 +47,13 @@ local file, with the translation named and Tagalog book names:
 
 - URL: buildwithjesus.com/tl; lang="tl-PH"; og:locale tl_PH; canonical /tl.
 - Hero video is English (no Tagalog video yet).
-- Nav links point at English pages until each page is translated.
+- Nav links stay inside each locale; switcher and hreflang on every page.
 
 ## Status
 
-Homepage live (commit pending). Next: agent page, then leaders/workshop/groups.
+- Full site live in Tagalog: homepage + agent, leaders, workshop, groups, examples,
+  inspiration, ai, safety, legal (8 Oct 2026).
+- Inspiration page: 39 exact tglulb swaps (eight passages, the Ten Commandments, the
+  Lord's Prayer, John 14:15); cites read "&middot; ULB" with Filipino book names. The
+  KJV prayer block stays KJV (it carries its own audio). tglulb has a typo in Exodus
+  20:12 ("manirahanng"), kept exact per the quoting rule; flag upstream at review.

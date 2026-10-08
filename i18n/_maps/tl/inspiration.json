@@ -1,0 +1,32 @@
+{
+  "runs": {
+    "Inspiration: The Lord's Prayer and the Ten Commandments | Build with Jesus": "Inspirasyon: Ang Panalangin ng Panginoon at ang Sampung Utos | Build with Jesus",
+    "The Lord's Prayer": "Ang Panalangin ng Panginoon",
+    "The prayer Jesus taught his friends, and the church has prayed ever since. Read it slowly. It is short on purpose.": "Ang panalangin na itinuro ni Jesus sa kanyang mga kaibigan, at idinadalangin ng simbahan mula noon. Basahin ito nang dahan-dahan. Sadyang maikli ito.",
+    "The Lord&#8217;s Prayer, read aloud &middot; King James Version": "Ang Panalangin ng Panginoon, binasa nang malakas &middot; King James Version",
+    "The same passage, World English Bible": "Ang parehong talata &middot; ULB",
+    "A short watch": "Isang maikling panoorin",
+    "On what happens in a person who returns to a prayer like this, daily.": "Tungkol sa nangyayari sa isang taong bumabalik sa ganitong panalangin araw-araw.",
+    "Eight passages": "Walong sipi",
+    "The eight passages behind the whole programme, quoted exactly from the World English Bible. Open one to read it, or press play to hear it.": "Ang walong sipi na nasa likod ng buong programa, tuwirang sinipi mula sa Unlocked Literal Bible (ULB). Buksan ang isa upang basahin, o pindutin ang play upang marinig ang pagbasang Ingles.",
+    "Follow": "Sumunod",
+    "Taken seriously": "Itinuturing na seryoso",
+    "Skill as a gift": "Kasanayan bilang kaloob",
+    "How the work is done": "Paano ginagawa ang gawain",
+    "What it stands on": "Ang kinatatayuan nito",
+    "One body": "Isang katawan",
+    "Why the work is seen": "Bakit nakikita ang gawain",
+    "The give-away": "Ang pagpamimigay",
+    "His commandments": "Ang kanyang mga utos",
+    "Ten words from the One who made you. They still hold.": "Sampung salita mula sa Isa na gumawa sa iyo. Bisa pa rin ang mga ito.",
+    "The commandments are not a cage. They are a foundation, and everything you build stands or falls on them. God did not hand them down to shrink you. He gave them so you would know, plainly, how a human life actually runs: what to run from, what to hold on to, and who to become. Break them and life cracks in ways you feel long before anyone sees. Keep them and you are standing on ground that has held for three thousand years.": "Hindi kulungan ang mga utos. Pundasyon ang mga ito, at ang lahat ng itinatayo mo ay nakatayo o bumabagsak sa kanila. Hindi ipinagkaloob ng Diyos ang mga utos para paliitin ka. Ibinigay niya ang mga ito para malaman mo nang malinaw kung paano talaga gumagana ang buhay ng tao: kung ano ang tatakasan, kung ano ang kakapitan, at kung sino ang dapat mong maging. Labagin mo ang mga ito at nabibitak ang buhay sa mga paraang nararamdaman mo matagal bago pa ito makita ng iba. Sundin mo ang mga ito at nakatayo ka sa lupang nanatiling matibay nang tatlong libong taon.",
+    "The world will tell you they are chains. Read them for yourself instead. You will find they are walls around everything worth having: your God, your name, your rest, your family, your marriage, your word, your peace.": "Sasabihin ng mundo na mga tanikala ang mga ito. Sa halip, basahin mo mismo ang mga ito. Makikita mo na ang mga ito ay mga pader sa paligid ng lahat ng bagay na dapat mong taglayin: ang Diyos mo, ang pangalan mo, ang pahinga mo, ang pamilya mo, ang pag-aasawa mo, ang salita mo, ang kapayapaan mo.",
+    "You will not keep them perfectly. Nobody does, and the grace of Jesus is bigger than that. But do not make the oldest mistake and treat them as optional. They are not advice from a stranger. They are the instructions for a life that works, from the One who made you.": "Hindi mo matutupad ang mga ito nang perpekto. Walang nakakagawa niyan, at mas malaki pa sa ganoon ang biyaya ni Jesus. Pero huwag mong gawin ang pinakamatandang pagkakamali at ituring ang mga ito na opsyonal. Hindi ito payo mula sa isang estranghero. Ito ang mga tagubilin para sa isang buhay na gumagana, mula sa Isa na gumawa sa iyo."
+  },
+  "attrs": {
+    "The Lord's Prayer, as the church has prayed it for two thousand years, the Ten Commandments, and eight Bible passages behind Build with Jesus, each with spoken audio, plus a short film on praying daily.": "Ang Panalangin ng Panginoon, na idinadalangin ng simbahan sa loob ng dalawang libong taon, ang Sampung Utos, at walong sipi mula sa Bibliya na nasa likod ng Build with Jesus, bawat isa ay may kasamang audio ng pagbasa, kasama pa ang isang maikling pelikula tungkol sa pagdarasal araw-araw.",
+    "Inspiration: The Lord's Prayer | Build with Jesus": "Inspirasyon: Ang Panalangin ng Panginoon | Build with Jesus",
+    "The prayer Jesus taught his friends, the Ten Commandments, and eight passages behind Build with Jesus, each with spoken audio.": "Ang panalangin na itinuro ni Jesus sa kanyang mga kaibigan, ang Sampung Utos, at walong sipi na nasa likod ng Build with Jesus, bawat isa ay may kasamang audio ng pagbasa."
+  },
+  "notes": "Scripture text, citations and verse refs are masked by design (scripture pipeline). Three runs mirror the operator's required tl renderings from _loc_common.py OVERRIDES (ULB wording): 'The same passage, World English Bible', 'The Lord&#8217;s Prayer, read aloud &middot; King James Version', and 'The eight passages behind the whole programme...'. Quoted YouTube video title kept in English per brief."
+}

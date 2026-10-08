@@ -1,6 +1,6 @@
 # Site term sheet - Bahasa Melayu (Malaysia)
 
-Scope: buildwithjesus.com (site copy, not the guide). Pilot: homepage live 8 Oct 2026.
+Scope: buildwithjesus.com (site copy, not the guide). Full site live 8 Oct 2026.
 Base: the guide's Malay term sheet (same voice and watchlist) extended with site terms.
 
 ## Voice
@@ -18,6 +18,9 @@ Base: the guide's Malay term sheet (same voice and watchlist) extended with site
 - youth group -> kumpulan orang muda; churches -> gereja; charities -> badan amal;
   religious schools -> sekolah agama; homeschool families -> keluarga homeschool
 - agent -> agent (loanword, per the guide editions; NOT "ejen"); the agent (nav) -> Agent
+- the Bible -> Alkitab (not "Bible"); translation names in citations (World English
+  Bible, King James Version) stay English; scripture stays English with WEB named until
+  a verified Malay edition can be quoted
 - leaders guide -> panduan pemimpin; workshop -> bengkel; programme -> program
 - the guide -> panduan; The Guide (footer) -> Panduan
 - build (verb) -> bina / membina; build (result, noun) -> binaan; build day -> hari bina
@@ -41,8 +44,11 @@ When a verified Malay edition lands, swap these to quote it exactly and name it.
 
 - URL: buildwithjesus.com/ms; lang="ms-MY"; og:locale ms_MY; canonical /ms.
 - Hero video is English (no Malay video yet).
-- Nav links point at English pages until each page is translated.
+- Nav links stay inside each locale; switcher and hreflang on every page.
 
 ## Status
 
-Homepage live (commit pending). Next: agent page, then leaders/workshop/groups.
+- Full site live in Bahasa Melayu: homepage + agent, leaders, workshop, groups, examples,
+  inspiration, ai, safety, legal (8 Oct 2026).
+- Scripture on the inspiration page stays English with World English Bible named and a
+  Malay note saying why; swap to a verified edition when it lands.
