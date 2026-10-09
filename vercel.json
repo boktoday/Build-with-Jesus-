@@ -12,5 +12,17 @@
       "destination": "/leaders",
       "permanent": false
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "tencommandments.buildwithjesus.com"
+        }
+      ],
+      "destination": "/tencommandments"
+    }
   ]
 }
