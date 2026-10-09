@@ -2,6 +2,11 @@
 <html lang="ko-KR">
 <head>
 <meta charset="utf-8">
+<meta name="color-scheme" content="dark light">
+<script id="theme-head-js">
+(function(){try{var t=localStorage.getItem("bwj-theme");if(t!=="dark"&&t!=="light"){t=(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light";}document.documentElement.setAttribute("data-theme",t);}catch(e){document.documentElement.setAttribute("data-theme","light");}})();
+</script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>Build with Jesus | 교회와 공동체를 위해 진짜 쓸모 있는 것을 만들어요</title>
@@ -42,10 +47,10 @@
 html{scroll-behavior:smooth}
 body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
 .wrap{max-width:1320px;margin:0 auto;padding:0 1.5rem}
-h1,h2,h3,.disp{font-family:'Newsreader',Georgia,serif;font-weight:500;line-height:1.12;letter-spacing:-.01em;color:#562C16}
+h1,h2,h3,.disp{font-family:'Newsreader',Georgia,serif;font-weight:500;line-height:1.12;letter-spacing:-.01em;color:var(--brown)}
 a{color:inherit}
 /* nav */
-nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+nav{position:sticky;top:0;z-index:50;background:var(--headerbg);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
 .nav-in{max-width:1120px;margin:0 auto;padding:.85rem 1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem}
 .brand{display:flex;align-items:center;gap:.7rem;text-decoration:none}
 .brand svg{width:34px;height:34px;display:block}
@@ -60,7 +65,7 @@ nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);border-bot
 .menu-btn .mb-l{display:block;width:16px;height:2px;background:var(--ink)}
 .menu-btn:hover{background:var(--ink)}
 .menu-btn:hover .mb-l{background:#fff}
-.menu{display:none;position:absolute;left:1.5rem;right:1.5rem;top:calc(100% + .4rem);background:#fff;border:1px solid var(--line);box-shadow:0 14px 34px rgba(0,0,0,.08);z-index:60}
+.menu{display:none;position:absolute;left:1.5rem;right:1.5rem;top:calc(100% + .4rem);background:#fff;border:1px solid var(--line);box-shadow:0 14px 34px var(--sh);z-index:60}
 .menu.open{display:block}
 .menu a{display:block;padding:.9rem 1.4rem;font-size:15.5px;font-weight:500;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line)}
 .menu a:last-child{border-bottom:0}
@@ -75,7 +80,7 @@ nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);border-bot
 #insp-cta{text-align:center}
 #insp-cta p.cta-sub{color:var(--soft);font-size:14.5px;margin-bottom:1.3rem}
 /* hero */
-.hero{padding:5rem 0 4.5rem;border-bottom:1px solid var(--line);background:#fbf7ee}
+.hero{padding:5rem 0 4.5rem;border-bottom:1px solid var(--line);background:var(--cream)}
 .hero-in{display:grid;grid-template-columns:.85fr 1.15fr;gap:3.5rem;align-items:center}
 .eyebrow{display:inline-block;font-size:12.5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;border:1.5px solid var(--ink);padding:.45rem .9rem;margin-bottom:1.6rem}
 .eyebrow.verse{letter-spacing:.12em;line-height:1.75}
@@ -195,7 +200,7 @@ button.ddb{background:none;border:0;font-family:inherit;font-size:14px;font-weig
 button.ddb:hover{color:var(--ink,#0d0d0d)}
 button.ddb svg{width:9px;height:6px;stroke:currentColor;stroke-width:1.6;fill:none}
 .ddm{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);padding-top:.55rem;z-index:80;text-align:left}
-.ddm-in{background:#fff;border:1px solid var(--line,#e3e3e3);box-shadow:0 14px 34px rgba(0,0,0,.08);min-width:200px;padding:.4rem 0}
+.ddm-in{background:#fff;border:1px solid var(--line,#e3e3e3);box-shadow:0 14px 34px var(--sh);min-width:200px;padding:.4rem 0}
 .ddm a{display:block;padding:.55rem 1.15rem;font-size:14px;font-weight:500;color:var(--ink,#0d0d0d);text-decoration:none;white-space:nowrap}
 .ddm a:hover{background:var(--grey,#f4f4f4)}
 .dd:hover .ddm,.dd:focus-within .ddm,.dd.open .ddm{display:block}
@@ -210,15 +215,32 @@ button.ddb svg{width:9px;height:6px;stroke:currentColor;stroke-width:1.6;fill:no
 .langsel-btn{font-family:'Inter',system-ui,sans-serif;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);background:transparent;border:1px solid var(--line);padding:7px 11px;cursor:pointer;white-space:nowrap;line-height:1;display:inline-flex;align-items:center}
 .langsel-btn:hover{border-color:var(--ink)}
 .langsel-btn .ls-arrow{margin-left:7px;font-size:10px;line-height:1}
-.langsel-panel{display:none;position:absolute;top:calc(100% + .55rem);right:0;min-width:210px;background:#fff;border:1px solid var(--line);box-shadow:0 14px 34px rgba(0,0,0,.08);z-index:120;padding:5px 0;text-align:left}
+.langsel-panel{display:none;position:absolute;top:calc(100% + .55rem);right:0;min-width:210px;background:#fff;border:1px solid var(--line);box-shadow:0 14px 34px var(--sh);z-index:120;padding:5px 0;text-align:left}
 .langsel-panel.open{display:block}
 .langsel-row{display:block;width:100%;box-sizing:border-box;padding:10px 16px;font-family:'Inter',system-ui,sans-serif;font-size:14px;color:var(--ink);text-decoration:none;border:0;background:none;text-align:left;cursor:pointer;white-space:nowrap}
 .langsel-row:hover{background:var(--grey)}
-.langsel-row.cur{color:#562C16;font-weight:600;cursor:default}
+.langsel-row.cur{color:var(--brown);font-weight:600;cursor:default}
 .langsel-row.soon{color:var(--soft);cursor:default}
 .langsel-row .ls-soon{font-size:10px;letter-spacing:.1em;text-transform:uppercase;margin-left:9px;color:var(--soft)}
 .nav-links .langsel-panel a{display:block}
 @media(max-width:560px){.langsel-btn{padding:6px 9px;font-size:11px}.langsel-panel{min-width:180px}}
+:root{--brown:#562C16;--cream:#fbf7ee;--headerbg:rgba(255,255,255,.94);--sh:rgba(0,0,0,.08)}
+html[data-theme="dark"]{--ink:#f2ede7;--paper:#12100e;--grey:#1a1714;--line:#2e2924;--mut:#b9b2a8;--soft:#837b70;--brown:#c9956b;--cream:#201812;--headerbg:rgba(18,16,14,.94);--sh:rgba(0,0,0,.5)}
+html[data-theme="dark"] .menu,html[data-theme="dark"] .ddm-in,html[data-theme="dark"] .langsel-panel,html[data-theme="dark"] .sub-form input[type=email]{background:#1c1712;border-color:var(--line)}
+html[data-theme="dark"] .sub-btn{background:#f2ede7;color:#12100e;border-color:#f2ede7}
+html[data-theme="dark"] .menu-btn:hover .mb-l{background:#f2ede7}
+html[data-theme="dark"] .dark{background:#0b0a09;color:#f2ede7}
+html[data-theme="dark"] .dark h2,html[data-theme="dark"] .dark h3{color:#f2ede7}
+html[data-theme="dark"] .dark .btn-solid{background:#f2ede7;color:#12100e;border-color:#f2ede7}
+html[data-theme="dark"] .dark .btn-line{color:#f2ede7;border-color:#f2ede7}
+html[data-theme="dark"] .mark-panel{border-color:var(--line)}
+.theme-btn{font-family:'Inter',system-ui,sans-serif;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);background:transparent;border:1px solid var(--line);padding:7px 10px;cursor:pointer;line-height:1;display:inline-flex;align-items:center;margin-right:.55rem}
+.theme-btn:hover{border-color:var(--ink)}
+.theme-btn svg{display:block}
+.theme-btn .i-moon{display:none}
+html[data-theme="dark"] .theme-btn .i-sun{display:none}
+html[data-theme="dark"] .theme-btn .i-moon{display:block}
+@media(max-width:560px){.theme-btn{padding:6px 9px}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "이건 성경 공부를 대신 해 주는 AI인가요?", "acceptedAnswer": {"@type": "Answer", "text": "아니요. 본문을 가르치는 일을 돕고 리듬을 이어 가요. 물어볼 만한 모든 질문은 교회와 그 리더에게로 돌아가고, 가르침은 사람에게 남아요."}}, {"@type": "Question", "name": "누구를 위한 건가요?", "acceptedAnswer": {"@type": "Answer", "text": "만들고 싶은 그리스도인 젊은 세대를 위한 거예요. 아직 학교에 다니든, 이제 막 학교를 나왔든 상관없어요. 같은 길을 걷고 싶은 어른도요, 혼자서도, 친구와 함께여도 좋아요. 속도는 각자의 것이고, 모든 일은 각자의 컴퓨터에서 이뤄져요."}}, {"@type": "Question", "name": "교회가 시작하려면 무엇이 필요한가요?", "acceptedAnswer": {"@type": "Answer", "text": "진짜 필요한 일 하나와 Wi-Fi가 되는 방이면 돼요. 빌드 데이는 토요일에 열려요. 나머지는 가이드와 Agent가 채워 주고, 첫 빌드 데이는 저희가 안내해 드려요."}}, {"@type": "Question", "name": "비용은 얼마인가요?", "acceptedAnswer": {"@type": "Answer", "text": "Agent는 출시 기념 가격으로 $19.99 (AUD)예요. 2026년 12월 1일까지 이 가격이고, 이후에는 $29.99 (AUD)예요. 한 번만 결제하면 계속 쓸 수 있어요. 가이드는 무료로 읽을 수 있고, 리더 가이드는 곧 출시, $69.99 (AUD)예요. 한 번 구매로 모든 리더와 모든 모임, 그리고 몇 번이든 여는 워크숍까지 포함돼요. 빌드 데이는 교회마다 함께 정해요. 필요한 가정을 위한 후원 자리도 마련될 거예요."}}, {"@type": "Question", "name": "젊은 세대에게는 무엇이 필요한가요?", "acceptedAnswer": {"@type": "Answer", "text": "관리자 권한이 있는 개인 노트북이나 데스크톱(학교 노트북은 안 돼요), $20 크레딧이 담긴 OpenRouter 계정, 그리고 휴대폰에 설치한 무료 Telegram 또는 WhatsApp 계정이에요. 준비에는 한 시간쯤 걸리고, 안내가 처음부터 끝까지 차근차근 도와줘요."}}, {"@type": "Question", "name": "휴대폰에서도 쓸 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "네, 대부분 가능해요. Agent가 설정되어 작동하면, 젊은 세대의 상호작용은 상당 부분 휴대폰에서 이뤄질 수 있어요. Telegram이나 WhatsApp으로 질문하고, 아이디어를 기록하고, 어디에 있든 만들기를 빠르게 다듬어요. 노트북은 작업대이고, 휴대폰은 생각을 계속 움직이게 해 줘요."}}]}</script>
 <script defer src="https://assets.onedollarstats.com/stonks.js"></script>
@@ -274,7 +296,7 @@ button.ddb svg{width:9px;height:6px;stroke:currentColor;stroke-width:1.6;fill:no
       </div></div>
     </div>
     
-    <div class="langsel-wrap"><button type="button" class="langsel-btn" aria-haspopup="true" aria-expanded="false">Korean<span class="ls-arrow">&#9662;</span></button><div class="langsel-panel" role="menu"><a class="langsel-row" href="/">English</a><a class="langsel-row" href="/ms">Bahasa Melayu</a><a class="langsel-row" href="/tl">Tagalog</a><a class="langsel-row" href="/id">Indonesian</a><a class="langsel-row" href="/vi">Vietnamese</a><a class="langsel-row" href="/th">Thai</a><a class="langsel-row" href="/es">Spanish</a><a class="langsel-row" href="/zh">Chinese (Simplified)</a><button type="button" class="langsel-row cur" aria-current="true">Korean</button><a class="langsel-row" href="/ja">Japanese</a></div></div><button class="menu-btn" id="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="site-menu"><span class="mb-l"></span><span class="mb-l"></span><span class="mb-l"></span></button>
+    <button type="button" class="theme-btn" aria-label="테마 전환" aria-pressed="false"><svg class="i-sun" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="i-moon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button><div class="langsel-wrap"><button type="button" class="langsel-btn" aria-haspopup="true" aria-expanded="false">Korean<span class="ls-arrow">&#9662;</span></button><div class="langsel-panel" role="menu"><a class="langsel-row" href="/">English</a><a class="langsel-row" href="/ms">Bahasa Melayu</a><a class="langsel-row" href="/tl">Tagalog</a><a class="langsel-row" href="/id">Indonesian</a><a class="langsel-row" href="/vi">Vietnamese</a><a class="langsel-row" href="/th">Thai</a><a class="langsel-row" href="/es">Spanish</a><a class="langsel-row" href="/zh">Chinese (Simplified)</a><button type="button" class="langsel-row cur" aria-current="true">Korean</button><a class="langsel-row" href="/ja">Japanese</a></div></div><button class="menu-btn" id="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="site-menu"><span class="mb-l"></span><span class="mb-l"></span><span class="mb-l"></span></button>
     </div>
   </div>
   <div class="menu" id="site-menu">
@@ -616,6 +638,15 @@ btn.addEventListener("click",function(ev){ev.stopPropagation();var open=panel.cl
 document.addEventListener("click",function(ev){if(!wrap.contains(ev.target)){panel.classList.remove("open");btn.setAttribute("aria-expanded","false");}});
 document.addEventListener("keydown",function(ev){if(ev.key==="Escape"){panel.classList.remove("open");btn.setAttribute("aria-expanded","false");}});
 })();
+</script>
+
+<script id="theme-js">
+(function(){var b=document.querySelector(".theme-btn");if(!b)return;
+function cur(){return document.documentElement.getAttribute("data-theme")==="dark"?"dark":"light";}
+b.setAttribute("aria-pressed",cur()==="dark"?"true":"false");
+b.addEventListener("click",function(){var n=cur()==="dark"?"light":"dark";
+document.documentElement.setAttribute("data-theme",n);try{localStorage.setItem("bwj-theme",n);}catch(e){}
+b.setAttribute("aria-pressed",n==="dark"?"true":"false");});})();
 </script>
 </body>
 </html>
