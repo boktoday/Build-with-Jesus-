@@ -69,10 +69,10 @@ a{color:inherit}
 .topnav a.tlink:hover{color:var(--ink)}
 @media(max-width:1000px){.topnav a.tlink{display:none}.menu-btn{display:flex}}
 .btn{display:inline-block;font-size:15px;font-weight:600;padding:.95rem 1.9rem;text-decoration:none;border-radius:0;border:2px solid var(--ink);transition:background .15s ease,color .15s ease}
-.btn-solid{background:var(--ink);color:#fff}
+.btn-solid{background:var(--ink);color:var(--paper)}
 .btn-solid:hover{background:transparent;color:var(--ink)}
 .btn-line{background:transparent;color:var(--ink)}
-.btn-line:hover{background:var(--ink);color:#fff}
+.btn-line:hover{background:var(--ink);color:var(--paper)}
 .btn-sm{padding:.6rem 1.1rem;font-size:13.5px;border-width:2px}
 .bon{display:none}
 section{padding:4.6rem 0}
@@ -143,7 +143,7 @@ button.ddb svg{width:9px;height:6px;stroke:currentColor;stroke-width:1.6;fill:no
 .nav-links .langsel-panel a{display:block}
 @media(max-width:560px){.langsel-btn{padding:6px 9px;font-size:11px}.langsel-panel{min-width:180px}}
 :root{--brown:#562C16;--cream:#fbf7ee;--headerbg:rgba(255,255,255,.94);--sh:rgba(0,0,0,.08)}
-html[data-theme="dark"]{--ink:#f2ede7;--paper:#12100e;--grey:#1a1714;--line:#2e2924;--mut:#b9b2a8;--soft:#837b70;--brown:#c9956b;--cream:#201812;--headerbg:rgba(18,16,14,.94);--sh:rgba(0,0,0,.5)}
+html[data-theme="dark"]{--ink:#f2ede7;--paper:#12100e;--grey:#1a1714;--line:#2e2924;--mut:#b9b2a8;--soft:#948d83;--brown:#c9956b;--cream:#201812;--headerbg:rgba(18,16,14,.94);--sh:rgba(0,0,0,.5)}
 html[data-theme="dark"] .menu,html[data-theme="dark"] .ddm-in,html[data-theme="dark"] .langsel-panel,html[data-theme="dark"] .sub-form input[type=email]{background:#1c1712;border-color:var(--line)}
 html[data-theme="dark"] .sub-btn{background:#f2ede7;color:#12100e;border-color:#f2ede7}
 html[data-theme="dark"] .menu-btn:hover .mb-l{background:#f2ede7}
@@ -152,6 +152,18 @@ html[data-theme="dark"] .dark h2,html[data-theme="dark"] .dark h3{color:#f2ede7}
 html[data-theme="dark"] .dark .btn-solid{background:#f2ede7;color:#12100e;border-color:#f2ede7}
 html[data-theme="dark"] .dark .btn-line{color:#f2ede7;border-color:#f2ede7}
 html[data-theme="dark"] .mark-panel{border-color:var(--line)}
+html[data-theme="dark"] .ink{background:#0b0a09;color:#f2ede7}
+html[data-theme="dark"] .ink h2,html[data-theme="dark"] .ink h3{color:#f2ede7}
+html[data-theme="dark"] .ink .btn-solid,html[data-theme="dark"] .subscribe .btn-solid{background:#f2ede7;color:#12100e;border-color:#f2ede7}
+html[data-theme="dark"] .ink .btn-solid:hover{background:transparent;color:#f2ede7}
+html[data-theme="dark"] .ink .btn-line{color:#f2ede7;border-color:#f2ede7}
+html[data-theme="dark"] .ink .btn-line:hover{background:#f2ede7;color:#12100e}
+html[data-theme="dark"] .subscribe{background:#0b0a09;color:#f2ede7}
+html[data-theme="dark"] .subscribe h2{color:#f2ede7}
+html[data-theme="dark"] .subscribe .sub-ok{color:#f2ede7}
+html[data-theme="dark"] .st-p{color:var(--ink)}
+html[data-theme="dark"] .plain p{color:var(--ink)}
+html[data-theme="dark"] .field input,html[data-theme="dark"] .field textarea{background:#1c1712;border-color:var(--line);color:var(--ink)}
 .theme-btn{font-family:'Inter',system-ui,sans-serif;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);background:transparent;border:1px solid var(--line);padding:7px 10px;cursor:pointer;line-height:1;display:inline-flex;align-items:center;margin-right:.55rem}
 .theme-btn:hover{border-color:var(--ink)}
 .theme-btn svg{display:block}
