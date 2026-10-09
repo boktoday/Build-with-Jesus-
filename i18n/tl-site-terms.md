@@ -75,3 +75,8 @@ local file, with the translation named and Tagalog book names:
 - When the window closes (1 December 2026), the reverse sweep is: drop "founding" phrasing,
   set every "$19.99 (AUD)" to "$29.99 (AUD)", and remove the machinery keep entry for
   "$19.99 (AUD)" only after no page carries it.
+- **Leaders guide (changed same day):** no longer part of the founding window. It is
+  **coming soon at $69.99 (AUD)** ("paparating na" in tl; pre-launch, drafting not started).
+  The leaders page carries an "Inside the guide" section, six cards: week by week, six build
+  playbooks, the quick start, the printable kit, leading the reading, updates forever
+  (tl heading "Sa loob ng gabay"). "$69.99 (AUD)" is on the machinery keep list.
