@@ -1,0 +1,26 @@
+{
+ "runs": {
+  "Bring it to your group | Build with Jesus": "Bawa ke kelompokmu | Build with Jesus",
+  "For groups and churches": "Untuk kelompok dan gereja",
+  "Bring it to your group.": "Bawa ke kelompokmu.",
+  "Two ways to run Build with Jesus with your young people: Brendan comes to you for a live build day, or you lead it yourself with the leaders guide. Both are made for churches, religious schools, homeschool families and charities.": "Dua cara untuk menjalankan Build with Jesus bersama anak muda di kelompokmu: Brendan datang ke tempatmu untuk hari berkarya secara langsung, atau kamu memimpinnya sendiri dengan panduan pemimpin. Keduanya dibuat untuk gereja, sekolah keagamaan, keluarga homeschool, dan lembaga amal.",
+  "In person": "Tatap muka",
+  "A build day, in your building.": "Hari berkarya, di gedungmu.",
+  "Brendan travels to run the workshop live with your young people: a full day, real builds, everything agreed up front in writing. One host church for the groups around it, sharing the day and the cost. Around $1,000 a day (AUD), plus travel and expenses.": "Brendan berkeliling untuk menyelenggarakan lokakarya secara langsung bersama anak mudamu: sehari penuh, karya nyata, semuanya disepakati sejak awal secara tertulis. Satu gereja tuan rumah untuk kelompok-kelompok di sekitarnya, berbagi hari dan biayanya. Sekitar $1,000 (AUD) per hari, ditambah perjalanan dan pengeluaran.",
+  "The workshop, in detail &#8594;": "Lokakarya, selengkapnya &#8594;",
+  "Lead it yourself": "Pimpin sendiri",
+  "The leaders guide, at your pace.": "Panduan pemimpin, sesuai kecepatanmu sendiri.",
+  "Run the programme yourself, whenever suits your group. The guide walks you through it week by week: what to run, what to watch for, and how to keep it moving when term gets busy. The leaders guide is coming soon at $69.99 (AUD): one purchase for every leader and every group, forever.": "Jalankan programnya sendiri, kapan pun yang cocok untuk kelompokmu. Panduan ini menuntunmu minggu demi minggu: apa yang dijalankan, apa yang perlu diperhatikan, dan cara menjaganya tetap berjalan saat semester mulai sibuk. Panduan pemimpin segera hadir dengan harga $69.99 (AUD): sekali beli untuk setiap pemimpin dan setiap kelompok, selamanya.",
+  "The leaders guide &#8594;": "Panduan pemimpin &#8594;",
+  "Both paths run on the same free one to eight guide and the agent your young people build with. Not sure which fits? Register your interest on the": "Kedua jalur berjalan dengan panduan one to eight gratis yang sama dan agent yang dipakai anak mudamu untuk berkarya. Tidak yakin mana yang cocok? Daftarkan minatmu di",
+  "workshop page": "halaman lokakarya",
+  "and we will help you choose.": "dan kami akan membantumu memilih.",
+  "Register your interest": "Daftarkan minatmu"
+ },
+ "attrs": {
+  "Two ways to run Build with Jesus with your young people: a live build day at your church, or you lead it yourself with the leaders guide. For churches, religious schools, homeschool families and charities.": "Dua cara untuk menjalankan Build with Jesus bersama anak mudamu: hari berkarya secara langsung di gerejamu, atau kamu memimpinnya sendiri dengan panduan pemimpin. Untuk gereja, sekolah keagamaan, keluarga homeschool, dan lembaga amal.",
+  "Bring it to your group | Build with Jesus": "Bawa ke kelompokmu | Build with Jesus",
+  "Two ways to run it: the in-person workshop, or the leaders guide.": "Dua cara untuk menjalankannya: lokakarya tatap muka, atau panduan pemimpin."
+ },
+ "notes": "Groups = kelompok; build day = hari berkarya; workshop = lokakarya; leaders guide = panduan pemimpin; charities = lembaga amal. '$1,000 (AUD) per hari' keeps the amount shape. Lead paragraph keeps a standalone 'anak muda' so the build gate (young people -> anak muda) matches."
+}

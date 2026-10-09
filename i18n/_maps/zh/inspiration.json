@@ -1,0 +1,32 @@
+{
+ "runs": {
+  "Inspiration: The Lord's Prayer and the Ten Commandments | Build with Jesus": "灵感：主祷文与十诫 | Build with Jesus",
+  "The Lord's Prayer": "主祷文",
+  "The prayer Jesus taught his friends, and the church has prayed ever since. Read it slowly. It is short on purpose.": "耶稣教给他朋友们的祷告，教会从那时起一直这样祷告。慢慢读。它的简短是刻意的。",
+  "The Lord&#8217;s Prayer, read aloud &middot; King James Version": "主祷文，朗读 &middot; King James Version",
+  "The same passage, World English Bible": "同一处经文 &middot; 和合本",
+  "A short watch": "一段短片",
+  "On what happens in a person who returns to a prayer like this, daily.": "关于一个人每天回到这样的祷告里，会发生什么。",
+  "Eight passages": "八处经文",
+  "The eight passages behind the whole programme, quoted exactly from the World English Bible. Open one to read it, or press play to hear it.": "整个项目背后的八处经文，逐字引自经过核验的圣经版本（和合本）。打开一处即可阅读，或按播放收听。",
+  "Follow": "跟随",
+  "Taken seriously": "被认真对待",
+  "Skill as a gift": "技能是恩赐",
+  "How the work is done": "工作该怎样做",
+  "What it stands on": "它立在什么之上",
+  "One body": "一个身体",
+  "Why the work is seen": "为什么工作被人看见",
+  "The give-away": "送出去",
+  "His commandments": "他的诫命",
+  "Ten words from the One who made you. They still hold.": "造你的那一位所说的十句话。它们至今依然有效。",
+  "The commandments are not a cage. They are a foundation, and everything you build stands or falls on them. God did not hand them down to shrink you. He gave them so you would know, plainly, how a human life actually runs: what to run from, what to hold on to, and who to become. Break them and life cracks in ways you feel long before anyone sees. Keep them and you are standing on ground that has held for three thousand years.": "诫命不是牢笼。它们是根基，你建造的一切都靠它们立住，或倒塌。上帝把它们传下来，不是为了让你变得渺小。他赐下它们，是要让你明明白白地知道，人的一生究竟是怎样运转的：该远离什么，该抓住什么，该成为怎样的人。违背它们，生活就会出现裂缝，而这些裂缝，你在别人看见之前就早已感觉到。遵守它们，你就站在一片已经稳稳立了三千年的土地上。",
+  "The world will tell you they are chains. Read them for yourself instead. You will find they are walls around everything worth having: your God, your name, your rest, your family, your marriage, your word, your peace.": "世界会告诉你，它们是锁链。不如亲自读一读。你会发现，它们是围墙，护住一切值得拥有的东西：你的上帝、你的名字、你的安息、你的家庭、你的婚姻、你的言语、你的平安。",
+  "You will not keep them perfectly. Nobody does, and the grace of Jesus is bigger than that. But do not make the oldest mistake and treat them as optional. They are not advice from a stranger. They are the instructions for a life that works, from the One who made you.": "你无法完美地守住它们。没有人做得到，而耶稣的恩典比这更大。但不要犯那个最古老的错误，把它们当作可有可无。它们不是陌生人的建议，而是来自造你的那一位，是让生活真正行得通的说明。"
+ },
+ "attrs": {
+  "The Lord's Prayer, as the church has prayed it for two thousand years, the Ten Commandments, and eight Bible passages behind Build with Jesus, each with spoken audio, plus a short film on praying daily.": "主祷文，教会两千年来一直这样祷告；十诫；以及 Build with Jesus 背后的八处圣经经文，每一处都配朗读音频，另有一段关于每日祷告的短片。",
+  "Inspiration: The Lord's Prayer | Build with Jesus": "灵感：主祷文 | Build with Jesus",
+  "The prayer Jesus taught his friends, the Ten Commandments, and eight passages behind Build with Jesus, each with spoken audio.": "耶稣教给朋友的祷告、十诫，以及 Build with Jesus 背后的八处经文，每一处都配朗读音频。"
+ },
+ "notes": "Scripture blocks (Lord's Prayer, eight passages, commandment lines, citation lines) are masked by design and not touched. The three owner-override runs (KJV read-aloud caption, 'The same passage', eight-passages intro) reuse the _loc_common.py zh renderings verbatim. YouTube video title stays English per brief. Passage titles use the site's 年轻人/技能/建造 register."
+}

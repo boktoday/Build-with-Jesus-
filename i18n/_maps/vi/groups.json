@@ -1,0 +1,26 @@
+{
+ "runs": {
+  "Bring it to your group | Build with Jesus": "Mang đến nhóm của bạn | Build with Jesus",
+  "For groups and churches": "Dành cho nhóm và hội thánh",
+  "Bring it to your group.": "Mang đến nhóm của bạn.",
+  "Two ways to run Build with Jesus with your young people: Brendan comes to you for a live build day, or you lead it yourself with the leaders guide. Both are made for churches, religious schools, homeschool families and charities.": "Hai cách để tổ chức Build with Jesus với người trẻ của bạn: Brendan đến tận nơi để làm một ngày dựng trực tiếp, hoặc bạn tự dẫn dắt với cẩm nang lãnh đạo. Cả hai đều được thiết kế cho hội thánh, trường tôn giáo, gia đình homeschool và tổ chức từ thiện.",
+  "In person": "Trực tiếp",
+  "A build day, in your building.": "Một ngày dựng, ngay tại tòa nhà của bạn.",
+  "Brendan travels to run the workshop live with your young people: a full day, real builds, everything agreed up front in writing. One host church for the groups around it, sharing the day and the cost. Around $1,000 a day (AUD), plus travel and expenses.": "Brendan đi đến tận nơi để tổ chức workshop trực tiếp cùng người trẻ của bạn: một ngày trọn vẹn, những sản phẩm thật, mọi thứ được thống nhất trước bằng văn bản. Một hội thánh đăng cai cho các nhóm xung quanh, cùng chia sẻ ngày dựng và chi phí. Khoảng $1,000 (AUD) mỗi ngày, cộng thêm chi phí đi lại và phát sinh.",
+  "The workshop, in detail &#8594;": "Chi tiết về workshop &#8594;",
+  "Lead it yourself": "Tự bạn dẫn dắt",
+  "The leaders guide, at your pace.": "Cẩm nang lãnh đạo, theo nhịp riêng của bạn.",
+  "Run the programme yourself, whenever suits your group. The guide walks you through it week by week: what to run, what to watch for, and how to keep it moving when term gets busy. The leaders guide is coming soon at $69.99 (AUD): one purchase for every leader and every group, forever.": "Tự bạn tổ chức chương trình, bất cứ khi nào thuận tiện cho nhóm của bạn. Cẩm nang hướng dẫn bạn từng tuần một: cần tổ chức những gì, để ý điều gì, và cách giữ mọi thứ tiếp diễn khi học kỳ bận rộn. Cẩm nang lãnh đạo Sắp ra mắt với giá $69.99 (AUD): mua một lần là đủ cho mọi lãnh đạo và mọi nhóm, mãi mãi.",
+  "The leaders guide &#8594;": "Cẩm nang lãnh đạo &#8594;",
+  "Both paths run on the same free one to eight guide and the agent your young people build with. Not sure which fits? Register your interest on the": "Cả hai hướng đi đều dùng cùng một cẩm nang one to eight miễn phí và agent mà người trẻ của bạn dùng để xây dựng. Chưa rõ hướng nào phù hợp? Đăng ký quan tâm tại",
+  "workshop page": "trang workshop",
+  "and we will help you choose.": "và chúng tôi sẽ giúp bạn chọn.",
+  "Register your interest": "Đăng ký quan tâm"
+ },
+ "attrs": {
+  "Two ways to run Build with Jesus with your young people: a live build day at your church, or you lead it yourself with the leaders guide. For churches, religious schools, homeschool families and charities.": "Hai cách để tổ chức Build with Jesus với người trẻ của bạn: một ngày dựng trực tiếp tại hội thánh của bạn, hoặc bạn tự dẫn dắt với cẩm nang lãnh đạo. Dành cho hội thánh, trường tôn giáo, gia đình homeschool và tổ chức từ thiện.",
+  "Bring it to your group | Build with Jesus": "Mang đến nhóm của bạn | Build with Jesus",
+  "Two ways to run it: the in-person workshop, or the leaders guide.": "Hai cách để tổ chức: workshop trực tiếp, hoặc cẩm nang lãnh đạo."
+ },
+ "notes": "groups = nhóm; build day = ngày dựng; workshop = workshop (loan); leaders guide = cẩm nang lãnh đạo; programme = chương trình; term = học kỳ; coming soon = Sắp ra mắt (mirrors the shared FAQ phrasing). 'Register your interest' = Đăng ký quan tâm, kept consistent across the split sentence (runs end/start so '...Đăng ký quan tâm tại' + 'trang workshop' + 'và chúng tôi sẽ giúp bạn chọn.' reads as one flow). $1,000 (AUD) and $69.99 (AUD) kept verbatim. No scripture blocks on this page."
+}

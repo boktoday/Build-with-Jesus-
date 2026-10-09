@@ -1,0 +1,32 @@
+{
+ "runs": {
+  "Inspiration: The Lord's Prayer and the Ten Commandments | Build with Jesus": "インスピレーション：主の祈りと十の戒め | Build with Jesus",
+  "The Lord's Prayer": "主の祈り",
+  "The prayer Jesus taught his friends, and the church has prayed ever since. Read it slowly. It is short on purpose.": "イエスが友達に教え、教会がそれ以来ずっと祈ってきた祈りです。ゆっくり読んでみてください。短いのは、わざとです。",
+  "The Lord&#8217;s Prayer, read aloud &middot; King James Version": "主の祈り、朗読 &middot; King James Version",
+  "The same passage, World English Bible": "同じ箇所 &middot; World English Bible",
+  "A short watch": "短い動画",
+  "On what happens in a person who returns to a prayer like this, daily.": "このような祈りに毎日立ち返る人の内側で、何が起きるのか。",
+  "Eight passages": "8つの聖書箇所",
+  "The eight passages behind the whole programme, quoted exactly from the World English Bible. Open one to read it, or press play to hear it.": "このプログラム全体を支える8つの箇所です。 World English Bible からそのまま引用しています（検証済みの日本語版がまだないため、本文は英語のまま、WEB の名前を添えています）。一つを開いて読むか、再生を押して聴けます。",
+  "Follow": "従う",
+  "Taken seriously": "真剣に受け止められる",
+  "Skill as a gift": "技能は贈り物",
+  "How the work is done": "仕事の進め方",
+  "What it stands on": "何の上に立っているか",
+  "One body": "一つのからだ",
+  "Why the work is seen": "なぜ仕事は人に見られるのか",
+  "The give-away": "手放して分かち合うこと",
+  "His commandments": "主の戒め",
+  "Ten words from the One who made you. They still hold.": "つくってくださった方からの十の言葉。それは今も生きています。",
+  "The commandments are not a cage. They are a foundation, and everything you build stands or falls on them. God did not hand them down to shrink you. He gave them so you would know, plainly, how a human life actually runs: what to run from, what to hold on to, and who to become. Break them and life cracks in ways you feel long before anyone sees. Keep them and you are standing on ground that has held for three thousand years.": "戒めは檻ではありません。戒めは土台です。つくるものはすべて、その上で立つか倒れるかが決まります。神が戒めを授けたのは、人を小さくするためではありません。人の人生が実際にどう動いているのか、何から離れるべきか、何を守るべきか、どんな人になるべきかを、はっきり知るために与えてくださったのです。戒めを破れば、人生にひびが入ります。そのひびは、誰かの目に触れるずっと前から、自分で感じているものです。戒めを守れば、三千年のあいだ持ちこたえてきた地面の上に立てます。",
+  "The world will tell you they are chains. Read them for yourself instead. You will find they are walls around everything worth having: your God, your name, your rest, your family, your marriage, your word, your peace.": "世の中は、戒めは鎖だと言います。でも、自分の目で読んでみてください。きっと、戒めが本当に大切なものすべてを囲む壁だとわかります。神、名前、安息、家族、結婚、言葉、平安。",
+  "You will not keep them perfectly. Nobody does, and the grace of Jesus is bigger than that. But do not make the oldest mistake and treat them as optional. They are not advice from a stranger. They are the instructions for a life that works, from the One who made you.": "戒めを完璧に守れる人はいません。誰にもできません。それでも、イエスの恵みは、それよりもずっと大きいのです。ただ、いちばん古い間違いを犯さないでください。戒めを、あってもなくてもいいものとして扱うことです。戒めは、見知らぬ人の助言ではありません。つくってくださった方から届いた、人生がうまくいくための説明書です。"
+ },
+ "attrs": {
+  "The Lord's Prayer, as the church has prayed it for two thousand years, the Ten Commandments, and eight Bible passages behind Build with Jesus, each with spoken audio, plus a short film on praying daily.": "二千年にわたって教会が祈ってきた主の祈り、十の戒め、そして Build with Jesus を支える8つの聖書箇所。それぞれに朗読音声つき、毎日の祈りについての短い映像もあります。",
+  "Inspiration: The Lord's Prayer | Build with Jesus": "インスピレーション：主の祈り | Build with Jesus",
+  "The prayer Jesus taught his friends, the Ten Commandments, and eight passages behind Build with Jesus, each with spoken audio.": "イエスが友達に教えた祈り、十の戒め、そして Build with Jesus を支える8つの聖書箇所。それぞれに朗読音声つき。"
+ },
+ "notes": "Scripture blocks (the Lord's Prayer text, the eight passage texts, the ten commandment lines and all citation lines) are masked by design and untouched; the ja edition keeps English scripture with the WEB named, per the ja term sheet. The three owner-OVERRIDE runs (KJV read-aloud caption, 'The same passage', eight-passages intro) reuse the _loc_common.py ja renderings verbatim. Register: soft desu/masu; second-person pronouns dropped per the ja banned list. 'the Ten Commandments' rendered 十の戒め, matching the ja ai-page override; 'Eight passages' heading = 8つの聖書箇所. The quoted YouTube title stays English per PAGE_KEEP_RUNS."
+}

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<title>建造示例 | Build with Jesus</title>
+<meta name="description" content="年轻人借助 Agent 建造的各种东西：为他们的教会、社群和自己做的网站、小应用和交互式仪表板，还有亲手做出的实物。我们才刚刚起步，这就是未来的样子。">
+<link rel="canonical" href="https://buildwithjesus.com/zh/examples">
+<link rel="alternate" hreflang="en" href="https://buildwithjesus.com/examples">
+<link rel="alternate" hreflang="ms" href="https://buildwithjesus.com/ms/examples">
+<link rel="alternate" hreflang="tl" href="https://buildwithjesus.com/tl/examples">
+<link rel="alternate" hreflang="id" href="https://buildwithjesus.com/id/examples">
+<link rel="alternate" hreflang="vi" href="https://buildwithjesus.com/vi/examples">
+<link rel="alternate" hreflang="th" href="https://buildwithjesus.com/th/examples">
+<link rel="alternate" hreflang="es" href="https://buildwithjesus.com/es/examples">
+<link rel="alternate" hreflang="zh" href="https://buildwithjesus.com/zh/examples">
+<link rel="alternate" hreflang="ko" href="https://buildwithjesus.com/ko/examples">
+<link rel="alternate" hreflang="ja" href="https://buildwithjesus.com/ja/examples">
+<link rel="alternate" hreflang="x-default" href="https://buildwithjesus.com/examples">
+<meta property="og:title" content="建造示例 | Build with Jesus">
+<meta property="og:description" content="年轻人借助 Agent 完成的各类建造：为他们的教会、社群和自己做的网站、小应用和仪表板，还有亲手做出的实物。">
+<meta property="og:url" content="https://buildwithjesus.com/zh/examples">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Build with Jesus">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="建造示例 | Build with Jesus">
+<meta name="twitter:description" content="年轻人借助 Agent 完成的各类建造：为他们的教会、社群和自己做的网站、小应用和仪表板，还有亲手做出的实物。">
+<meta name="twitter:image" content="https://buildwithjesus.com/og-card.jpg">
+<meta property="og:image" content="https://buildwithjesus.com/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0d0d0d;--paper:#ffffff;--grey:#f4f4f4;--line:#e3e3e3;--mut:#5c5c5c;--soft:#8f8f8f}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Newsreader',Georgia,serif;font-weight:500;line-height:1.12;letter-spacing:-.01em;color:#562C16}
+a{color:inherit}
+.wrap{max-width:1320px;margin:0 auto;padding:0 1.5rem}
+.top{max-width:1320px;margin:0 auto;padding:1.4rem 1.5rem 0;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none}
+.brand svg{width:32px;height:32px}
+.wm{font-family:'Newsreader',Georgia,serif;font-weight:500;letter-spacing:.1em;font-size:14.5px;white-space:nowrap}
+.wm .th{font-weight:400}
+.topnav{display:flex;align-items:center;gap:1.4rem}
+.topnav .home{font-size:14px;font-weight:500;text-decoration:none;color:var(--mut)}
+.topnav .home:hover{color:var(--ink)}
+.top{position:relative}
+.menu-btn{display:none;background:transparent;border:2px solid var(--ink);width:42px;height:38px;padding:0;cursor:pointer;flex:0 0 auto;align-items:center;justify-content:center;flex-direction:column;gap:4px}
+.menu-btn .mb-l{display:block;width:16px;height:2px;background:var(--ink)}
+.menu-btn:hover{background:var(--ink)}
+.menu-btn:hover .mb-l{background:#fff}
+.menu{display:none;position:absolute;left:1.5rem;right:1.5rem;top:calc(100% + .4rem);background:#fff;border:1px solid var(--line);box-shadow:0 14px 34px rgba(0,0,0,.08);z-index:60}
+.menu.open{display:block}
+.menu a{display:block;padding:.9rem 1.4rem;font-size:15.5px;font-weight:500;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line)}
+.menu a:last-child{border-bottom:0}
+.menu a:hover{background:var(--grey)}
+.topnav a.tlink{font-size:14px;font-weight:500;text-decoration:none;color:var(--mut)}
+.topnav a.tlink:hover{color:var(--ink)}
+@media(max-width:1000px){.topnav a.tlink{display:none}.menu-btn{display:flex}}
+.btn{display:inline-block;font-size:15px;font-weight:600;padding:.95rem 1.9rem;text-decoration:none;border-radius:0;border:2px solid var(--ink);transition:background .15s ease,color .15s ease}
+.btn-solid{background:var(--ink);color:#fff}
+.btn-solid:hover{background:transparent;color:var(--ink)}
+.btn-line{background:transparent;color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:#fff}
+.btn-sm{padding:.6rem 1.1rem;font-size:13.5px;border-width:2px}
+section{padding:4.6rem 0}
+.hero{padding:3.6rem 0 4rem}
+.hero-in{display:grid;grid-template-columns:1.25fr .75fr;gap:3rem;align-items:center}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:var(--mut)}
+.hero h1{font-size:clamp(2.1rem,4.4vw,3.15rem);margin:1.1rem 0 1.2rem}
+.lead{font-size:18px;color:var(--mut);max-width:34em}
+.btns{display:flex;gap:.9rem;flex-wrap:wrap;margin-top:1.9rem}
+.mark-panel{background:var(--grey);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;padding:2.6rem;min-width:0}
+.mark-panel svg{max-width:100%;min-width:0}
+.ink{background:var(--ink);color:#fff}
+.ink h2,.ink h3{color:#fff}
+.ink .sec-head p{color:#b3b3b3}
+.ink .btn-solid{background:#fff;color:var(--ink);border-color:#fff}
+.ink .btn-solid:hover{background:transparent;color:#fff}
+.ink .btn-line{color:#fff;border-color:#fff}
+.ink .btn-line:hover{background:#fff;color:var(--ink)}
+.sec-head{max-width:46em;margin-bottom:2.4rem}
+.sec-head h2{font-size:clamp(1.7rem,3.2vw,2.35rem);margin-bottom:.8rem}
+.sec-head p{color:var(--mut)}
+.cta-row{display:flex;gap:.9rem;flex-wrap:wrap;margin-top:1.6rem}
+.tag{display:inline-block;font-size:11.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--soft);border:1.5px solid var(--line);padding:.35rem .75rem;margin-bottom:1.1rem}
+.ex-h2{font-size:clamp(1.5rem,3vw,2rem);max-width:30em;margin-bottom:1.6rem}
+.ex-sketch{display:block;width:100%;height:auto;border:1px solid var(--line);margin-bottom:2rem}
+.ex{display:grid;grid-template-columns:1.1fr .9fr;gap:2.4rem;align-items:start}
+.ex-story p{color:var(--mut);margin-bottom:1rem}
+.ex-story p:last-child{margin-bottom:0}
+.ex-facts{border:1px solid var(--line);padding:1.6rem 1.8rem}
+.ex-facts p{font-size:15px;color:var(--mut);margin-bottom:.9rem}
+.ex-facts p:last-child{margin-bottom:0}
+.ex-facts strong{color:var(--ink)}
+.foot{max-width:1320px;margin:0 auto;padding:2.2rem 1.5rem 3rem;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;font-size:13.5px;color:var(--mut)}
+.foot a{text-decoration:none;color:var(--mut)}
+.foot a:hover{color:var(--ink)}
+@media(max-width:900px){.hero-in{grid-template-columns:1fr}.mark-panel{order:-1}.ex{grid-template-columns:1fr}}
+@media(max-width:560px){.topnav .home{display:none}.wm{font-size:11.5px}.btn-sm{padding:.5rem .85rem;font-size:12.5px}.mark-panel{padding:2rem 1.2rem}.ex-facts{padding:1.3rem 1.4rem}}
+@media(max-width:400px){.wm{display:none}.btn-sm{padding:.45rem .7rem;font-size:12px}}
+.bcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.1rem}
+.bcard{border:1px solid var(--line);padding:1.4rem 1.5rem}
+.bcard h3{font-size:1.16rem;margin-bottom:.5rem}
+.bcard p{font-size:15px;color:var(--mut)}
+.sec-img{display:block;width:100%;height:auto;border:1px solid var(--line);margin-top:2rem}
+/* nav dropdowns */
+.dd{position:relative;display:inline-block}
+button.ddb{background:none;border:0;font-family:inherit;font-size:14px;font-weight:500;color:var(--mut,#5c5c5c);cursor:pointer;display:inline-flex;align-items:center;gap:.35rem;padding:0}
+button.ddb:hover{color:var(--ink,#0d0d0d)}
+button.ddb svg{width:9px;height:6px;stroke:currentColor;stroke-width:1.6;fill:none}
+.ddm{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);padding-top:.55rem;z-index:80;text-align:left}
+.ddm-in{background:#fff;border:1px solid var(--line,#e3e3e3);box-shadow:0 14px 34px rgba(0,0,0,.08);min-width:200px;padding:.4rem 0}
+.ddm a{display:block;padding:.55rem 1.15rem;font-size:14px;font-weight:500;color:var(--ink,#0d0d0d);text-decoration:none;white-space:nowrap}
+.ddm a:hover{background:var(--grey,#f4f4f4)}
+.dd:hover .ddm,.dd:focus-within .ddm,.dd.open .ddm{display:block}
+.nav-links .tlink{font-size:14px;font-weight:500;text-decoration:none;color:var(--mut,#5c5c5c)}
+.nav-links .tlink:hover{color:var(--ink,#0d0d0d)}
+.menu .mlab{display:block;padding:.75rem 1.4rem .3rem;font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--soft,#8f8f8f)}
+@media(max-width:1000px){.topnav .dd{display:none}.nav-links .dd{display:none}}
+.langsel-wrap{position:relative;display:inline-flex;align-items:center}
+.langsel-btn{font-family:'Inter',system-ui,sans-serif;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);background:transparent;border:1px solid var(--line);padding:7px 11px;cursor:pointer;white-space:nowrap;line-height:1;display:inline-flex;align-items:center}
+.langsel-btn:hover{border-color:var(--ink)}
+.langsel-btn .ls-arrow{margin-left:7px;font-size:10px;line-height:1}
+.langsel-panel{display:none;position:absolute;top:calc(100% + .55rem);right:0;min-width:210px;background:#fff;border:1px solid var(--line);box-shadow:0 14px 34px rgba(0,0,0,.08);z-index:120;padding:5px 0;text-align:left}
+.langsel-panel.open{display:block}
+.langsel-row{display:block;width:100%;box-sizing:border-box;padding:10px 16px;font-family:'Inter',system-ui,sans-serif;font-size:14px;color:var(--ink);text-decoration:none;border:0;background:none;text-align:left;cursor:pointer;white-space:nowrap}
+.langsel-row:hover{background:var(--grey)}
+.langsel-row.cur{color:#562C16;font-weight:600;cursor:default}
+.langsel-row.soon{color:var(--soft);cursor:default}
+.langsel-row .ls-soon{font-size:10px;letter-spacing:.1em;text-transform:uppercase;margin-left:9px;color:var(--soft)}
+.nav-links .langsel-panel a{display:block}
+@media(max-width:560px){.langsel-btn{padding:6px 9px;font-size:11px}.langsel-panel{min-width:180px}}
+</style>
+<script defer src="https://assets.onedollarstats.com/stonks.js"></script>
+</head>
+<body>
+
+<div class="top">
+  <a class="brand" href="/zh"><svg class="mk" viewBox="0 0 160 160" style="width:32px;height:auto;display:block" role="img" aria-label="一部屏幕上带着硅芯片的手机，木板上放着一把锤子和一枚钉子">
+  <rect x="14" y="118" width="132" height="22" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="30" y1="129" x2="58" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="96" y1="129" x2="130" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="36" y1="88" x2="36" y2="117" stroke="currentColor" stroke-width="4"/>
+  <line x1="29" y1="88" x2="43" y2="88" stroke="currentColor" stroke-width="6"/>
+  <g transform="translate(112,117) rotate(22)">
+    <line x1="0" y1="1" x2="0" y2="-56" stroke="currentColor" stroke-width="8"/>
+    <rect x="-17" y="-73" width="34" height="15" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  </g>
+  <rect x="54" y="18" width="52" height="100" rx="7" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="69" y1="30" x2="91" y2="30" stroke="currentColor" stroke-width="4"/>
+  <line x1="74" y1="108" x2="86" y2="108" stroke="currentColor" stroke-width="4"/>
+  <rect x="67" y="53" width="26" height="26" rx="2" fill="none" stroke="currentColor" stroke-width="4"/>
+  <g stroke="currentColor" stroke-width="4">
+    <line x1="74" y1="47" x2="74" y2="53"/><line x1="80" y1="47" x2="80" y2="53"/><line x1="86" y1="47" x2="86" y2="53"/>
+    <line x1="74" y1="79" x2="74" y2="85"/><line x1="80" y1="79" x2="80" y2="85"/><line x1="86" y1="79" x2="86" y2="85"/>
+    <line x1="61" y1="60" x2="67" y2="60"/><line x1="61" y1="66" x2="67" y2="66"/><line x1="61" y1="72" x2="67" y2="72"/>
+    <line x1="93" y1="60" x2="99" y2="60"/><line x1="93" y1="66" x2="99" y2="66"/><line x1="93" y1="72" x2="99" y2="72"/>
+  </g>
+</svg>
+    <span class="wm">BUILD <span class="th">WITH</span> JESUS</span></a>
+  <div class="topnav">
+    <a class="tlink" href="/zh/agent">Agent</a>
+    <a class="tlink" href="/zh/leaders">带领者指南</a>
+    <a class="tlink" href="/zh/workshop">工作坊</a>
+    <div class="dd">
+      <button class="tlink ddb" type="button" aria-haspopup="true" aria-expanded="false">项目 <svg viewBox="0 0 10 6" aria-hidden="true"><polyline points="1,1 5,5 9,1"/></svg></button>
+      <div class="ddm"><div class="ddm-in">
+        <a href="/zh#how">如何运作</a>
+        <a href="/zh/groups">面向团体</a>
+        <a href="/zh/examples">示例</a>
+        <a href="/zh#faq">常见问题</a>
+      </div></div>
+    </div>
+    <div class="dd">
+      <button class="tlink ddb" type="button" aria-haspopup="true" aria-expanded="false">关于 <svg viewBox="0 0 10 6" aria-hidden="true"><polyline points="1,1 5,5 9,1"/></svg></button>
+      <div class="ddm"><div class="ddm-in">
+        <a href="/zh/inspiration">灵感</a>
+        <a href="/zh/ai">我们如何使用 AI</a>
+        <a href="/zh/safety">安全 &amp; 数据</a>
+        <a href="/zh/legal">法律 &amp; 隐私</a>
+      </div></div>
+    </div>
+    
+    <div class="langsel-wrap"><button type="button" class="langsel-btn" aria-haspopup="true" aria-expanded="false">Chinese (Simplified)<span class="ls-arrow">&#9662;</span></button><div class="langsel-panel" role="menu"><a class="langsel-row" href="/examples">English</a><a class="langsel-row" href="/ms/examples">Bahasa Melayu</a><a class="langsel-row" href="/tl/examples">Tagalog</a><a class="langsel-row" href="/id/examples">Indonesian</a><a class="langsel-row" href="/vi/examples">Vietnamese</a><a class="langsel-row" href="/th/examples">Thai</a><a class="langsel-row" href="/es/examples">Spanish</a><button type="button" class="langsel-row cur" aria-current="true">Chinese (Simplified)</button><a class="langsel-row" href="/ko/examples">Korean</a><a class="langsel-row" href="/ja/examples">Japanese</a></div></div><button class="menu-btn" id="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="site-menu"><span class="mb-l"></span><span class="mb-l"></span><span class="mb-l"></span></button>
+  </div>
+  <div class="menu" id="site-menu">
+    <a href="/zh">首页</a>
+    <span class="mlab">项目</span>
+    <a href="/zh/agent">Agent</a>
+    <a href="/zh/leaders">带领者指南</a>
+    <a href="/zh/workshop">工作坊</a>
+    <a href="/zh/groups">面向团体</a>
+    <a href="/zh/examples">示例</a>
+    <span class="mlab">关于</span>
+    <a href="/zh/inspiration">灵感</a>
+    <a href="/zh/ai">我们如何使用 AI</a>
+    <a href="/zh/safety">安全 &amp; 数据</a>
+    <a href="/zh/legal">法律 &amp; 隐私</a>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="wrap hero-in">
+    <div>
+      <span class="eyebrow">示例</span>
+      <h1>年轻人建造什么</h1>
+      <p class="lead">我们才刚刚起步，所以请把这一页当作未来的预览，而不是已完成作品的展览。下面这些建造，是年轻人借助 Agent 做出来的东西：为他们的教会、社群和自己做的网站、小应用和交互式仪表板，还有亲手做出的实物。大多数项目把两者结合起来。</p>
+      <div class="btns">
+        <a class="btn btn-solid" href="/zh/agent">获取 Agent</a>
+        <a class="btn btn-line" href="https://www.onetoeight.guide/zh/u/" target="_blank" rel="noopener">面向年轻人的免费指南</a>
+      </div>
+    </div>
+    <div class="mark-panel"><svg class="mk" viewBox="0 0 160 160" style="width:300px;max-width:100%;height:auto;display:block" role="img" aria-label="一部屏幕上带着硅芯片的手机，木板上放着一把锤子和一枚钉子">
+  <rect x="14" y="118" width="132" height="22" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="30" y1="129" x2="58" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="96" y1="129" x2="130" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="36" y1="88" x2="36" y2="117" stroke="currentColor" stroke-width="4"/>
+  <line x1="29" y1="88" x2="43" y2="88" stroke="currentColor" stroke-width="6"/>
+  <g transform="translate(112,117) rotate(22)">
+    <line x1="0" y1="1" x2="0" y2="-56" stroke="currentColor" stroke-width="8"/>
+    <rect x="-17" y="-73" width="34" height="15" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  </g>
+  <rect x="54" y="18" width="52" height="100" rx="7" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="69" y1="30" x2="91" y2="30" stroke="currentColor" stroke-width="4"/>
+  <line x1="74" y1="108" x2="86" y2="108" stroke="currentColor" stroke-width="4"/>
+  <rect x="67" y="53" width="26" height="26" rx="2" fill="none" stroke="currentColor" stroke-width="4"/>
+  <g stroke="currentColor" stroke-width="4">
+    <line x1="74" y1="47" x2="74" y2="53"/><line x1="80" y1="47" x2="80" y2="53"/><line x1="86" y1="47" x2="86" y2="53"/>
+    <line x1="74" y1="79" x2="74" y2="85"/><line x1="80" y1="79" x2="80" y2="85"/><line x1="86" y1="79" x2="86" y2="85"/>
+    <line x1="61" y1="60" x2="67" y2="60"/><line x1="61" y1="66" x2="67" y2="66"/><line x1="61" y1="72" x2="67" y2="72"/>
+    <line x1="93" y1="60" x2="99" y2="60"/><line x1="93" y1="66" x2="99" y2="66"/><line x1="93" y1="72" x2="99" y2="72"/>
+  </g>
+</svg></div>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>为你的教会。</h2>
+      <p>一个真实的需要，在明处发现，做得足够小，才能完成。</p>
+    </div>
+    <div class="bcards">
+      <div class="bcard"><h3>学习单</h3><p>上周日的讲道变成青年团契的五个讨论问题。Agent 帮忙，做决定的是年轻人。</p></div>
+      <div class="bcard"><h3>轮值表</h3><p>接待团队、场地布置和儿童事工的志愿者排班。一个链接，不用账号，不用装应用。</p></div>
+      <div class="bcard"><h3>欢迎卡</h3><p>一页网站，有聚会时间、到访须知和一张地图。教会的前门，就该认真建造。</p></div>
+      <div class="bcard"><h3>活动页面</h3><p>颂歌之夜、社群烧烤、游园会。一个邀请页面，外加一个可以印在通告单上的二维码。</p></div>
+    </div>
+    <img class="sec-img" src="/images/sketch-rota.jpg" alt="三幅用网站配色画的铅笔素描：教会公告栏上一张揉皱的纸质轮值表；青年团契和一个小机器人助手一起制作轮值表；最后是周日早晨，教会门口一台已经填好的平板电脑。">
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>为社群。</h2>
+      <p>邻里会注意到的建造：安静、实用，走出群聊。</p>
+    </div>
+    <div class="bcards">
+      <div class="bcard"><h3>送餐接力</h3><p>为正在经历艰难几周的家庭协调送餐。默认私密，不泄露任何个人信息。</p></div>
+      <div class="bcard"><h3>慈善商店橱窗</h3><p>为教会慈善商店或本地慈善商店做的简单网站：营业时间、捐赠指南，再加一两张照片。</p></div>
+      <div class="bcard"><h3>公告栏</h3><p>本周礼堂或社群中心有什么活动。一个页面，一分钟就能更新，在任何手机上都读得清楚。</p></div>
+    </div>
+    <img class="sec-img" src="/images/sketch-mealtrain.jpg" alt="三幅用网站配色画的铅笔素描：慈善机构的志愿者在一块乱糟糟的白板前；年轻人和一个小机器人助手一起，在笔记本电脑上制作晚餐轮值表；最后是一份热饭在家门口递到手中。">
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>为他们自己。</h2>
+      <p>有些建造不关别人的事：把指南里的活动变成贴合一个人生活的小工具。</p>
+    </div>
+    <div class="bcards">
+      <div class="bcard"><h3>睡眠记录</h3><p>来自指南的睡眠实验：一个就寝时间，坚持一周，再画一张图表，记录每天的真实感受。</p></div>
+      <div class="bcard"><h3>开支盘点</h3><p>如实记录一周的花销，找出一处漏洞。不是预算，只是把真相写在一页纸上。</p></div>
+      <div class="bcard"><h3>精力记录</h3><p>一周里，每天给自己的精力打三次分。你的身体有自己的规律，而几乎没有人见过自己的规律。</p></div>
+      <div class="bcard"><h3>训练表</h3><p>俯卧撑、深蹲、平板支撑、一次散步。现在把数字记下来，一个月后再测一次。</p></div>
+      <div class="bcard"><h3>个人主页</h3><p>一页讲清你是谁、你建造过什么。作品集的第一块砖。</p></div>
+    </div>
+    <img class="sec-img" src="/images/sketch-planner.jpg" alt="三幅用网站配色画的铅笔素描：夜里，一个疲惫的年轻人坐在书桌前，和一个小机器人助手一起在笔记本电脑上制定一周计划；然后放松下来，在手机上看着做好的计划。">
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>亲手制作。</h2>
+      <p>直接来自指南里的活动：真实的动手建造，不需要屏幕。</p>
+    </div>
+    <div class="bcards">
+      <div class="bcard"><h3>一顿真正的饭</h3><p>从头做一顿像样的饭，请人来一起分享。第一次做得再糟也没关系。</p></div>
+      <div class="bcard"><h3>窗台上的芽苗菜</h3><p>一个托盘、一点土、十天。剪下自己种的菜。</p></div>
+      <div class="bcard"><h3>矿石收音机</h3><p>一台只靠空气里的信号就能响的收音机。不用电池，不用芯片。</p></div>
+      <div class="bcard"><h3>72小时应急包</h3><p>在需要之前就打包好：水、食物、保暖、照明、证件，还有一件让自己安心的小东西。</p></div>
+      <div class="bcard"><h3>生态瓶</h3><p>一小片外面的世界，住在你的架子上，自己给自己浇水。</p></div>
+    </div>
+    <p style="margin-top:1.6rem;color:var(--mut);max-width:46em">这里几乎每一项都能长出一个数字扩展：植物的生长记录、发酵的倒计时、在黑暗里也能打开的清单。现实的建造，数字的建造，同一个项目。</p>
+  </div>
+</section>
+
+<section class="ink">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>第一批正在建造中。</h2>
+      <p>我们从第一批团体开始，所以这一页里完成的作品少，将要来的更多。随着作品一件件完成，真实的案例会出现在这里：它是什么、Agent 做了什么、带来了什么改变。如果你来得早，你的作品也许就是最早的几件之一。</p>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-solid" href="/zh/agent">获取 Agent</a>
+      <a class="btn btn-line" href="/zh/groups">把它带到你的团体</a>
+    </div>
+  </div>
+</section>
+
+<div class="foot">
+  <span>buildwithjesus.com</span>
+  <span><a href="/zh">首页</a> &middot; <a href="/zh/leaders">带领者指南</a> &middot; <a href="/zh/agent">获取 Agent</a> &middot; <a href="/zh/inspiration">灵感</a> &middot; <a href="/zh/ai">我们如何使用 AI</a> &middot; <a href="/zh/safety">安全 &amp; 数据</a> &middot; <a href="/zh/legal">法律 &amp; 隐私</a></span>
+</div>
+
+<script>
+(function(){
+  var b=document.getElementById('menu-btn'),m=document.getElementById('site-menu');
+  if(!b||!m)return;
+  function set(o){m.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false');}
+  b.addEventListener('click',function(e){e.stopPropagation();set(!m.classList.contains('open'));});
+  m.addEventListener('click',function(e){if(e.target&&e.target.tagName==='A'){set(false);}});
+  document.addEventListener('click',function(e){if(!m.contains(e.target)&&!b.contains(e.target)){set(false);}});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){set(false);}});
+})();
+
+/* dropdown menus */
+(function(){
+  document.querySelectorAll('.ddb').forEach(function(btn){
+    btn.addEventListener('click',function(e){
+      e.stopPropagation();
+      var dd=btn.parentElement, open=!dd.classList.contains('open');
+      document.querySelectorAll('.dd.open').forEach(function(o){o.classList.remove('open');var b=o.querySelector('.ddb');if(b)b.setAttribute('aria-expanded','false');});
+      if(open){dd.classList.add('open');btn.setAttribute('aria-expanded','true');}
+    });
+  });
+  document.addEventListener('click',function(){document.querySelectorAll('.dd.open').forEach(function(o){o.classList.remove('open');var b=o.querySelector('.ddb');if(b)b.setAttribute('aria-expanded','false');});});
+})();
+</script>
+
+<script id="langsel-js">
+(function(){
+var btn=document.querySelector(".langsel-btn");
+if(!btn)return;
+var wrap=btn.parentNode;
+var panel=wrap.querySelector(".langsel-panel");
+btn.addEventListener("click",function(ev){ev.stopPropagation();var open=panel.classList.toggle("open");btn.setAttribute("aria-expanded",open?"true":"false");});
+document.addEventListener("click",function(ev){if(!wrap.contains(ev.target)){panel.classList.remove("open");btn.setAttribute("aria-expanded","false");}});
+document.addEventListener("keydown",function(ev){if(ev.key==="Escape"){panel.classList.remove("open");btn.setAttribute("aria-expanded","false");}});
+})();
+</script>
+</body>
+</html>

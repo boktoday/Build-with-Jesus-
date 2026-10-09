@@ -1,0 +1,321 @@
+{
+ "lang": "vi-VN",
+ "oglocale": "vi_VN",
+ "S": [
+  [
+   "<html lang=\"en\">",
+   "<html lang=\"vi-VN\">",
+   1
+  ],
+  [
+   "<title>Build with Jesus | Build real things for your church and community</title>",
+   "<title>Build with Jesus | Xây dựng những thứ thật cho hội thánh và cộng đồng của bạn</title>",
+   1
+  ],
+  [
+   "content=\"Follow Jesus. Learn new skills. Build real things. Give them away. Young people build with the Bible and an AI agent beside them, and adults walk the same road.\"",
+   "content=\"Theo Chúa Giê-xu. Học kỹ năng mới. Xây dựng những thứ thật. Chia sẻ chúng đi. Người trẻ xây dựng cùng Kinh Thánh và một agent AI bên cạnh, và người lớn cùng đi trên con đường đó.\"",
+   1
+  ],
+  [
+   "<link rel=\"canonical\" href=\"https://buildwithjesus.com/\">",
+   "<link rel=\"canonical\" href=\"https://buildwithjesus.com/vi\">\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://buildwithjesus.com/\">\n<link rel=\"alternate\" hreflang=\"ms\" href=\"https://buildwithjesus.com/ms\">\n<link rel=\"alternate\" hreflang=\"tl\" href=\"https://buildwithjesus.com/tl\">\n<link rel=\"alternate\" hreflang=\"id\" href=\"https://buildwithjesus.com/id\">\n<link rel=\"alternate\" hreflang=\"vi\" href=\"https://buildwithjesus.com/vi\">\n<link rel=\"alternate\" hreflang=\"th\" href=\"https://buildwithjesus.com/th\">\n<link rel=\"alternate\" hreflang=\"es\" href=\"https://buildwithjesus.com/es\">\n<link rel=\"alternate\" hreflang=\"zh\" href=\"https://buildwithjesus.com/zh\">\n<link rel=\"alternate\" hreflang=\"ko\" href=\"https://buildwithjesus.com/ko\">\n<link rel=\"alternate\" hreflang=\"ja\" href=\"https://buildwithjesus.com/ja\">\n<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://buildwithjesus.com/\">",
+   1
+  ],
+  [
+   "content=\"Young people follow Jesus, read the Bible with an agent beside them, and build real things their church and community actually use. Adults walk the same road, solo or with friends.\">",
+   "content=\"Người trẻ theo Chúa Giê-xu, đọc Kinh Thánh với một agent bên cạnh, và xây dựng những thứ thật mà hội thánh và cộng đồng của họ thực sự dùng. Người lớn cùng đi trên con đường đó, một mình hoặc cùng bạn bè.\">",
+   2
+  ],
+  [
+   "<meta property=\"og:url\" content=\"https://buildwithjesus.com/\">",
+   "<meta property=\"og:url\" content=\"https://buildwithjesus.com/vi\">",
+   1
+  ],
+  [
+   "<meta name=\"twitter:title\" content=\"Build with Jesus | Build real things for your church and community\">",
+   "<meta name=\"twitter:title\" content=\"Build with Jesus | Xây dựng những thứ thật cho hội thánh và cộng đồng của bạn\">",
+   1
+  ],
+  [
+   "<meta property=\"og:locale\" content=\"en\">",
+   "<meta property=\"og:locale\" content=\"vi_VN\">",
+   1
+  ],
+  [
+   "<link rel=\"icon\" type=\"image/svg+xml\" href=\"favicon.svg\">",
+   "<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">",
+   1
+  ],
+  [
+   "src=\"images/",
+   "src=\"/images/",
+   5
+  ],
+  [
+   "https://www.onetoeight.guide/en/u/",
+   "https://www.onetoeight.guide/vi/u/",
+   5
+  ],
+  [
+   "<button class=\"menu-btn\"",
+   "<div class=\"langsel-wrap\"><button type=\"button\" class=\"langsel-btn\" aria-haspopup=\"true\" aria-expanded=\"false\">Vietnamese<span class=\"ls-arrow\">&#9662;</span></button><div class=\"langsel-panel\" role=\"menu\"><a class=\"langsel-row\" href=\"/\">English</a><a class=\"langsel-row\" href=\"/ms\">Bahasa Melayu</a><a class=\"langsel-row\" href=\"/tl\">Tagalog</a><a class=\"langsel-row\" href=\"/id\">Indonesian</a><button type=\"button\" class=\"langsel-row cur\" aria-current=\"true\">Vietnamese</button><a class=\"langsel-row\" href=\"/th\">Thai</a><a class=\"langsel-row\" href=\"/es\">Spanish</a><a class=\"langsel-row\" href=\"/zh\">Chinese (Simplified)</a><a class=\"langsel-row\" href=\"/ko\">Korean</a><a class=\"langsel-row\" href=\"/ja\">Japanese</a></div></div><button class=\"menu-btn\"",
+   1
+  ],
+  [
+   "<a href=\"/legal\">Legal &amp; privacy</a>\n  </div>\n</nav>",
+   "<a href=\"/legal\">Legal &amp; privacy</a>\n  </div>\n</nav>",
+   1
+  ]
+ ],
+ "A": [
+  [
+   "alt=\"Four young people working on laptops on bean bags in a church hall, beneath the cross on the wall.\"",
+   "alt=\"Bốn người trẻ làm việc trên laptop trên ghế lười trong hội trường của hội thánh, bên dưới thập tự giá trên tường.\"",
+   1
+  ],
+  [
+   "alt=\"Sketch note: getting ready for the day, from getting the agent and installing it at home, through the induction questions, to arriving at the workshop set up\"",
+   "alt=\"Ghi chú hình vẽ: chuẩn bị cho ngày ấy, từ việc nhận agent và cài đặt tại nhà, qua các câu hỏi nhập môn, cho đến lúc tới workshop với mọi thứ đã sẵn sàng.\"",
+   1
+  ],
+  [
+   "alt=\"Sketch note: the workshop day, from everyone arriving set up, through the moves taught live and one real build, to the review by leaders and the hand-over\"",
+   "alt=\"Ghi chú hình vẽ: ngày workshop, từ khi mọi người đến với mọi thứ đã sẵn sàng, qua các bước được dạy trực tiếp và một sản phẩm thật được dựng, đến phần nhận xét của các nhà lãnh đạo và lúc bàn giao.\"",
+   1
+  ],
+  [
+   "alt=\"A young person walking a coastal path at sunrise, replying to a message on their phone.\"",
+   "alt=\"Một người trẻ đi bộ trên con đường ven biển lúc mặt trời mọc, đang trả lời tin nhắn trên điện thoại.\"",
+   1
+  ],
+  [
+   "alt=\"Brendan O&#8217;Keefe, founder of one to eight\"",
+   "alt=\"Brendan O&#8217;Keefe, người sáng lập one to eight\"",
+   1
+  ],
+  [
+   "aria-label=\"A phone with a silicon chip on its screen, a hammer and a nail on a wooden plank\"",
+   "aria-label=\"Một chiếc điện thoại với chip silicon trên màn hình, một cây búa và một cây đinh trên tấm ván gỗ.\"",
+   2
+  ],
+  [
+   "aria-label=\"Your email\"",
+   "aria-label=\"Email của bạn\"",
+   1
+  ],
+  [
+   "title=\"A wise man welcomes you to Build with Jesus\"",
+   "title=\"Một người khôn ngoan chào mừng bạn đến với Build with Jesus\"",
+   1
+  ]
+ ],
+ "BLOCKS": [
+  [
+   "\"name\": \"Is this an AI that does Bible study for them?\"",
+   "\"name\": \"Đây có phải là AI học Kinh Thánh thay họ không?\""
+  ],
+  [
+   "\"text\": \"No. It helps teach the passage and keeps the rhythm going, and every question worth asking goes back to your church and its leaders. Teaching stays with people.\"",
+   "\"text\": \"Không. Agent giúp dạy phân đoạn và giữ nhịp độ đều đặn, và mọi câu hỏi đáng hỏi đều quay về hội thánh cùng các nhà lãnh đạo của bạn. Việc dạy dỗ vẫn thuộc về con người.\""
+  ],
+  [
+   "\"name\": \"Who is it for?\"",
+   "\"name\": \"Dành cho ai?\""
+  ],
+  [
+   "\"text\": \"Christian young people who want to build, whether they are still at school or just out of it, and adults who want the same walk, solo or with friends. The pace is theirs, and everything happens on their own machine.\"",
+   "\"text\": \"Những người trẻ Cơ Đốc muốn xây dựng, dù còn đi học hay vừa ra trường, và những người lớn muốn cùng bước trên hành trình ấy, một mình hoặc cùng bạn bè. Họ tự chọn nhịp độ của mình, và mọi thứ diễn ra trên máy của chính họ.\""
+  ],
+  [
+   "\"name\": \"What does a church need to start?\"",
+   "\"name\": \"Hội thánh cần gì để bắt đầu?\""
+  ],
+  [
+   "\"text\": \"One real need and a room with wifi. A build day is a Saturday. The rest is the guide and the agent, and we walk you through the first one.\"",
+   "\"text\": \"Một nhu cầu thật và một căn phòng có wifi. Ngày dựng là vào thứ Bảy. Phần còn lại là cẩm nang và agent, và chúng tôi sẽ đồng hành cùng bạn trong lần đầu tiên.\""
+  ],
+  [
+   "\"name\": \"What does it cost?\"",
+   "\"name\": \"Chi phí thế nào?\""
+  ],
+  [
+   "\"text\": \"The agent is $19.99 (AUD) as a founding price until 1 December 2026, then $29.99 (AUD), one payment, yours to keep. The guide is free to read, the leaders guide is coming soon at $69.99 (AUD), one purchase that covers every leader, every group, and as many workshops as you run, and build days are worked out with each church. Sponsored places will exist for families who need them.\"",
+   "\"text\": \"Agent có giá ra mắt $19.99 (AUD) đến hết 1 tháng 12 năm 2026, sau đó là $29.99 (AUD), thanh toán một lần, của bạn mãi mãi. Cẩm nang đọc miễn phí, cẩm nang lãnh đạo Sắp ra mắt với giá $69.99 (AUD), mua một lần là đủ cho mọi lãnh đạo, mọi nhóm, và mọi workshop bạn tổ chức, còn ngày dựng sẽ được sắp xếp riêng với từng hội thánh. Sẽ có những suất tài trợ cho những gia đình cần.\""
+  ],
+  [
+   "\"name\": \"What do young people need?\"",
+   "\"name\": \"Người trẻ cần những gì?\""
+  ],
+  [
+   "\"text\": \"A personal laptop or desktop with admin access (not a school laptop), an OpenRouter account with $20 of credit, and a free Telegram or WhatsApp account on their phone. Setup takes about an hour, and the walkthrough holds their hand through it.\"",
+   "\"text\": \"Một laptop hoặc máy tính để bàn cá nhân có quyền quản trị (không phải laptop của trường), một tài khoản OpenRouter với $20 tín dụng, và một tài khoản Telegram hoặc WhatsApp miễn phí trên điện thoại. Cài đặt mất khoảng một giờ, và phần hướng dẫn sẽ cầm tay chỉ việc suốt quá trình.\""
+  ],
+  [
+   "\"name\": \"Can they use it from their phone?\"",
+   "\"name\": \"Họ có thể dùng từ điện thoại không?\""
+  ],
+  [
+   "\"text\": \"Yes, much of the time. Once the agent is set up and working, much of the young person's interaction can happen from their phone, through Telegram or WhatsApp: asking questions, capturing ideas, and iterating quickly on their build from wherever they are. The laptop is the workbench; the phone keeps the thinking moving.\"",
+   "\"text\": \"Được, phần lớn thời gian. Khi agent đã được cài đặt và hoạt động, phần lớn tương tác của người trẻ có thể diễn ra từ điện thoại, qua Telegram hoặc WhatsApp: đặt câu hỏi, ghi lại ý tưởng và tinh chỉnh nhanh dự án của mình từ bất cứ đâu. Laptop là bàn làm việc; điện thoại giữ cho suy nghĩ luôn trôi chảy.\""
+  ],
+  [
+   "btn.textContent='Sending...'",
+   "btn.textContent='Đang gửi...'"
+  ],
+  [
+   "btn.textContent='Subscribe'",
+   "btn.textContent='Đăng ký'"
+  ]
+ ],
+ "M": {
+  "The agent": "Agent",
+  "The leaders guide": "Cẩm nang lãnh đạo",
+  "The workshop": "Workshop",
+  "The programme": "Chương trình",
+  "How it works": "Cách hoạt động",
+  "For groups": "Dành cho nhóm",
+  "Examples": "Ví dụ",
+  "FAQ": "Câu hỏi thường gặp",
+  "About": "Giới thiệu",
+  "Inspiration": "Cảm hứng",
+  "How we use AI": "Cách chúng tôi dùng AI",
+  "Safety &amp; data": "An toàn &amp; dữ liệu",
+  "Legal &amp; privacy": "Pháp lý &amp; quyền riêng tư",
+  "Get the agent": "Nhận agent",
+  "Home": "Trang chủ",
+  "Establish the work of our hands. &middot; Psalm 90:17 (WEB)": "Phải, xin lập cho vững công việc của tay chúng tôi. &middot; Thi Thiên 90:17 (Bản 1934)",
+  "Follow Jesus. Learn new skills. Build real things. Give them away.": "Theo Chúa Giê-xu. Học kỹ năng mới. Xây dựng những thứ thật. Chia sẻ chúng đi.",
+  "one to eight guide": "cẩm nang one to eight",
+  "Build with Jesus pairs the": "Build with Jesus kết hợp",
+  "(a free practical guide for young people through eight essentials) with the Bible and the teachings of Jesus. Young people read, build and serve with an AI agent beside them, and adults walk the same road. Every finished thing goes to their church or their community.": "(một cẩm nang thực hành miễn phí cho người trẻ qua tám điều thiết yếu) với Kinh Thánh và những lời dạy của Chúa Giê-xu. Người trẻ đọc, xây dựng và phục vụ với một agent AI bên cạnh họ, và người lớn cùng đi trên con đường đó. Mọi thứ hoàn thành đều được trao cho hội thánh hoặc cộng đồng của họ.",
+  "Start with the guide (free)": "Bắt đầu với cẩm nang (miễn phí)",
+  "Bring it to your group": "Mang đến nhóm của bạn",
+  "For young people, for the churches, schools and charities who walk with them, and for adults walking the same road.": "Dành cho người trẻ, cho các hội thánh, trường học và tổ chức từ thiện cùng đồng hành với họ, và cho người lớn cùng đi trên con đường đó.",
+  "I&#8217;m a young person": "Tôi là người trẻ",
+  "Start with the guide. It&#8217;s free.": "Bắt đầu với cẩm nang. Miễn phí.",
+  "Eight essentials, activities and audio, at your own pace. Add the agent and it walks beside you while you build.": "Tám điều thiết yếu, hoạt động và audio, theo nhịp riêng của bạn. Thêm agent và nó đồng hành cùng bạn khi bạn xây dựng.",
+  "Get the agent &#8594;": "Nhận agent &#8594;",
+  "I lead a church or youth group": "Tôi dẫn dắt một hội thánh hoặc nhóm người trẻ",
+  "Bring it to your church.": "Mang đến hội thánh của bạn.",
+  "See how a build day works, what it costs, and how to run the programme with your young people.": "Xem cách một ngày dựng diễn ra, chi phí ra sao, và cách tổ chức chương trình với người trẻ của bạn.",
+  "For groups and churches &#8594;": "Cho nhóm và hội thánh &#8594;",
+  "I&#8217;m an adult": "Tôi là người lớn",
+  "Walk the same road at your own pace.": "Đi trên con đường đó theo nhịp riêng của bạn.",
+  "Solo or with friends: the Bible and the teachings of Jesus, with an AI agent beside you. No group required, no church required.": "Một mình hoặc cùng bạn bè: Kinh Thánh và những lời dạy của Chúa Giê-xu, với một agent AI bên cạnh bạn. Không cần nhóm, không cần hội thánh.",
+  "Start the walk &#8594;": "Bắt đầu hành trình &#8594;",
+  "What is Build with Jesus?": "Build with Jesus là gì?",
+  "Jesus learned his crafts, taught people wherever possible, took risks, built, and gave away often.": "Chúa Giê-xu học các nghề của mình, dạy dỗ mọi người ở bất cứ đâu có thể, chấp nhận rủi ro, xây dựng và thường xuyên cho đi.",
+  "Build with Jesus is about using the latest tools to primarily build digital artefacts for young people, their churches and wider community.": "Build with Jesus dùng những công cụ mới nhất để chủ yếu xây dựng các sản phẩm số cho người trẻ, hội thánh của họ và cộng đồng rộng lớn hơn.",
+  "Today, we have the AI technology to empower any young person to build custom software and use AI agents for increased learning and productivity. Furthermore, building takes many other shapes, the one to eight guide and their AI agent encourages young people to participate outside of the digital world.": "Ngày nay, chúng ta có công nghệ AI để bất kỳ người trẻ nào cũng có thể xây dựng phần mềm riêng và dùng agent AI để học tập, làm việc hiệu quả hơn. Hơn nữa, việc dựng còn mang nhiều hình thức khác: cẩm nang one to eight và agent AI của họ khuyến khích người trẻ tham gia cả bên ngoài thế giới số.",
+  "Learn. Build. Give.": "Học. Xây dựng. Chia sẻ.",
+  "The whole idea in three daily moves. The guide teaches the eight essentials; the Bible and the agent walk beside them; the week's work ends in someone else's hands.": "Toàn bộ ý tưởng trong ba bước mỗi ngày. Cẩm nang dạy tám điều thiết yếu; Kinh Thánh và agent đồng hành bên họ; công việc của tuần kết thúc trong tay người khác.",
+  "1": "1",
+  "2": "2",
+  "3": "3",
+  "Learn": "Học",
+  "Build": "Xây dựng",
+  "Give": "Chia sẻ",
+  "A short lesson, taken at your pace: the eight essentials, one skill at a time. Planning, focus, working with AI, finishing what you start. Every skill lands in the same week's build, so it is learned by doing.": "Một bài học ngắn, theo nhịp riêng của bạn: tám điều thiết yếu, mỗi lần một kỹ năng. Lập kế hoạch, tập trung, làm việc với AI, hoàn thành việc mình bắt đầu. Mỗi kỹ năng đều được áp dụng vào dự án của tuần đó, nên được học bằng chính việc làm.",
+  "The day's small move on a real project: personal software, something for the family, and each term, something for the church. The eight essentials teach the craft and the character together.": "Bước nhỏ mỗi ngày trên một dự án thật: phần mềm cho riêng bạn, một thứ cho gia đình, và mỗi học kỳ, một thứ cho hội thánh. Tám điều thiết yếu dạy nghề và nhân cách cùng lúc.",
+  "Finished things are given away. Presented to the youth group, handed to the church office, put to work on the noticeboard. Nothing sits in a folder. The gift is the point.": "Những thứ hoàn thành đều được chia sẻ đi. Trình bày trước nhóm người trẻ, trao cho văn phòng hội thánh, đưa lên bảng tin. Không có gì nằm im trong thư mục. Món quà là điều quan trọng.",
+  "The eight essentials: The ability to sit in silence &middot; Your body is a home &middot; Useful skills for real life &middot; Digital self-defence &middot; Real community &middot; Knowledge you can carry &middot; Make room for the outside &middot; Test what you believe.": "Tám điều thiết yếu: Khả năng ngồi trong im lặng &middot; Thân thể bạn là một ngôi nhà &middot; Kỹ năng hữu ích cho đời thực &middot; Tự vệ số &middot; Cộng đồng thật &middot; Kiến thức bạn mang theo bên mình &middot; Dành chỗ cho thế giới bên ngoài &middot; Kiểm chứng điều bạn tin.",
+  "Read the guide for young people &#8594;": "Đọc cẩm nang dành cho người trẻ &#8594;",
+  "Churches &middot; Religious schools &middot; Homeschool families &middot; Charities": "Hội thánh &middot; Trường tôn giáo &middot; Gia đình homeschool &middot; Tổ chức từ thiện",
+  "For churches and youth groups": "Dành cho hội thánh và nhóm người trẻ",
+  "Your youth group is full of capacity. Your church is full of real needs. Put them in the same room. Religious schools, homeschool families and charities run the same programme.": "Nhóm người trẻ của bạn đầy năng lực. Hội thánh của bạn đầy nhu cầu thật. Đặt họ vào cùng một căn phòng. Trường tôn giáo, gia đình homeschool và tổ chức từ thiện cũng áp dụng chương trình này.",
+  "Run a build day": "Tổ chức một ngày dựng",
+  "A Saturday, a room with wifi, and snacks. The young people bring curiosity, the church brings one real need, and a finished thing comes out the other side.": "Một ngày thứ Bảy, một căn phòng có wifi, và chút đồ ăn vặt. Người trẻ mang đến sự tò mò, hội thánh mang đến một nhu cầu thật, và ở đầu bên kia là một thứ đã hoàn thành.",
+  "Sponsor a builder": "Tài trợ một người xây dựng",
+  "Fund places for young people in your own church. They build for the community that sponsored them, and the church keeps what they make.": "Tài trợ suất tham gia cho người trẻ trong chính hội thánh của bạn. Các bạn xây dựng cho cộng đồng đã tài trợ mình, và hội thánh giữ lại những gì các bạn làm ra.",
+  "The church kit": "Bộ công cụ cho hội thánh",
+  "One page on how to run it: what a build day needs, how the term flows, and what to say to parents and guardians.": "Một trang hướng dẫn cách tổ chức: một ngày dựng cần gì, học kỳ diễn ra thế nào, và nói gì với cha mẹ và người giám hộ.",
+  "Get the leaders guide": "Nhận cẩm nang lãnh đạo",
+  "Want it in person? Brendan runs the workshop live at your church.": "Muốn gặp trực tiếp? Brendan tổ chức workshop trực tiếp tại hội thánh của bạn.",
+  "Bring it to your area": "Mang đến khu vực của bạn",
+  "The agent reads with them, not for them": "Agent đọc cùng họ, chứ không đọc thay họ",
+  "An assistant, never an authority.": "Một trợ lý, chứ không bao giờ là người có thẩm quyền.",
+  "It holds the reading plan, asks better questions than it answers, and sends a young person back to their church and its leaders for teaching.": "Agent giữ kế hoạch đọc, hỏi những câu hỏi hay hơn là đưa câu trả lời, và đưa người trẻ trở về với hội thánh cùng các nhà lãnh đạo của mình để được dạy dỗ.",
+  "Quotes checked, content reviewed.": "Trích dẫn được kiểm tra, nội dung được duyệt.",
+  "Scripture is verified against a named translation, and a person reviews every line of faith content before it ships.": "Kinh Thánh được đối chiếu với một bản dịch được nêu tên, và một người thật duyệt từng dòng nội dung đức tin trước khi phát hành.",
+  "Skill in service is an old pattern.": "Tay nghề trong phục vụ là một mẫu hình từ xưa.",
+  "The first person in the Bible described as filled with the Spirit was Bezalel, a craftsman called to build (Exodus 31). The workbench has always been holy ground.": "Người đầu tiên trong Kinh Thánh được mô tả là đầy dẫy Thánh Linh là Bết-sa-lê-ên, một thợ thủ công được gọi để xây dựng (Xuất Ê-díp-tô Ký 31). Bàn làm việc vốn luôn là đất thánh.",
+  "Whatever you do, work at it with all your heart, as working for the Lord.": "Hễ làm việc gì, hãy hết lòng mà làm, như làm cho Chúa, chớ không phải làm cho người ta,",
+  "Colossians 3:23": "Cô-lô-se 3:23 (Bản 1934)",
+  "The Lord's Prayer, read slowly, with a short watch on praying it daily.": "Kinh Lạy Cha, đọc chậm rãi, kèm một video ngắn về cách cầu nguyện mỗi ngày.",
+  "Read the Lord&#8217;s Prayer": "Đọc Kinh Lạy Cha",
+  "Who&#8217;s behind this": "Ai đứng sau dự án này",
+  "Brendan O&#8217;Keefe, founder of one to eight": "Brendan O&#8217;Keefe, người sáng lập one to eight",
+  "Build with Jesus is made by Brendan O&#8217;Keefe. He founded": "Build with Jesus do Brendan O&#8217;Keefe thực hiện. Ông sáng lập",
+  "and wrote the": "và viết",
+  ", the free practical guide for young people now read in ten languages, and he travels to run the Build with Jesus workshop live at churches.": ", cẩm nang thực hành miễn phí dành cho người trẻ, hiện được đọc bằng mười ngôn ngữ, và ông đi đến các hội thánh để tổ chức workshop Build with Jesus trực tiếp.",
+  "The agent, the lessons and this site are built the same way the young people build: start small, learn by making, finish well, and give the finished thing away.": "Agent, các bài học và trang này đều được làm theo cách người trẻ xây dựng: bắt đầu từ những việc nhỏ, học bằng cách làm, hoàn thành cho tốt, và cho đi thứ đã hoàn thành.",
+  "Questions churches ask first": "Những câu hỏi hội thánh hỏi đầu tiên",
+  "Is this an AI that does Bible study for them?": "Đây có phải là AI học Kinh Thánh thay họ không?",
+  "No. It helps teach the passage and keeps the rhythm going, and every question worth asking goes back to your church and its leaders. Teaching stays with people.": "Không. Agent giúp dạy phân đoạn và giữ nhịp độ đều đặn, và mọi câu hỏi đáng hỏi đều quay về hội thánh cùng các nhà lãnh đạo của bạn. Việc dạy dỗ vẫn thuộc về con người.",
+  "Who is it for?": "Dành cho ai?",
+  "Christian young people who want to build, whether they are still at school or just out of it, and adults who want the same walk, solo or with friends. The pace is theirs, and everything happens on their own machine.": "Những người trẻ Cơ Đốc muốn xây dựng, dù còn đi học hay vừa ra trường, và những người lớn muốn cùng bước trên hành trình ấy, một mình hoặc cùng bạn bè. Họ tự chọn nhịp độ của mình, và mọi thứ diễn ra trên máy của chính họ.",
+  "What does a church need to start?": "Hội thánh cần gì để bắt đầu?",
+  "One real need and a room with wifi. A build day is a Saturday. The rest is the guide and the agent, and we walk you through the first one.": "Một nhu cầu thật và một căn phòng có wifi. Ngày dựng là vào thứ Bảy. Phần còn lại là cẩm nang và agent, và chúng tôi sẽ đồng hành cùng bạn trong lần đầu tiên.",
+  "What does it cost?": "Chi phí thế nào?",
+  "The agent is $19.99 (AUD) as a founding price until 1 December 2026, then $29.99 (AUD), one payment, yours to keep. The guide is free to read, the leaders guide is coming soon at $69.99 (AUD), one purchase that covers every leader, every group, and as many workshops as you run, and build days are worked out with each church. Sponsored places will exist for families who need them.": "Agent có giá ra mắt $19.99 (AUD) đến hết 1 tháng 12 năm 2026, sau đó là $29.99 (AUD), thanh toán một lần, của bạn mãi mãi. Cẩm nang đọc miễn phí, cẩm nang lãnh đạo Sắp ra mắt với giá $69.99 (AUD), mua một lần là đủ cho mọi lãnh đạo, mọi nhóm, và mọi workshop bạn tổ chức, còn ngày dựng sẽ được sắp xếp riêng với từng hội thánh. Sẽ có những suất tài trợ cho những gia đình cần.",
+  "What do young people need?": "Người trẻ cần những gì?",
+  "A personal laptop or desktop with admin access (not a school laptop), an OpenRouter account with $20 of credit, and a free Telegram or WhatsApp account on their phone. Setup takes about an hour, and the walkthrough holds their hand through it.": "Một laptop hoặc máy tính để bàn cá nhân có quyền quản trị (không phải laptop của trường), một tài khoản OpenRouter với $20 tín dụng, và một tài khoản Telegram hoặc WhatsApp miễn phí trên điện thoại. Cài đặt mất khoảng một giờ, và phần hướng dẫn sẽ cầm tay chỉ việc suốt quá trình.",
+  "Can they use it from their phone?": "Họ có thể dùng từ điện thoại không?",
+  "Yes, much of the time. Once the agent is set up and working, much of the young person&#8217;s interaction can happen from their phone, through Telegram or WhatsApp: asking questions, capturing ideas, and iterating quickly on their build from wherever they are. The laptop is the workbench; the phone keeps the thinking moving.": "Được, phần lớn thời gian. Khi agent đã được cài đặt và hoạt động, phần lớn tương tác của người trẻ có thể diễn ra từ điện thoại, qua Telegram hoặc WhatsApp: đặt câu hỏi, ghi lại ý tưởng và tinh chỉnh nhanh dự án của mình từ bất cứ đâu. Laptop là bàn làm việc; điện thoại giữ cho suy nghĩ luôn trôi chảy.",
+  "Build something your church will use this term.": "Xây dựng một thứ mà hội thánh bạn sẽ dùng trong học kỳ này.",
+  "Stay close to the work.": "Hãy luôn ở gần công việc.",
+  "One short note now and then: build days, new builds, things worth copying. Nothing else.": "Thỉnh thoảng, một ghi chú ngắn: ngày dựng, dự án mới, những thứ đáng noi theo. Không gì khác.",
+  "Subscribe": "Đăng ký",
+  "&#10003; You're on the list. Talk soon.": "&#10003; Bạn đã có tên trong danh sách. Sớm trò chuyện nhé.",
+  "Something went wrong. Please try again.": "Có gì đó không ổn. Vui lòng thử lại.",
+  "The Guide": "Cẩm nang",
+  "buildwithjesus.com. A work in progress, black and white for now. Built with the one to eight guide and the one to eight agent. &middot;": "buildwithjesus.com. Một sản phẩm đang hoàn thiện, tạm thời chỉ có đen trắng. Được làm với cẩm nang one to eight và agent one to eight. &middot;"
+ },
+ "KEEP": [
+  "Japanese",
+  "onetoeight",
+  "TL",
+  "Indonesian",
+  "Korean",
+  "EN",
+  "Bahasa Melayu",
+  "Bahasa",
+  "MS",
+  "Vietnamese",
+  "English",
+  "One to eight",
+  "BUILD",
+  "Chinese (Simplified)",
+  "Thai",
+  "Tagalog",
+  "JESUS",
+  "akan datang",
+  "WITH",
+  "Spanish",
+  "Build with Jesus | Xây dựng những thứ thật cho hội thánh và cộng đồng của bạn"
+ ],
+ "BANNED": [
+  "thanh thiếu niên",
+  "\\bthiếu niên\\b",
+  "\\bteenager\\w*\\b"
+ ],
+ "MUST": [
+  "người trẻ",
+  "hội thánh"
+ ],
+ "ENPROBE": [
+  "Follow Jesus",
+  "young people build",
+  "Start with the guide",
+  "Get the agent",
+  "build day",
+  "leaders guide",
+  "Questions churches ask",
+  "The agent reads"
+ ],
+ "EXTRA_RUNS": {
+  "Leaders guide": "Cẩm nang lãnh đạo",
+  "The guide": "Cẩm nang"
+ }
+}

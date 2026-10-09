@@ -1,0 +1,32 @@
+{
+ "runs": {
+  "Inspiration: The Lord's Prayer and the Ten Commandments | Build with Jesus": "Inspiración: el Padrenuestro y los Diez Mandamientos | Build with Jesus",
+  "The Lord's Prayer": "El Padrenuestro",
+  "The prayer Jesus taught his friends, and the church has prayed ever since. Read it slowly. It is short on purpose.": "La oración que Jesús enseñó a sus amigos y que la iglesia ha rezado desde entonces. Léela despacio. Es corta a propósito.",
+  "The Lord&#8217;s Prayer, read aloud &middot; King James Version": "El Padrenuestro, leído en voz alta &middot; King James Version",
+  "The same passage, World English Bible": "El mismo pasaje &middot; RV1909",
+  "A short watch": "Un breve video",
+  "On what happens in a person who returns to a prayer like this, daily.": "Sobre lo que le ocurre a una persona que vuelve cada día a una oración como esta.",
+  "Eight passages": "Ocho pasajes",
+  "The eight passages behind the whole programme, quoted exactly from the World English Bible. Open one to read it, or press play to hear it.": "Los ocho pasajes que sostienen todo el programa, citados exactamente de una edición verificada de la Biblia (RV1909). Abre uno para leerlo, o pulsa reproducir para escucharlo.",
+  "Follow": "Seguir",
+  "Taken seriously": "Tomados en serio",
+  "Skill as a gift": "La habilidad como regalo",
+  "How the work is done": "Cómo se hace el trabajo",
+  "What it stands on": "Sobre qué se sostiene",
+  "One body": "Un solo cuerpo",
+  "Why the work is seen": "Por qué se ve el trabajo",
+  "The give-away": "El regalo",
+  "His commandments": "Sus mandamientos",
+  "Ten words from the One who made you. They still hold.": "Diez palabras de Aquel que te hizo. Siguen en pie.",
+  "The commandments are not a cage. They are a foundation, and everything you build stands or falls on them. God did not hand them down to shrink you. He gave them so you would know, plainly, how a human life actually runs: what to run from, what to hold on to, and who to become. Break them and life cracks in ways you feel long before anyone sees. Keep them and you are standing on ground that has held for three thousand years.": "Los mandamientos no son una jaula. Son un cimiento, y todo lo que construyes se sostiene o se derrumba sobre ellos. Dios no te los entregó para empequeñecerte. Te los dio para que supieras, con claridad, cómo funciona de verdad una vida humana: de qué huir, a qué aferrarte y en quién convertirte. Quebrántalos y la vida se agrieta de maneras que sientes mucho antes de que nadie las vea. Cúmplelos y estarás de pie sobre un suelo que ha resistido durante tres mil años.",
+  "The world will tell you they are chains. Read them for yourself instead. You will find they are walls around everything worth having: your God, your name, your rest, your family, your marriage, your word, your peace.": "El mundo te dirá que son cadenas. En lugar de eso, léelos por ti mismo. Descubrirás que son muros alrededor de todo lo que vale la pena tener: tu Dios, tu nombre, tu descanso, tu familia, tu matrimonio, tu palabra, tu paz.",
+  "You will not keep them perfectly. Nobody does, and the grace of Jesus is bigger than that. But do not make the oldest mistake and treat them as optional. They are not advice from a stranger. They are the instructions for a life that works, from the One who made you.": "No los cumplirás a la perfección. Nadie lo hace, y la gracia de Jesús es más grande que eso. Pero no cometas el error más antiguo: tratarlos como opcionales. No son el consejo de un desconocido. Son las instrucciones para una vida que funciona, de Aquel que te hizo."
+ },
+ "attrs": {
+  "The Lord's Prayer, as the church has prayed it for two thousand years, the Ten Commandments, and eight Bible passages behind Build with Jesus, each with spoken audio, plus a short film on praying daily.": "El Padrenuestro, tal como la iglesia lo ha rezado durante dos mil años, los Diez Mandamientos y ocho pasajes bíblicos detrás de Build with Jesus, cada uno con audio narrado, más un breve video sobre cómo rezar cada día.",
+  "Inspiration: The Lord's Prayer | Build with Jesus": "Inspiración: el Padrenuestro | Build with Jesus",
+  "The prayer Jesus taught his friends, the Ten Commandments, and eight passages behind Build with Jesus, each with spoken audio.": "La oración que Jesús enseñó a sus amigos, los Diez Mandamientos y ocho pasajes detrás de Build with Jesus, cada uno con audio narrado."
+ },
+ "notes": "Scripture blocks (the Lord's Prayer, the eight passages, the commandments, citation lines) are masked by design; es edition is RV1909. The three owner-override runs (KJV read-aloud caption, 'The same passage', eight-passages intro) reuse the _loc_common.py renderings verbatim. 'The Ten Commandments' rendered as 'los Diez Mandamientos'; quoted YouTube video title kept in English per brief."
+}

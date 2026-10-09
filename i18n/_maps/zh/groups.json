@@ -1,0 +1,26 @@
+{
+ "runs": {
+  "Bring it to your group | Build with Jesus": "把它带到你的团体 | Build with Jesus",
+  "For groups and churches": "面向团体和教会",
+  "Bring it to your group.": "把它带到你的团体。",
+  "Two ways to run Build with Jesus with your young people: Brendan comes to you for a live build day, or you lead it yourself with the leaders guide. Both are made for churches, religious schools, homeschool families and charities.": "与你的年轻人一起开展 Build with Jesus，有两种方式：Brendan 会到你那里现场举办建造日，或者你借助带领者指南自己带领。两种方式都面向教会、宗教学校、在家教育的家庭和慈善机构。",
+  "In person": "面对面",
+  "A build day, in your building.": "建造日，就在你的场地。",
+  "Brendan travels to run the workshop live with your young people: a full day, real builds, everything agreed up front in writing. One host church for the groups around it, sharing the day and the cost. Around $1,000 a day (AUD), plus travel and expenses.": "Brendan 会专程前往，与你的年轻人一起现场举办工作坊：整整一天，真实的动手建造，所有事项都提前以书面形式商定。由一间主办教会接待周边的团体，当天的活动和费用由大家共同分担。每天约 $1,000 (AUD)，另加差旅和开支。",
+  "The workshop, in detail &#8594;": "了解工作坊详情 &#8594;",
+  "Lead it yourself": "自己带领",
+  "The leaders guide, at your pace.": "带领者指南，按你的节奏。",
+  "Run the programme yourself, whenever suits your group. The guide walks you through it week by week: what to run, what to watch for, and how to keep it moving when term gets busy. The leaders guide is coming soon at $69.99 (AUD): one purchase for every leader and every group, forever.": "自己开展项目，时间由你的团体来定。指南会一周接一周地带你走：开展什么、留意什么，以及学期忙起来时如何让它继续推进。带领者指南即将推出，价格为 $69.99 (AUD)：一次购买即可覆盖每位带领者、每个团体，永久有效。",
+  "The leaders guide &#8594;": "带领者指南 &#8594;",
+  "Both paths run on the same free one to eight guide and the agent your young people build with. Not sure which fits? Register your interest on the": "两种方式用的都是同一本免费的 one to eight 指南，以及你的年轻人用来建造的 Agent。不确定哪种适合？请在",
+  "workshop page": "工作坊页面",
+  "and we will help you choose.": "登记你的意向，我们会帮你选择。",
+  "Register your interest": "登记你的意向"
+ },
+ "attrs": {
+  "Two ways to run Build with Jesus with your young people: a live build day at your church, or you lead it yourself with the leaders guide. For churches, religious schools, homeschool families and charities.": "与你的年轻人一起开展 Build with Jesus 的两种方式：在你的教会现场举办建造日，或者你借助带领者指南自己带领。面向教会、宗教学校、在家教育的家庭和慈善机构。",
+  "Bring it to your group | Build with Jesus": "把它带到你的团体 | Build with Jesus",
+  "Two ways to run it: the in-person workshop, or the leaders guide.": "两种方式：面对面的工作坊，或带领者指南。"
+ },
+ "notes": "zh-CN groups map. Term sheet wording: young people=年轻人, church=教会, workshop=工作坊, leaders guide=带领者指南, programme=项目, term=学期, build day=建造日, homeschool families=在家教育的家庭, coming soon=即将推出. 'In person'=面对面 (og desc 'the in-person workshop'=面对面的工作坊). 'Register your interest'=登记你的意向, kept consistent across the split sentence: run ends 请在 + link 'workshop page'=工作坊页面 + '登记你的意向，我们会帮你选择。' -> reads 请在工作坊页面登记你的意向。 Prices verbatim ($1,000 (AUD) day rate, $69.99 (AUD)); 'one to eight' and 'Agent' stay English; &#8594; entities kept. No scripture blocks on this page."
+}

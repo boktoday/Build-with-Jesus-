@@ -23,7 +23,7 @@ For Christian young people, for adults walking the same road (solo or with frien
 - The agent is a complete Hermes Agent profile that runs locally on the young person's machine: a morning minute with audio, an afternoon check-in, planning sessions, and the eight essentials curriculum built in.
 - The agent costs $19.99 (AUD) as a founding price until 1 December 2026, then $29.99 (AUD), one payment.
 - The same walk is open to adults: solo or with friends, no group or church required.
-- Languages: the whole site is available in English, Bahasa Melayu (buildwithjesus.com/ms) and Tagalog (buildwithjesus.com/tl). Every page has its own address in each language, for example buildwithjesus.com/ms/agent and buildwithjesus.com/tl/leaders.
+- Languages: the whole site is available in ten languages: English, Bahasa Melayu, Tagalog, Indonesian, Vietnamese, Thai, Spanish, Chinese (Simplified), Korean and Japanese. Every page has its own address in each language, for example buildwithjesus.com/id/agent and buildwithjesus.com/ja/leaders.
 - The Ten Commandments for AI Agents govern the agent: the plain form is on the AI page, and the classical and builder's forms ship in its repository.
 - Practical setup for the agent: it is software installed on the young person's own laptop. Needs a personal machine with admin access, a one-time $20 OpenRouter credit, optionally a free small local model, and a free Telegram or WhatsApp account for the morning minute and check-ins. No ongoing subscription.
 - The leaders guide costs $69.99 (AUD), coming soon, one purchase for every leader and every group, reused every term.

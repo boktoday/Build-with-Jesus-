@@ -1,0 +1,26 @@
+{
+ "runs": {
+  "Bring it to your group | Build with Jesus": "พาไปใช้กับกลุ่มของคุณ | Build with Jesus",
+  "For groups and churches": "สำหรับกลุ่มและคริสตจักร",
+  "Bring it to your group.": "พาไปใช้กับกลุ่มของคุณ",
+  "Two ways to run Build with Jesus with your young people: Brendan comes to you for a live build day, or you lead it yourself with the leaders guide. Both are made for churches, religious schools, homeschool families and charities.": "มีสองวิธีในการจัด Build with Jesus กับคนรุ่นใหม่ของคุณ: Brendan เดินทางมาหาคุณเพื่อจัดวันลงมือทำแบบสด ๆ หรือคุณจัดเองด้วยคู่มือผู้นำ ทั้งสองแบบออกแบบมาสำหรับคริสตจักร โรงเรียนศาสนา ครอบครัวโฮมสคูล และองค์กรการกุศล",
+  "In person": "เจอกันตัวเป็น ๆ",
+  "A build day, in your building.": "วันลงมือทำ ที่สถานที่ของคุณ",
+  "Brendan travels to run the workshop live with your young people: a full day, real builds, everything agreed up front in writing. One host church for the groups around it, sharing the day and the cost. Around $1,000 a day (AUD), plus travel and expenses.": "Brendan เดินทางไปจัดเวิร์กช็อปแบบสด ๆ ให้กับคนรุ่นใหม่ของคุณ: หนึ่งวันเต็ม ลงมือสร้างของจริง ทุกอย่างตกลงกันล่วงหน้าเป็นลายลักษณ์อักษร คริสตจักรเจ้าภาพหนึ่งแห่งสำหรับกลุ่มรอบ ๆ โดยแบ่งปันวันงานและค่าใช้จ่ายร่วมกัน ประมาณ $1,000 (AUD) ต่อวัน บวกค่าเดินทางและค่าใช้จ่ายเพิ่มเติม",
+  "The workshop, in detail &#8594;": "รายละเอียดเวิร์กช็อป &#8594;",
+  "Lead it yourself": "คุณจัดเอง",
+  "The leaders guide, at your pace.": "คู่มือผู้นำ ตามจังหวะของคุณเอง",
+  "Run the programme yourself, whenever suits your group. The guide walks you through it week by week: what to run, what to watch for, and how to keep it moving when term gets busy. The leaders guide is coming soon at $69.99 (AUD): one purchase for every leader and every group, forever.": "จัดโปรแกรมเองได้เลย เมื่อไหร่ก็ได้ที่เหมาะกับกลุ่มของคุณ คู่มือจะพาคุณไปทีละสัปดาห์: จะจัดอะไร ควรระวังอะไร และจะทำอย่างไรให้ทุกอย่างเดินหน้าต่อเมื่อภาคเรียนยุ่ง ๆ คู่มือผู้นำจะพร้อมเร็ว ๆ นี้ในราคา $69.99 (AUD): ซื้อครั้งเดียว ใช้ได้กับทุกผู้นำและทุกกลุ่ม ตลอดไป",
+  "The leaders guide &#8594;": "คู่มือผู้นำ &#8594;",
+  "Both paths run on the same free one to eight guide and the agent your young people build with. Not sure which fits? Register your interest on the": "ทั้งสองทางใช้คู่มือ one to eight ฟรีเล่มเดียวกัน และเอเจนต์ที่อยู่ข้าง ๆ คนรุ่นใหม่ของคุณตอนลงมือสร้าง ยังไม่แน่ใจว่าแบบไหนเหมาะกับคุณ? ลงทะเบียนความสนใจได้ที่",
+  "workshop page": "หน้าเวิร์กช็อป",
+  "and we will help you choose.": "แล้วเราจะช่วยคุณเลือก",
+  "Register your interest": "ลงทะเบียนความสนใจ"
+ },
+ "attrs": {
+  "Two ways to run Build with Jesus with your young people: a live build day at your church, or you lead it yourself with the leaders guide. For churches, religious schools, homeschool families and charities.": "สองวิธีในการจัด Build with Jesus กับคนรุ่นใหม่ของคุณ: จัดวันลงมือทำแบบสด ๆ ที่คริสตจักรของคุณ หรือคุณจัดเองด้วยคู่มือผู้นำ สำหรับคริสตจักร โรงเรียนศาสนา ครอบครัวโฮมสคูล และองค์กรการกุศล",
+  "Bring it to your group | Build with Jesus": "พาไปใช้กับกลุ่มของคุณ | Build with Jesus",
+  "Two ways to run it: the in-person workshop, or the leaders guide.": "สองวิธีในการจัด: เวิร์กช็อปแบบเจอกันตัวเป็น ๆ หรือคู่มือผู้นำ"
+ },
+ "notes": "groups = กลุ่ม; build day = วันลงมือทำ; workshop = เวิร์กช็อป; leaders guide = คู่มือผู้นำ; programme = โปรแกรม; term = ภาคเรียน; coming soon = เร็ว ๆ นี้; agent = เอเจนต์. 'Register your interest' = ลงทะเบียนความสนใจ, kept consistent across the split sentence: run ends ...ลงทะเบียนความสนใจได้ที่ + link หน้าเวิร์กช็อป + แล้วเราจะช่วยคุณเลือก. Option labels: In person = เจอกันตัวเป็น ๆ; Lead it yourself = คุณจัดเอง. Prices verbatim ($1,000 (AUD), $69.99 (AUD)); one to eight, Brendan stay English. No scripture blocks on this page."
+}

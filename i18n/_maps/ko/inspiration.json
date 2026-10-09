@@ -1,0 +1,32 @@
+{
+ "runs": {
+  "Inspiration: The Lord's Prayer and the Ten Commandments | Build with Jesus": "영감: 주기도문과 십계명 | Build with Jesus",
+  "The Lord's Prayer": "주기도문",
+  "The prayer Jesus taught his friends, and the church has prayed ever since. Read it slowly. It is short on purpose.": "예수님께서 친구들에게 가르쳐 주신 기도예요. 교회는 그때부터 지금까지 이 기도를 드려 왔어요. 천천히 읽어 보세요. 짧은 데는 이유가 있어요.",
+  "The Lord&#8217;s Prayer, read aloud &middot; King James Version": "주기도문, 소리 내어 읽기 &middot; King James Version",
+  "The same passage, World English Bible": "같은 구절 &middot; 한글 1910",
+  "A short watch": "짧은 영상",
+  "On what happens in a person who returns to a prayer like this, daily.": "이런 기도로 매일 돌아오는 사람에게 어떤 일이 일어나는지 보여 줘요.",
+  "Eight passages": "여덟 구절",
+  "The eight passages behind the whole programme, quoted exactly from the World English Bible. Open one to read it, or press play to hear it.": "이 프로그램 전체를 떠받치는 여덟 구절이에요. 검증된 성경 판본(1910 한글)에서 그대로 인용했어요. 하나를 열어 읽거나, 재생을 눌러 들을 수 있어요.",
+  "Follow": "따라가기",
+  "Taken seriously": "진지하게 여겨지기",
+  "Skill as a gift": "기술은 선물",
+  "How the work is done": "일이 이루어지는 방식",
+  "What it stands on": "무엇 위에 서 있는가",
+  "One body": "한 몸",
+  "Why the work is seen": "일이 보이는 이유",
+  "The give-away": "나눠 주기",
+  "His commandments": "그분의 계명",
+  "Ten words from the One who made you. They still hold.": "지으신 분이 주신 열 마디 말씀. 여전히 유효해요.",
+  "The commandments are not a cage. They are a foundation, and everything you build stands or falls on them. God did not hand them down to shrink you. He gave them so you would know, plainly, how a human life actually runs: what to run from, what to hold on to, and who to become. Break them and life cracks in ways you feel long before anyone sees. Keep them and you are standing on ground that has held for three thousand years.": "계명은 감옥이 아니에요. 계명은 기초예요. 만드는 모든 것이 그 위에 서기도 하고, 그 위에서 무너지기도 해요. 하나님은 사람을 작아지게 하려고 계명을 내려 주신 게 아니에요. 사람의 삶이 실제로 어떻게 돌아가는지, 무엇을 멀리해야 하는지, 무엇을 붙들어야 하는지, 어떤 사람이 되어야 하는지 분명히 알게 하려고 주셨어요. 계명을 어기면 삶에 금이 가요. 그 금은 남이 보기 훨씬 전에 스스로 느껴져요. 계명을 지키면 삼천 년을 버텨 온 땅 위에 서 있는 거예요.",
+  "The world will tell you they are chains. Read them for yourself instead. You will find they are walls around everything worth having: your God, your name, your rest, your family, your marriage, your word, your peace.": "세상은 계명이 사슬이라고 말해요. 그 대신 직접 읽어 보세요. 그러면 계명이 지킬 가치가 있는 모든 것, 곧 하나님, 이름, 안식, 가족, 결혼, 말, 평화를 둘러싼 담이라는 걸 알게 될 거예요.",
+  "You will not keep them perfectly. Nobody does, and the grace of Jesus is bigger than that. But do not make the oldest mistake and treat them as optional. They are not advice from a stranger. They are the instructions for a life that works, from the One who made you.": "계명을 완벽하게 지키지는 못해요. 아무도 못 해요. 예수님의 은혜는 그보다 훨씬 커요. 그렇지만 가장 오래된 실수는 하지 마세요. 계명을 선택 사항으로 여기는 거예요. 계명은 낯선 사람의 조언이 아니에요. 삶이 제대로 돌아가게 하는 설명서를 지으신 분이 주신 거예요."
+ },
+ "attrs": {
+  "The Lord's Prayer, as the church has prayed it for two thousand years, the Ten Commandments, and eight Bible passages behind Build with Jesus, each with spoken audio, plus a short film on praying daily.": "교회가 이천 년 동안 드려 온 주기도문, 십계명, 그리고 Build with Jesus를 떠받치는 여덟 개의 성경 구절. 각각 낭독 오디오가 있고, 매일 기도하는 법을 다룬 짧은 영상도 있어요.",
+  "Inspiration: The Lord's Prayer | Build with Jesus": "영감: 주기도문 | Build with Jesus",
+  "The prayer Jesus taught his friends, the Ten Commandments, and eight passages behind Build with Jesus, each with spoken audio.": "예수님께서 친구들에게 가르쳐 주신 기도, 십계명, 그리고 Build with Jesus를 떠받치는 여덟 구절. 각각 낭독 오디오가 있어요."
+ },
+ "notes": "Scripture blocks (the Lord's Prayer text, the eight passage texts, the commandment lines and all citation lines) are masked by design and untouched, per brief; the ko edition quotes 1910 한글 성경. The three owner-OVERRIDE runs (KJV read-aloud caption, 'The same passage', eight-passages intro) reuse the _loc_common.py ko renderings verbatim. Register kept in 해요체 throughout; pronouns dropped per the ko term sheet. The Ten Commandments = 십계명; heading 'His commandments' = 그분의 계명. Passage titles are short theme labels. Quoted YouTube title stays English per PAGE_KEEP_RUNS."
+}

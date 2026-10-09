@@ -1,0 +1,327 @@
+{
+ "lang": "ja-JP",
+ "oglocale": "ja_JP",
+ "S": [
+  [
+   "<html lang=\"en\">",
+   "<html lang=\"ja-JP\">",
+   1
+  ],
+  [
+   "<title>Build with Jesus | Build real things for your church and community</title>",
+   "<title>Build with Jesus | 教会とコミュニティのための本物をつくる</title>",
+   1
+  ],
+  [
+   "content=\"Follow Jesus. Learn new skills. Build real things. Give them away. Young people build with the Bible and an AI agent beside them, and adults walk the same road.\"",
+   "content=\"イエスに従う。新しい技能を学ぶ。本物をつくる。手放して分かち合う。若い世代は、聖書と AI エージェントを傍らにしてつくり、大人も同じ道を歩みます。\"",
+   1
+  ],
+  [
+   "<link rel=\"canonical\" href=\"https://buildwithjesus.com/\">",
+   "<link rel=\"canonical\" href=\"https://buildwithjesus.com/ja\">\n<link rel=\"alternate\" hreflang=\"en\" href=\"https://buildwithjesus.com/\">\n<link rel=\"alternate\" hreflang=\"ms\" href=\"https://buildwithjesus.com/ms\">\n<link rel=\"alternate\" hreflang=\"tl\" href=\"https://buildwithjesus.com/tl\">\n<link rel=\"alternate\" hreflang=\"id\" href=\"https://buildwithjesus.com/id\">\n<link rel=\"alternate\" hreflang=\"vi\" href=\"https://buildwithjesus.com/vi\">\n<link rel=\"alternate\" hreflang=\"th\" href=\"https://buildwithjesus.com/th\">\n<link rel=\"alternate\" hreflang=\"es\" href=\"https://buildwithjesus.com/es\">\n<link rel=\"alternate\" hreflang=\"zh\" href=\"https://buildwithjesus.com/zh\">\n<link rel=\"alternate\" hreflang=\"ko\" href=\"https://buildwithjesus.com/ko\">\n<link rel=\"alternate\" hreflang=\"ja\" href=\"https://buildwithjesus.com/ja\">\n<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://buildwithjesus.com/\">",
+   1
+  ],
+  [
+   "content=\"Young people follow Jesus, read the Bible with an agent beside them, and build real things their church and community actually use. Adults walk the same road, solo or with friends.\">",
+   "content=\"若い世代はイエスに従い、エージェントを傍らに聖書を読み、自分の教会やコミュニティで実際に使われる本物をつくります。大人も、ひとりでも友達と一緒でも、同じ道を歩みます。\">",
+   2
+  ],
+  [
+   "<meta property=\"og:url\" content=\"https://buildwithjesus.com/\">",
+   "<meta property=\"og:url\" content=\"https://buildwithjesus.com/ja\">",
+   1
+  ],
+  [
+   "<meta name=\"twitter:title\" content=\"Build with Jesus | Build real things for your church and community\">",
+   "<meta name=\"twitter:title\" content=\"Build with Jesus | 教会とコミュニティのための本物をつくる\">",
+   1
+  ],
+  [
+   "<meta property=\"og:locale\" content=\"en\">",
+   "<meta property=\"og:locale\" content=\"ja_JP\">",
+   1
+  ],
+  [
+   "<link rel=\"icon\" type=\"image/svg+xml\" href=\"favicon.svg\">",
+   "<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\">",
+   1
+  ],
+  [
+   "src=\"images/",
+   "src=\"/images/",
+   5
+  ],
+  [
+   "https://www.onetoeight.guide/en/u/",
+   "https://www.onetoeight.guide/ja/u/",
+   5
+  ],
+  [
+   "<button class=\"menu-btn\"",
+   "<div class=\"langsel-wrap\"><button type=\"button\" class=\"langsel-btn\" aria-haspopup=\"true\" aria-expanded=\"false\">Japanese<span class=\"ls-arrow\">&#9662;</span></button><div class=\"langsel-panel\" role=\"menu\"><a class=\"langsel-row\" href=\"/\">English</a><a class=\"langsel-row\" href=\"/ms\">Bahasa Melayu</a><a class=\"langsel-row\" href=\"/tl\">Tagalog</a><a class=\"langsel-row\" href=\"/id\">Indonesian</a><a class=\"langsel-row\" href=\"/vi\">Vietnamese</a><a class=\"langsel-row\" href=\"/th\">Thai</a><a class=\"langsel-row\" href=\"/es\">Spanish</a><a class=\"langsel-row\" href=\"/zh\">Chinese (Simplified)</a><a class=\"langsel-row\" href=\"/ko\">Korean</a><button type=\"button\" class=\"langsel-row cur\" aria-current=\"true\">Japanese</button></div></div><button class=\"menu-btn\"",
+   1
+  ],
+  [
+   "<a href=\"/legal\">Legal &amp; privacy</a>\n  </div>\n</nav>",
+   "<a href=\"/legal\">Legal &amp; privacy</a>\n  </div>\n</nav>",
+   1
+  ]
+ ],
+ "A": [
+  [
+   "alt=\"Four young people working on laptops on bean bags in a church hall, beneath the cross on the wall.\"",
+   "alt=\"教会のホールで、壁の十字架の下、ビーズクッションに座ってノートパソコンで作業する4人の若い世代。\"",
+   1
+  ],
+  [
+   "alt=\"Sketch note: getting ready for the day, from getting the agent and installing it at home, through the induction questions, to arriving at the workshop set up\"",
+   "alt=\"スケッチメモ：当日の準備の流れ。エージェントを入手して家でインストールし、導入の質問に答え、セットアップを終えてワークショップに到着するまで。\"",
+   1
+  ],
+  [
+   "alt=\"Sketch note: the workshop day, from everyone arriving set up, through the moves taught live and one real build, to the review by leaders and the hand-over\"",
+   "alt=\"スケッチメモ：ワークショップ当日の流れ。全員が準備万端で集まり、動きをライブで教わり、本物のビルドを1つつくり、リーダーたちのレビューと引き渡しまで。\"",
+   1
+  ],
+  [
+   "alt=\"A young person walking a coastal path at sunrise, replying to a message on their phone.\"",
+   "alt=\"日の出の海岸沿いの道を歩きながら、スマホでメッセージに返信する若い世代。\"",
+   1
+  ],
+  [
+   "alt=\"Brendan O&#8217;Keefe, founder of one to eight\"",
+   "alt=\"Brendan O&#8217;Keefe、one to eight の創設者\"",
+   1
+  ],
+  [
+   "aria-label=\"A phone with a silicon chip on its screen, a hammer and a nail on a wooden plank\"",
+   "aria-label=\"画面にシリコンチップを載せたスマホ、木の板にハンマーと釘。\"",
+   2
+  ],
+  [
+   "aria-label=\"Your email\"",
+   "aria-label=\"メールアドレス\"",
+   1
+  ],
+  [
+   "title=\"A wise man welcomes you to Build with Jesus\"",
+   "title=\"賢者が Build with Jesus へようこそと迎えてくれます。\"",
+   1
+  ]
+ ],
+ "BLOCKS": [
+  [
+   "\"name\": \"Is this an AI that does Bible study for them?\"",
+   "\"name\": \"これは、聖書の学びを代わりにやってくれる AI ですか？\""
+  ],
+  [
+   "\"text\": \"No. It helps teach the passage and keeps the rhythm going, and every question worth asking goes back to your church and its leaders. Teaching stays with people.\"",
+   "\"text\": \"いいえ。エージェントは聖書箇所について教える手助けをし、リズムを保ちます。そして、問う価値のある質問はすべて、自分の教会とそのリーダーたちに戻ります。教えるのは、人の役割です。\""
+  ],
+  [
+   "\"name\": \"Who is it for?\"",
+   "\"name\": \"誰のためのもの？\""
+  ],
+  [
+   "\"text\": \"Christian young people who want to build, whether they are still at school or just out of it, and adults who want the same walk, solo or with friends. The pace is theirs, and everything happens on their own machine.\"",
+   "\"text\": \"つくることを望むクリスチャンの若い世代と、同じ道を歩みたい大人です。学校に通っていても、卒業したばかりでも、ひとりでも、友達と一緒でも大丈夫。ペースは自分たちで決められ、すべては自分たちのパソコンの上で進みます。\""
+  ],
+  [
+   "\"name\": \"What does a church need to start?\"",
+   "\"name\": \"教会が始めるには、何が必要ですか？\""
+  ],
+  [
+   "\"text\": \"One real need and a room with wifi. A build day is a Saturday. The rest is the guide and the agent, and we walk you through the first one.\"",
+   "\"text\": \"本当の必要が1つと、Wi-Fi のある部屋です。ビルドデーは土曜日。あとはガイドとエージェントだけで、最初の1回は私たちが一緒に進めます。\""
+  ],
+  [
+   "\"name\": \"What does it cost?\"",
+   "\"name\": \"費用はいくらですか？\""
+  ],
+  [
+   "\"text\": \"The agent is $19.99 (AUD) as a founding price until 1 December 2026, then $29.99 (AUD), one payment, yours to keep. The guide is free to read, the leaders guide is coming soon at $69.99 (AUD), one purchase that covers every leader, every group, and as many workshops as you run, and build days are worked out with each church. Sponsored places will exist for families who need them.\"",
+   "\"text\": \"エージェントは発売記念価格 $19.99 (AUD)、2026年12月1日まで。その後 $29.99 (AUD)。1回のお支払いで、ずっと使えます。ガイドは無料で読めます。リーダーガイドは近日公開で $69.99 (AUD)。1回の購入で、すべてのリーダー、すべてのグループ、何回のワークショップでも対象になります。ビルドデーは教会ごとに相談しながら進めます。必要な家庭のために、スポンサー枠も用意する予定です。\""
+  ],
+  [
+   "\"name\": \"What do young people need?\"",
+   "\"name\": \"若い世代には、何が必要ですか？\""
+  ],
+  [
+   "\"text\": \"A personal laptop or desktop with admin access (not a school laptop), an OpenRouter account with $20 of credit, and a free Telegram or WhatsApp account on their phone. Setup takes about an hour, and the walkthrough holds their hand through it.\"",
+   "\"text\": \"管理者権限のある個人のノートパソコンまたはデスクトップ（学校のノートパソコンは不可）、$20 のクレジットを入れた OpenRouter アカウント、そしてスマホに入れた無料の Telegram または WhatsApp アカウントです。セットアップは1時間ほどで、手順ガイドがそばについて丁寧に案内します。\""
+  ],
+  [
+   "\"name\": \"Can they use it from their phone?\"",
+   "\"name\": \"スマホからも使えますか？\""
+  ],
+  [
+   "\"text\": \"Yes, much of the time. Once the agent is set up and working, much of the young person's interaction can happen from their phone, through Telegram or WhatsApp: asking questions, capturing ideas, and iterating quickly on their build from wherever they are. The laptop is the workbench; the phone keeps the thinking moving.\"",
+   "\"text\": \"はい、多くの場合は使えます。エージェントの設定が済んで動き出せば、若い世代のやり取りの多くは、スマホから Telegram や WhatsApp を通して行えます。質問する、アイデアを書き留める、どこにいても自分のビルドをすばやく改良する。ノートパソコンは作業台、スマホは思考を動かし続けてくれます。\""
+  ],
+  [
+   "btn.textContent='Sending...'",
+   "btn.textContent='送信中...'"
+  ],
+  [
+   "btn.textContent='Subscribe'",
+   "btn.textContent='登録する'"
+  ]
+ ],
+ "M": {
+  "The agent": "Agent",
+  "The leaders guide": "リーダーガイド",
+  "The workshop": "ワークショップ",
+  "The programme": "プログラム",
+  "How it works": "進め方",
+  "For groups": "グループの方へ",
+  "Examples": "事例",
+  "FAQ": "よくある質問",
+  "About": "このサイトについて",
+  "Inspiration": "インスピレーション",
+  "How we use AI": "AI の使い方",
+  "Safety &amp; data": "安全性 &amp; データ",
+  "Legal &amp; privacy": "法務 &amp; プライバシー",
+  "Get the agent": "エージェントを入手",
+  "Home": "ホーム",
+  "Establish the work of our hands. &middot; Psalm 90:17 (WEB)": "Establish the work of our hands. &middot; 詩篇 90:17 (WEB)",
+  "Follow Jesus. Learn new skills. Build real things. Give them away.": "イエスに従う。新しい技能を学ぶ。本物をつくる。手放して分かち合う。",
+  "one to eight guide": "one to eight ガイド",
+  "Build with Jesus pairs the": "Build with Jesus は、",
+  "(a free practical guide for young people through eight essentials) with the Bible and the teachings of Jesus. Young people read, build and serve with an AI agent beside them, and adults walk the same road. Every finished thing goes to their church or their community.": "（若い世代が8つのエッセンスを通して学ぶための無料の実用ガイド）を聖書とイエスの教えと組み合わせます。若い世代は、AI エージェントを傍らにして読み、つくり、仕えます。大人も同じ道を歩みます。完成したものはすべて、自分の教会やコミュニティに届きます。",
+  "Start with the guide (free)": "まずはガイドから（無料）",
+  "Bring it to your group": "グループに持ち込む",
+  "For young people, for the churches, schools and charities who walk with them, and for adults walking the same road.": "若い世代のために。若い世代とともに歩む教会、学校、慈善団体のために。同じ道を歩く大人のために。",
+  "I&#8217;m a young person": "若い世代の方へ",
+  "Start with the guide. It&#8217;s free.": "まずはガイドから。無料です。",
+  "Eight essentials, activities and audio, at your own pace. Add the agent and it walks beside you while you build.": "8つのエッセンスとアクティビティ、音声を、自分のペースで。エージェントを加えれば、つくる間もずっと傍らを歩いてくれます。",
+  "Get the agent &#8594;": "エージェントを入手 &#8594;",
+  "I lead a church or youth group": "教会やユースグループを導く方へ",
+  "Bring it to your church.": "自分の教会に持ち込みましょう。",
+  "See how a build day works, what it costs, and how to run the programme with your young people.": "ビルドデーの仕組み、費用、そして若い世代と一緒にプログラムを運営する方法がわかります。",
+  "For groups and churches &#8594;": "グループと教会の方へ &#8594;",
+  "I&#8217;m an adult": "大人の方へ",
+  "Walk the same road at your own pace.": "同じ道を、自分のペースで歩みましょう。",
+  "Solo or with friends: the Bible and the teachings of Jesus, with an AI agent beside you. No group required, no church required.": "ひとりでも、友達と一緒でも。聖書とイエスの教えを、AI エージェントを傍らに学べます。グループは必要ありません。教会も必要ありません。",
+  "Start the walk &#8594;": "歩みを始める &#8594;",
+  "What is Build with Jesus?": "Build with Jesus とは？",
+  "Jesus learned his crafts, taught people wherever possible, took risks, built, and gave away often.": "イエスはものづくりの技を学び、機会あるごとに人々を教え、リスクを取り、つくり、そしてよく分け与えました。",
+  "Build with Jesus is about using the latest tools to primarily build digital artefacts for young people, their churches and wider community.": "Build with Jesus が目指すのは、最新のツールを使って、若い世代とその教会、そしてより広いコミュニティのためのデジタル作品を、主につくることです。",
+  "Today, we have the AI technology to empower any young person to build custom software and use AI agents for increased learning and productivity. Furthermore, building takes many other shapes, the one to eight guide and their AI agent encourages young people to participate outside of the digital world.": "今は、どんな若い世代でも自分だけのソフトウェアをつくり、AI エージェントで学びと生産性を高められる AI 技術があります。さらに、ものづくりにはほかの形もたくさんあります。one to eight ガイドとその AI エージェントは、若い世代がデジタルの世界の外でも参加していくことを後押しします。",
+  "Learn. Build. Give.": "学ぶ。つくる。分かち合う。",
+  "The whole idea in three daily moves. The guide teaches the eight essentials; the Bible and the agent walk beside them; the week's work ends in someone else's hands.": "すべてのアイデアは、毎日の3つの動きの中にあります。ガイドが8つのエッセンスを教え、聖書とエージェントが傍らを歩き、その週につくったものは最後に誰かの手へ渡ります。",
+  "1": "1",
+  "2": "2",
+  "3": "3",
+  "Learn": "学ぶ",
+  "Build": "つくる",
+  "Give": "分かち合う",
+  "A short lesson, taken at your pace: the eight essentials, one skill at a time. Planning, focus, working with AI, finishing what you start. Every skill lands in the same week's build, so it is learned by doing.": "短いレッスンを、自分のペースで。8つのエッセンス、技能1つずつ。計画を立てること、集中すること、AI と一緒に働くこと、始めたことを最後までやり切ること。学んだ技能は同じ週のものづくりで使うので、実際にやりながら身につきます。",
+  "The day's small move on a real project: personal software, something for the family, and each term, something for the church. The eight essentials teach the craft and the character together.": "その日の小さな動きを、本物のプロジェクトで。自分のためのソフトウェア、家族のためのもの、そして学期ごとに教会のためのものをつくります。8つのエッセンスが、技と心を一緒に教えます。",
+  "Finished things are given away. Presented to the youth group, handed to the church office, put to work on the noticeboard. Nothing sits in a folder. The gift is the point.": "完成したものは、手放して分かち合います。ユースグループで発表し、教会のオフィスに手渡し、掲示板で使ってもらいます。フォルダにしまい込まれたままのものはありません。大切なのは、贈り物であることです。",
+  "The eight essentials: The ability to sit in silence &middot; Your body is a home &middot; Useful skills for real life &middot; Digital self-defence &middot; Real community &middot; Knowledge you can carry &middot; Make room for the outside &middot; Test what you believe.": "8つのエッセンス：静けさに座る力 &middot; 体という家 &middot; 実生活に役立つ技能 &middot; デジタル自衛 &middot; 本物のコミュニティ &middot; 持ち運べる知識 &middot; 外のための場所をつくる &middot; 信じていることを試す。",
+  "Read the guide for young people &#8594;": "若い世代のためのガイドを読む &#8594;",
+  "Churches &middot; Religious schools &middot; Homeschool families &middot; Charities": "教会 &middot; 宗教学校 &middot; ホームスクールの家庭 &middot; 慈善団体",
+  "For churches and youth groups": "教会とユースグループの方へ",
+  "Your youth group is full of capacity. Your church is full of real needs. Put them in the same room. Religious schools, homeschool families and charities run the same programme.": "ユースグループには力があふれています。教会には本当の必要があふれています。その2つを、同じ部屋に集めましょう。宗教学校、ホームスクールの家庭、慈善団体も、同じプログラムを実施できます。",
+  "Run a build day": "ビルドデーを開催する",
+  "A Saturday, a room with wifi, and snacks. The young people bring curiosity, the church brings one real need, and a finished thing comes out the other side.": "土曜日、Wi-Fi のある部屋、それに軽食。若い世代が好奇心を、教会が1つの本当の必要を持ち寄れば、最後には完成したものが出てきます。",
+  "Sponsor a builder": "つくり手を支援する",
+  "Fund places for young people in your own church. They build for the community that sponsored them, and the church keeps what they make.": "自分の教会の若い世代の参加枠に資金を出せます。若い世代は支援してくれたコミュニティのためにつくり、つくったものは教会に残ります。",
+  "The church kit": "教会キット",
+  "One page on how to run it: what a build day needs, how the term flows, and what to say to parents and guardians.": "ビルドデーに必要なもの、学期の流れ、保護者に伝えることを、運営のしかたとして1ページにまとめています。",
+  "Get the leaders guide": "リーダーガイドを入手",
+  "Want it in person? Brendan runs the workshop live at your church.": "対面で体験したいですか？ Brendan が皆さんの教会でワークショップをライブで開催します。",
+  "Bring it to your area": "お住まいの地域に呼ぶ",
+  "The agent reads with them, not for them": "エージェントは、若い世代の代わりに読むのではなく、一緒に読みます。",
+  "An assistant, never an authority.": "アシスタントであり、権威ではありません。",
+  "It holds the reading plan, asks better questions than it answers, and sends a young person back to their church and its leaders for teaching.": "読み進める計画を保ち、答えるよりも良い問いを投げかけ、教えを求める若い世代を、教会とそのリーダーたちのもとへ戻します。",
+  "Quotes checked, content reviewed.": "引用は確認済み、内容はレビュー済み。",
+  "Scripture is verified against a named translation, and a person reviews every line of faith content before it ships.": "聖書の言葉は名前の明記された翻訳と照合して確認し、信仰に関する内容はすべて、公開前に人が一行ずつ目を通します。",
+  "Skill in service is an old pattern.": "仕える中で技能を発揮するのは、古くからあるかたちです。",
+  "The first person in the Bible described as filled with the Spirit was Bezalel, a craftsman called to build (Exodus 31). The workbench has always been holy ground.": "聖書で、聖霊に満たされたと最初に記されているのは、つくるために召された職人ベツァルエルでした（出エジプト記31章）。作業台はいつも、聖なる場所でした。",
+  "Whatever you do, work at it with all your heart, as working for the Lord.": "Whatever you do, work at it with all your heart, as working for the Lord.",
+  "Colossians 3:23": "コロサイ 3:23 (WEB)",
+  "The Lord's Prayer, read slowly, with a short watch on praying it daily.": "主の祈りを、ゆっくり読む。毎日祈るための短い動画つき。",
+  "Read the Lord&#8217;s Prayer": "主の祈りを読む",
+  "Who&#8217;s behind this": "これは誰がつくっているの？",
+  "Brendan O&#8217;Keefe, founder of one to eight": "Brendan O&#8217;Keefe、one to eight の創設者",
+  "Build with Jesus is made by Brendan O&#8217;Keefe. He founded": "Build with Jesus は、Brendan O&#8217;Keefe がつくっています。彼は",
+  "and wrote the": "を立ち上げ、",
+  ", the free practical guide for young people now read in ten languages, and he travels to run the Build with Jesus workshop live at churches.": "を書きました。これは、若い世代のための無料の実用ガイドで、今では10か国語で読まれています。そして、教会に出向いて Build with Jesus ワークショップをライブで開催しています。",
+  "The agent, the lessons and this site are built the same way the young people build: start small, learn by making, finish well, and give the finished thing away.": "エージェントも、レッスンも、このサイトも、若い世代がものづくりをするのと同じ方法でつくられています。小さく始め、つくりながら学び、丁寧に仕上げ、完成したものは手放して分かち合います。",
+  "Questions churches ask first": "教会がよく尋ねる質問",
+  "Is this an AI that does Bible study for them?": "これは、聖書の学びを代わりにやってくれる AI ですか？",
+  "No. It helps teach the passage and keeps the rhythm going, and every question worth asking goes back to your church and its leaders. Teaching stays with people.": "いいえ。エージェントは聖書箇所について教える手助けをし、リズムを保ちます。そして、問う価値のある質問はすべて、自分の教会とそのリーダーたちに戻ります。教えるのは、人の役割です。",
+  "Who is it for?": "誰のためのもの？",
+  "Christian young people who want to build, whether they are still at school or just out of it, and adults who want the same walk, solo or with friends. The pace is theirs, and everything happens on their own machine.": "つくることを望むクリスチャンの若い世代と、同じ道を歩みたい大人です。学校に通っていても、卒業したばかりでも、ひとりでも、友達と一緒でも大丈夫。ペースは自分たちで決められ、すべては自分たちのパソコンの上で進みます。",
+  "What does a church need to start?": "教会が始めるには、何が必要ですか？",
+  "One real need and a room with wifi. A build day is a Saturday. The rest is the guide and the agent, and we walk you through the first one.": "本当の必要が1つと、Wi-Fi のある部屋です。ビルドデーは土曜日。あとはガイドとエージェントだけで、最初の1回は私たちが一緒に進めます。",
+  "What does it cost?": "費用はいくらですか？",
+  "The agent is $19.99 (AUD) as a founding price until 1 December 2026, then $29.99 (AUD), one payment, yours to keep. The guide is free to read, the leaders guide is coming soon at $69.99 (AUD), one purchase that covers every leader, every group, and as many workshops as you run, and build days are worked out with each church. Sponsored places will exist for families who need them.": "エージェントは発売記念価格 $19.99 (AUD)、2026年12月1日まで。その後 $29.99 (AUD)。1回のお支払いで、ずっと使えます。ガイドは無料で読めます。リーダーガイドは近日公開で $69.99 (AUD)。1回の購入で、すべてのリーダー、すべてのグループ、何回のワークショップでも対象になります。ビルドデーは教会ごとに相談しながら進めます。必要な家庭のために、スポンサー枠も用意する予定です。",
+  "What do young people need?": "若い世代には、何が必要ですか？",
+  "A personal laptop or desktop with admin access (not a school laptop), an OpenRouter account with $20 of credit, and a free Telegram or WhatsApp account on their phone. Setup takes about an hour, and the walkthrough holds their hand through it.": "管理者権限のある個人のノートパソコンまたはデスクトップ（学校のノートパソコンは不可）、$20 のクレジットを入れた OpenRouter アカウント、そしてスマホに入れた無料の Telegram または WhatsApp アカウントです。セットアップは1時間ほどで、手順ガイドがそばについて丁寧に案内します。",
+  "Can they use it from their phone?": "スマホからも使えますか？",
+  "Yes, much of the time. Once the agent is set up and working, much of the young person&#8217;s interaction can happen from their phone, through Telegram or WhatsApp: asking questions, capturing ideas, and iterating quickly on their build from wherever they are. The laptop is the workbench; the phone keeps the thinking moving.": "はい、多くの場合は使えます。エージェントの設定が済んで動き出せば、若い世代のやり取りの多くは、スマホから Telegram や WhatsApp を通して行えます。質問する、アイデアを書き留める、どこにいても自分のビルドをすばやく改良する。ノートパソコンは作業台、スマホは思考を動かし続けてくれます。",
+  "Build something your church will use this term.": "今学期、自分の教会で使われるものをつくりましょう。",
+  "Stay close to the work.": "ものづくりのそばにい続けましょう。",
+  "One short note now and then: build days, new builds, things worth copying. Nothing else.": "ときどき、短いお知らせを1通だけ。ビルドデーのこと、新しいビルド、まねしたくなるもの。それだけです。",
+  "Subscribe": "登録する",
+  "&#10003; You're on the list. Talk soon.": "&#10003; リストに登録できました。またお話ししましょう。",
+  "Something went wrong. Please try again.": "うまくいきませんでした。もう一度お試しください。",
+  "The Guide": "ガイド",
+  "buildwithjesus.com. A work in progress, black and white for now. Built with the one to eight guide and the one to eight agent. &middot;": "buildwithjesus.com。まだ制作途中のサイトで、今は白黒です。one to eight ガイドと one to eight エージェントでつくられています。 &middot;"
+ },
+ "KEEP": [
+  "Japanese",
+  "onetoeight",
+  "TL",
+  "Indonesian",
+  "Korean",
+  "EN",
+  "Bahasa Melayu",
+  "Bahasa",
+  "MS",
+  "Vietnamese",
+  "English",
+  "One to eight",
+  "BUILD",
+  "Chinese (Simplified)",
+  "Thai",
+  "Tagalog",
+  "JESUS",
+  "akan datang",
+  "WITH",
+  "Spanish",
+  "Build with Jesus | 教会とコミュニティのための本物をつくる"
+ ],
+ "BANNED": [
+  "ティーン",
+  "ティーンエイジャー",
+  "10代",
+  "あなた",
+  "きみ",
+  "おまえ",
+  "お前",
+  "スマートフォン",
+  "\\bteenager\\w*\\b"
+ ],
+ "MUST": [
+  "若い世代",
+  "教会"
+ ],
+ "ENPROBE": [
+  "Follow Jesus",
+  "young people build",
+  "Start with the guide",
+  "Get the agent",
+  "build day",
+  "leaders guide",
+  "Questions churches ask",
+  "The agent reads"
+ ],
+ "EXTRA_RUNS": {
+  "Leaders guide": "リーダーガイド",
+  "The guide": "ガイド"
+ }
+}

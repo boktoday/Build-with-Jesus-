@@ -1,0 +1,26 @@
+{
+ "runs": {
+  "Bring it to your group | Build with Jesus": "모임으로 가져가기 | Build with Jesus",
+  "For groups and churches": "모임과 교회를 위해",
+  "Bring it to your group.": "우리 모임으로 가져가요.",
+  "Two ways to run Build with Jesus with your young people: Brendan comes to you for a live build day, or you lead it yourself with the leaders guide. Both are made for churches, religious schools, homeschool families and charities.": "젊은 세대와 함께 Build with Jesus를 하는 방법은 두 가지예요: Brendan이 찾아와 빌드 데이를 열어 주는 것, 또는 리더 가이드로 직접 이끄는 것이에요. 둘 다 교회, 종교 학교, 홈스쿨 가정, 자선 단체를 위해 만들었어요.",
+  "In person": "방문 진행",
+  "A build day, in your building.": "우리 건물에서 여는 빌드 데이.",
+  "Brendan travels to run the workshop live with your young people: a full day, real builds, everything agreed up front in writing. One host church for the groups around it, sharing the day and the cost. Around $1,000 a day (AUD), plus travel and expenses.": "Brendan이 젊은 세대를 만나러 직접 찾아가 워크숍을 진행해요: 온종일, 진짜 만들기, 모든 조건은 사전에 서면으로 정해요. 주변 모임들이 호스트 교회 한 곳에 모여 하루와 비용을 함께 나눠요. 하루 약 $1,000 (AUD)에 이동 경비와 제반 비용이 더해져요.",
+  "The workshop, in detail &#8594;": "워크숍 자세히 보기 &#8594;",
+  "Lead it yourself": "직접 이끌기",
+  "The leaders guide, at your pace.": "리더 가이드, 각자의 속도로.",
+  "Run the programme yourself, whenever suits your group. The guide walks you through it week by week: what to run, what to watch for, and how to keep it moving when term gets busy. The leaders guide is coming soon at $69.99 (AUD): one purchase for every leader and every group, forever.": "모임에 맞는 때에 언제든 프로그램을 직접 운영해요. 가이드가 주마다 차근차근 안내해요: 무엇을 진행할지, 무엇을 살펴야 할지, 학기가 바빠질 때 어떻게 계속 이어 갈지. 리더 가이드는 곧 출시, $69.99 (AUD)예요: 한 번 구매하면 모든 리더와 모든 모임이 계속 쓸 수 있어요.",
+  "The leaders guide &#8594;": "리더 가이드 &#8594;",
+  "Both paths run on the same free one to eight guide and the agent your young people build with. Not sure which fits? Register your interest on the": "두 가지 방법 모두 같은 무료 one to eight 가이드와, 젊은 세대가 함께 만드는 Agent 위에서 이뤄져요. 어느 쪽이 맞을지 모르겠어요?",
+  "workshop page": "워크숍 페이지",
+  "and we will help you choose.": "에서 관심을 등록해 주세요. 맞는 길은 함께 골라 드려요.",
+  "Register your interest": "관심 등록하기"
+ },
+ "attrs": {
+  "Two ways to run Build with Jesus with your young people: a live build day at your church, or you lead it yourself with the leaders guide. For churches, religious schools, homeschool families and charities.": "젊은 세대와 함께 Build with Jesus를 하는 두 가지 방법: 교회에서 열리는 빌드 데이, 또는 리더 가이드로 직접 이끌기. 교회, 종교 학교, 홈스쿨 가정, 자선 단체를 위해 만들었어요.",
+  "Bring it to your group | Build with Jesus": "모임으로 가져가기 | Build with Jesus",
+  "Two ways to run it: the in-person workshop, or the leaders guide.": "두 가지 방법: 방문 워크숍, 또는 리더 가이드."
+ },
+ "notes": "ko groups map. Terms: 모임=group/youth group, 젊은 세대=young people, 리더 가이드=leaders guide, 빌드 데이=build day, 워크숍=workshop, 프로그램=programme, 학기=term, 곧 출시=coming soon, 호스트 교회=host church, 관심 등록하기=Register your interest. Prices verbatim ($1,000 (AUD) day rate, $69.99 (AUD)); one to eight, Agent, Brendan stay English; &#8594; entities kept. Split sentence 'Register your interest on the [workshop page] and we will help you choose.' is moved zh-style: '어느 쪽이 맞을지 모르겠어요?' + '워크숍 페이지' link + '에서 관심을 등록해 주세요. 맞는 길은 함께 골라 드려요.' so it reads naturally with the link inline. Option eyebrows: In person=방문 진행, Lead it yourself=직접 이끌기. No scripture blocks on this page."
+}

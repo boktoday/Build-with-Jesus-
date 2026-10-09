@@ -1,0 +1,26 @@
+{
+ "runs": {
+  "Bring it to your group | Build with Jesus": "グループに持ち込む | Build with Jesus",
+  "For groups and churches": "グループと教会の方へ",
+  "Bring it to your group.": "自分のグループに持ち込みましょう。",
+  "Two ways to run Build with Jesus with your young people: Brendan comes to you for a live build day, or you lead it yourself with the leaders guide. Both are made for churches, religious schools, homeschool families and charities.": "若い世代と一緒に Build with Jesus を進める方法は2つあります。Brendan が皆さんのところへ来てライブのビルドデーを開くか、リーダーガイドを使って自分たちで導くかです。どちらも、教会、宗教学校、ホームスクールの家庭、慈善団体のために作られています。",
+  "In person": "対面で",
+  "A build day, in your building.": "ビルドデーを、皆さんの建物で。",
+  "Brendan travels to run the workshop live with your young people: a full day, real builds, everything agreed up front in writing. One host church for the groups around it, sharing the day and the cost. Around $1,000 a day (AUD), plus travel and expenses.": "Brendan が皆さんのところへ出向いて、若い世代と一緒にワークショップをライブで行います。丸1日、本物のものづくり。内容はすべて、事前に書面で取り決めます。ホスト教会は1つ。周りのグループがその日と費用を分かち合います。1日あたり約 $1,000 (AUD)、それに移動費と諸経費がかかります。",
+  "The workshop, in detail &#8594;": "ワークショップの詳細 &#8594;",
+  "Lead it yourself": "自分たちで導く",
+  "The leaders guide, at your pace.": "リーダーガイドを、自分たちのペースで。",
+  "Run the programme yourself, whenever suits your group. The guide walks you through it week by week: what to run, what to watch for, and how to keep it moving when term gets busy. The leaders guide is coming soon at $69.99 (AUD): one purchase for every leader and every group, forever.": "プログラムは、グループに合ったときに自分たちで進められます。ガイドが週ごとに、何を進めるか、何に気をつけるか、学期が忙しくなってもどう続けていくかを案内します。リーダーガイドは近日公開、$69.99 (AUD)。1回の購入で、すべてのリーダーとすべてのグループが、ずっと使えます。",
+  "The leaders guide &#8594;": "リーダーガイド &#8594;",
+  "Both paths run on the same free one to eight guide and the agent your young people build with. Not sure which fits? Register your interest on the": "どちらの道も、同じ無料の one to eight ガイドと、若い世代が一緒につくるエージェントで進みます。どちらが合うか分からないときは、",
+  "workshop page": "ワークショップのページ",
+  "and we will help you choose.": "で関心を登録してください。ぴったりの選び方をお手伝いします。",
+  "Register your interest": "関心を登録する"
+ },
+ "attrs": {
+  "Two ways to run Build with Jesus with your young people: a live build day at your church, or you lead it yourself with the leaders guide. For churches, religious schools, homeschool families and charities.": "若い世代と一緒に Build with Jesus を進める2つの方法。自分の教会で行うライブのビルドデーか、リーダーガイドで自分たちで導くかです。教会、宗教学校、ホームスクールの家庭、慈善団体のための内容です。",
+  "Bring it to your group | Build with Jesus": "グループに持ち込む | Build with Jesus",
+  "Two ways to run it: the in-person workshop, or the leaders guide.": "進め方は2つ。対面のワークショップ、またはリーダーガイドです。"
+ },
+ "notes": "ja groups map. Terms: グループ=group, 若い世代=young people, リーダーガイド=leaders guide, ビルドデー=build day, ワークショップ=workshop, プログラム=programme, 学期=term, 近日公開=coming soon, 対面で=in person, ホスト教会=host church, 関心を登録する=Register your interest. Prices verbatim $1,000 (AUD) and $69.99 (AUD); Brendan, one to eight, Build with Jesus stay English; &#8594; entities kept. Split sentence reflows with the link inline: '...どちらが合うか分からないときは、' + [ワークショップのページ] + 'で関心を登録してください。ぴったりの選び方をお手伝いします。'. No scripture blocks on this page."
+}

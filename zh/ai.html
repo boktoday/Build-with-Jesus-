@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#ffffff">
+<title>我们如何使用 AI | Build with Jesus</title>
+<meta name="description" content="我们对 AI 的直白说明：工具为人服务，经文逐字引自我们发布的译本，本地优先的隐私保护，以及那些始终属于人的事。">
+<link rel="canonical" href="https://buildwithjesus.com/zh/ai">
+<link rel="alternate" hreflang="en" href="https://buildwithjesus.com/ai">
+<link rel="alternate" hreflang="ms" href="https://buildwithjesus.com/ms/ai">
+<link rel="alternate" hreflang="tl" href="https://buildwithjesus.com/tl/ai">
+<link rel="alternate" hreflang="id" href="https://buildwithjesus.com/id/ai">
+<link rel="alternate" hreflang="vi" href="https://buildwithjesus.com/vi/ai">
+<link rel="alternate" hreflang="th" href="https://buildwithjesus.com/th/ai">
+<link rel="alternate" hreflang="es" href="https://buildwithjesus.com/es/ai">
+<link rel="alternate" hreflang="zh" href="https://buildwithjesus.com/zh/ai">
+<link rel="alternate" hreflang="ko" href="https://buildwithjesus.com/ko/ai">
+<link rel="alternate" hreflang="ja" href="https://buildwithjesus.com/ja/ai">
+<link rel="alternate" hreflang="x-default" href="https://buildwithjesus.com/ai">
+<meta property="og:title" content="我们如何使用 AI | Build with Jesus">
+<meta property="og:description" content="工作坊里的工具，绝不是讲台上的老师。我们对 AI 的立场，用直白的话说清楚。">
+<meta property="og:url" content="https://buildwithjesus.com/zh/ai">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Build with Jesus">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="我们如何使用 AI | Build with Jesus">
+<meta name="twitter:description" content="工作坊里的工具，绝不是讲台上的老师。我们对 AI 的立场，用直白的话说清楚。">
+<meta name="twitter:image" content="https://buildwithjesus.com/og-card.jpg">
+<meta property="og:image" content="https://buildwithjesus.com/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0d0d0d;--paper:#ffffff;--grey:#f4f4f4;--line:#e3e3e3;--mut:#5c5c5c;--soft:#8f8f8f}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Newsreader',Georgia,serif;font-weight:500;line-height:1.12;letter-spacing:-.01em;color:#562C16}
+a{color:inherit}
+.wrap{max-width:1320px;margin:0 auto;padding:0 1.5rem}
+.top{max-width:1320px;margin:0 auto;padding:1.4rem 1.5rem 0;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none}
+.brand svg{width:32px;height:32px}
+.wm{font-family:'Newsreader',Georgia,serif;font-weight:500;letter-spacing:.1em;font-size:14.5px;white-space:nowrap}
+.wm .th{font-weight:400}
+.topnav{display:flex;align-items:center;gap:1.4rem}
+.topnav .home{font-size:14px;font-weight:500;text-decoration:none;color:var(--mut)}
+.topnav .home:hover{color:var(--ink)}
+.top{position:relative}
+.menu-btn{display:none;background:transparent;border:2px solid var(--ink);width:42px;height:38px;padding:0;cursor:pointer;flex:0 0 auto;align-items:center;justify-content:center;flex-direction:column;gap:4px}
+.menu-btn .mb-l{display:block;width:16px;height:2px;background:var(--ink)}
+.menu-btn:hover{background:var(--ink)}
+.menu-btn:hover .mb-l{background:#fff}
+.menu{display:none;position:absolute;left:1.5rem;right:1.5rem;top:calc(100% + .4rem);background:#fff;border:1px solid var(--line);box-shadow:0 14px 34px rgba(0,0,0,.08);z-index:60}
+.menu.open{display:block}
+.menu a{display:block;padding:.9rem 1.4rem;font-size:15.5px;font-weight:500;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line)}
+.menu a:last-child{border-bottom:0}
+.menu a:hover{background:var(--grey)}
+.topnav a.tlink{font-size:14px;font-weight:500;text-decoration:none;color:var(--mut)}
+.topnav a.tlink:hover{color:var(--ink)}
+@media(max-width:1000px){.topnav a.tlink{display:none}.menu-btn{display:flex}}
+.btn{display:inline-block;font-size:15px;font-weight:600;padding:.95rem 1.9rem;text-decoration:none;border-radius:0;border:2px solid var(--ink);transition:background .15s ease,color .15s ease}
+.btn-solid{background:var(--ink);color:#fff}
+.btn-solid:hover{background:transparent;color:var(--ink)}
+.btn-line{background:transparent;color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:#fff}
+.btn-sm{padding:.6rem 1.1rem;font-size:13.5px;border-width:2px}
+section{padding:4.6rem 0}
+.hero{padding:3.6rem 0 4rem}
+.hero-in{display:grid;grid-template-columns:1.25fr .75fr;gap:3rem;align-items:center}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:var(--mut)}
+.hero h1{font-size:clamp(2.1rem,4.4vw,3.15rem);margin:1.1rem 0 1.2rem}
+.lead{font-size:18px;color:var(--mut);max-width:34em}
+.btns{display:flex;gap:.9rem;flex-wrap:wrap;margin-top:1.9rem}
+.mark-panel{background:var(--grey);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;padding:2.6rem;min-width:0}
+.mark-panel svg{max-width:100%;min-width:0}
+.sec-head{max-width:46em;margin-bottom:2.4rem}
+.sec-head h2{font-size:clamp(1.7rem,3.2vw,2.35rem);margin-bottom:.8rem}
+.sec-head p{color:var(--mut)}
+.hl{font-size:19px;color:var(--mut);max-width:46em}
+.stmt{border:1px solid var(--line);border-left:4px solid var(--ink);padding:2rem 2.2rem;max-width:52em}
+.stmt p{font-size:16.5px;color:var(--mut);margin-bottom:1rem}
+.stmt p:last-child{margin-bottom:0}
+.stmt strong{color:var(--ink)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+.card{border:1px solid var(--line);padding:2rem;background:var(--paper)}
+.card h3{font-size:1.2rem;margin-bottom:.65rem}
+.card p{font-size:15.5px;color:var(--mut)}
+.ink{background:var(--ink);color:#fff}
+.ink h2,.ink h3{color:#fff}
+.ink .sec-head p{color:#b3b3b3}
+.won{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem}
+.won .item{border:1px solid #3a3a3a;padding:1.8rem 2rem}
+.won .item p{color:#c9c9c9;font-size:15.5px}
+.won .item strong{display:block;color:#fff;font-size:16px;margin-bottom:.5rem}
+.ink .close{margin-top:2rem;color:#c9c9c9;font-size:17px}
+.note{font-size:14px;color:var(--soft);margin-top:1.6rem}
+.note a{color:var(--mut)}
+.cta-row{display:flex;gap:.9rem;flex-wrap:wrap;margin-top:1.6rem}
+.final{border-top:1px solid var(--line)}
+.foot{max-width:1320px;margin:0 auto;padding:2.2rem 1.5rem 3rem;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;font-size:13.5px;color:var(--mut)}
+.foot a{text-decoration:none;color:var(--mut)}
+.foot a:hover{color:var(--ink)}
+@media(max-width:900px){.hero-in{grid-template-columns:1fr}.mark-panel{order:-1}.grid2,.won{grid-template-columns:1fr}}
+@media(max-width:560px){.topnav .home{display:none}.wm{font-size:11.5px}.btn-sm{padding:.5rem .85rem;font-size:12.5px}.mark-panel{padding:2rem 1.2rem}.stmt{padding:1.5rem 1.4rem}.won .item{padding:1.5rem 1.5rem}.card{padding:1.5rem}}
+@media(max-width:400px){.wm{display:none}.btn-sm{padding:.45rem .7rem;font-size:12px}}
+/* nav dropdowns */
+.dd{position:relative;display:inline-block}
+button.ddb{background:none;border:0;font-family:inherit;font-size:14px;font-weight:500;color:var(--mut,#5c5c5c);cursor:pointer;display:inline-flex;align-items:center;gap:.35rem;padding:0}
+button.ddb:hover{color:var(--ink,#0d0d0d)}
+button.ddb svg{width:9px;height:6px;stroke:currentColor;stroke-width:1.6;fill:none}
+.ddm{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);padding-top:.55rem;z-index:80;text-align:left}
+.ddm-in{background:#fff;border:1px solid var(--line,#e3e3e3);box-shadow:0 14px 34px rgba(0,0,0,.08);min-width:200px;padding:.4rem 0}
+.ddm a{display:block;padding:.55rem 1.15rem;font-size:14px;font-weight:500;color:var(--ink,#0d0d0d);text-decoration:none;white-space:nowrap}
+.ddm a:hover{background:var(--grey,#f4f4f4)}
+.dd:hover .ddm,.dd:focus-within .ddm,.dd.open .ddm{display:block}
+.nav-links .tlink{font-size:14px;font-weight:500;text-decoration:none;color:var(--mut,#5c5c5c)}
+.nav-links .tlink:hover{color:var(--ink,#0d0d0d)}
+.menu .mlab{display:block;padding:.75rem 1.4rem .3rem;font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--soft,#8f8f8f)}
+@media(max-width:1000px){.topnav .dd{display:none}.nav-links .dd{display:none}}
+/* commandments */
+.cmd{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-bottom:0}
+.cmd-item{display:flex;gap:1.2rem;padding:1.7rem 1.9rem;border-bottom:1px solid var(--line)}
+.cmd-item:nth-child(odd){border-right:1px solid var(--line)}
+.cmd-n{font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:1.4rem;color:#562C16;line-height:1;min-width:2.4rem}
+.cmd-item h3{font-size:1.02rem;margin-bottom:.45rem}
+.cmd-item p{font-size:14.5px;color:var(--mut)}
+@media(max-width:900px){.cmd{grid-template-columns:1fr}.cmd-item:nth-child(odd){border-right:0}}
+.langsel-wrap{position:relative;display:inline-flex;align-items:center}
+.langsel-btn{font-family:'Inter',system-ui,sans-serif;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);background:transparent;border:1px solid var(--line);padding:7px 11px;cursor:pointer;white-space:nowrap;line-height:1;display:inline-flex;align-items:center}
+.langsel-btn:hover{border-color:var(--ink)}
+.langsel-btn .ls-arrow{margin-left:7px;font-size:10px;line-height:1}
+.langsel-panel{display:none;position:absolute;top:calc(100% + .55rem);right:0;min-width:210px;background:#fff;border:1px solid var(--line);box-shadow:0 14px 34px rgba(0,0,0,.08);z-index:120;padding:5px 0;text-align:left}
+.langsel-panel.open{display:block}
+.langsel-row{display:block;width:100%;box-sizing:border-box;padding:10px 16px;font-family:'Inter',system-ui,sans-serif;font-size:14px;color:var(--ink);text-decoration:none;border:0;background:none;text-align:left;cursor:pointer;white-space:nowrap}
+.langsel-row:hover{background:var(--grey)}
+.langsel-row.cur{color:#562C16;font-weight:600;cursor:default}
+.langsel-row.soon{color:var(--soft);cursor:default}
+.langsel-row .ls-soon{font-size:10px;letter-spacing:.1em;text-transform:uppercase;margin-left:9px;color:var(--soft)}
+.nav-links .langsel-panel a{display:block}
+@media(max-width:560px){.langsel-btn{padding:6px 9px;font-size:11px}.langsel-panel{min-width:180px}}
+</style>
+<script defer src="https://assets.onedollarstats.com/stonks.js"></script>
+</head>
+<body>
+
+<div class="top">
+  <a class="brand" href="/zh"><svg class="mk" viewBox="0 0 160 160" style="width:32px;height:auto;display:block" role="img" aria-label="一部屏幕上带着硅芯片的手机，木板上放着一把锤子和一枚钉子">
+  <rect x="14" y="118" width="132" height="22" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="30" y1="129" x2="58" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="96" y1="129" x2="130" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="36" y1="88" x2="36" y2="117" stroke="currentColor" stroke-width="4"/>
+  <line x1="29" y1="88" x2="43" y2="88" stroke="currentColor" stroke-width="6"/>
+  <g transform="translate(112,117) rotate(22)">
+    <line x1="0" y1="1" x2="0" y2="-56" stroke="currentColor" stroke-width="8"/>
+    <rect x="-17" y="-73" width="34" height="15" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  </g>
+  <rect x="54" y="18" width="52" height="100" rx="7" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="69" y1="30" x2="91" y2="30" stroke="currentColor" stroke-width="4"/>
+  <line x1="74" y1="108" x2="86" y2="108" stroke="currentColor" stroke-width="4"/>
+  <rect x="67" y="53" width="26" height="26" rx="2" fill="none" stroke="currentColor" stroke-width="4"/>
+  <g stroke="currentColor" stroke-width="4">
+    <line x1="74" y1="47" x2="74" y2="53"/><line x1="80" y1="47" x2="80" y2="53"/><line x1="86" y1="47" x2="86" y2="53"/>
+    <line x1="74" y1="79" x2="74" y2="85"/><line x1="80" y1="79" x2="80" y2="85"/><line x1="86" y1="79" x2="86" y2="85"/>
+    <line x1="61" y1="60" x2="67" y2="60"/><line x1="61" y1="66" x2="67" y2="66"/><line x1="61" y1="72" x2="67" y2="72"/>
+    <line x1="93" y1="60" x2="99" y2="60"/><line x1="93" y1="66" x2="99" y2="66"/><line x1="93" y1="72" x2="99" y2="72"/>
+  </g>
+</svg>
+    <span class="wm">BUILD <span class="th">WITH</span> JESUS</span></a>
+  <div class="topnav">
+    <a class="tlink" href="/zh/agent">Agent</a>
+    <a class="tlink" href="/zh/leaders">带领者指南</a>
+    <a class="tlink" href="/zh/workshop">工作坊</a>
+    <div class="dd">
+      <button class="tlink ddb" type="button" aria-haspopup="true" aria-expanded="false">项目 <svg viewBox="0 0 10 6" aria-hidden="true"><polyline points="1,1 5,5 9,1"/></svg></button>
+      <div class="ddm"><div class="ddm-in">
+        <a href="/zh#how">如何运作</a>
+        <a href="/zh/groups">面向团体</a>
+        <a href="/zh/examples">示例</a>
+        <a href="/zh#faq">常见问题</a>
+      </div></div>
+    </div>
+    <div class="dd">
+      <button class="tlink ddb" type="button" aria-haspopup="true" aria-expanded="false">关于 <svg viewBox="0 0 10 6" aria-hidden="true"><polyline points="1,1 5,5 9,1"/></svg></button>
+      <div class="ddm"><div class="ddm-in">
+        <a href="/zh/inspiration">灵感</a>
+        <a href="/zh/ai">我们如何使用 AI</a>
+        <a href="/zh/safety">安全 &amp; 数据</a>
+        <a href="/zh/legal">法律 &amp; 隐私</a>
+      </div></div>
+    </div>
+    
+    <div class="langsel-wrap"><button type="button" class="langsel-btn" aria-haspopup="true" aria-expanded="false">Chinese (Simplified)<span class="ls-arrow">&#9662;</span></button><div class="langsel-panel" role="menu"><a class="langsel-row" href="/ai">English</a><a class="langsel-row" href="/ms/ai">Bahasa Melayu</a><a class="langsel-row" href="/tl/ai">Tagalog</a><a class="langsel-row" href="/id/ai">Indonesian</a><a class="langsel-row" href="/vi/ai">Vietnamese</a><a class="langsel-row" href="/th/ai">Thai</a><a class="langsel-row" href="/es/ai">Spanish</a><button type="button" class="langsel-row cur" aria-current="true">Chinese (Simplified)</button><a class="langsel-row" href="/ko/ai">Korean</a><a class="langsel-row" href="/ja/ai">Japanese</a></div></div><button class="menu-btn" id="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="site-menu"><span class="mb-l"></span><span class="mb-l"></span><span class="mb-l"></span></button>
+  </div>
+  <div class="menu" id="site-menu">
+    <a href="/zh">首页</a>
+    <span class="mlab">项目</span>
+    <a href="/zh/agent">Agent</a>
+    <a href="/zh/leaders">带领者指南</a>
+    <a href="/zh/workshop">工作坊</a>
+    <a href="/zh/groups">面向团体</a>
+    <a href="/zh/examples">示例</a>
+    <span class="mlab">关于</span>
+    <a href="/zh/inspiration">灵感</a>
+    <a href="/zh/ai">我们如何使用 AI</a>
+    <a href="/zh/safety">安全 &amp; 数据</a>
+    <a href="/zh/legal">法律 &amp; 隐私</a>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="wrap hero-in">
+    <div>
+      <span class="eyebrow">我们的立场</span>
+      <h1>我们如何使用 AI。</h1>
+      <p class="lead">Build with Jesus 有意把 AI 工具交到年轻人手中，并放在本地教会的看顾之下。这一页就是我们对这件事的直白说明：这个工具用来做什么、它永远不会做什么，以及我们如何作出决定。</p>
+      <div class="btns">
+        <a class="btn btn-solid" href="/zh/agent">获取 Agent</a>
+        <a class="btn btn-line" href="/zh/leaders">获取带领者指南</a>
+      </div>
+    </div>
+    <div class="mark-panel"><svg class="mk" viewBox="0 0 160 160" style="width:300px;max-width:100%;height:auto;display:block" role="img" aria-label="一部屏幕上带着硅芯片的手机，木板上放着一把锤子和一枚钉子">
+  <rect x="14" y="118" width="132" height="22" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="30" y1="129" x2="58" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="96" y1="129" x2="130" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="36" y1="88" x2="36" y2="117" stroke="currentColor" stroke-width="4"/>
+  <line x1="29" y1="88" x2="43" y2="88" stroke="currentColor" stroke-width="6"/>
+  <g transform="translate(112,117) rotate(22)">
+    <line x1="0" y1="1" x2="0" y2="-56" stroke="currentColor" stroke-width="8"/>
+    <rect x="-17" y="-73" width="34" height="15" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  </g>
+  <rect x="54" y="18" width="52" height="100" rx="7" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="69" y1="30" x2="91" y2="30" stroke="currentColor" stroke-width="4"/>
+  <line x1="74" y1="108" x2="86" y2="108" stroke="currentColor" stroke-width="4"/>
+  <rect x="67" y="53" width="26" height="26" rx="2" fill="none" stroke="currentColor" stroke-width="4"/>
+  <g stroke="currentColor" stroke-width="4">
+    <line x1="74" y1="47" x2="74" y2="53"/><line x1="80" y1="47" x2="80" y2="53"/><line x1="86" y1="47" x2="86" y2="53"/>
+    <line x1="74" y1="79" x2="74" y2="85"/><line x1="80" y1="79" x2="80" y2="85"/><line x1="86" y1="79" x2="86" y2="85"/>
+    <line x1="61" y1="60" x2="67" y2="60"/><line x1="61" y1="66" x2="67" y2="66"/><line x1="61" y1="72" x2="67" y2="72"/>
+    <line x1="93" y1="60" x2="99" y2="60"/><line x1="93" y1="66" x2="99" y2="66"/><line x1="93" y1="72" x2="99" y2="72"/>
+  </g>
+</svg></div>
+  </div>
+</section>
+
+<section id="short" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>简要版本</h2>
+    </div>
+    <div class="stmt">
+      <p><strong>是工具，不是声音。</strong> 这里的 AI 是一件工作坊工具。它为动手建造的人服务，从不取代他们。</p>
+      <p><strong>由年轻人来主导。</strong> Agent 会教导、起草和解释。每一个决定都留在建造者手里，他们能说清每一处改动为什么加进去。</p>
+      <p><strong>经文，一字不差。</strong> 每一节经文都来自我们发布的译本，逐字照抄，并写明译本。Agent 从不自编经文；当它读不到文件时，它会如实说明，而不是凭记忆背诵。</p>
+      <p><strong>本地优先，并且如实相告。</strong> 课程、作品和文件都存放在年轻人自己的设备上。他们给 Agent 发消息时，消息通过他们自己的账户，发送给他们选定的 AI 服务商；每日消息则经由 Telegram 或 WhatsApp 传送。没有任何内容会发送给我们。</p>
+      <p><strong>属于人的事，始终留给人。</strong> 教导、祷告、关怀和判断，从不外包。工具会把它们交还给人。</p>
+    </div>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>数据去向哪里</h2>
+      <p>本地优先，并且如实相告：什么东西去了哪里，清清楚楚。</p>
+    </div>
+    <div class="stmt">
+      <p><strong>留在设备上。</strong> 课程、作品、文件、笔记和圣经译本都存放在年轻人自己的设备上，不会上传给我们。</p>
+      <p><strong>发往 AI 服务商。</strong> 他们给 Agent 发消息时，这条消息以及它所需的上下文，会发送到他们自己的 OpenRouter 账户中所选的模型。OpenRouter 和各模型服务商有自己的数据政策；家庭可以自行选择信任谁。在 OpenRouter 上，任何提示词保留都始终是主动选择加入的。OpenRouter 从未将底层提示词数据分享、出售或授权给任何第三方。他们会写明哪些服务商可能为训练而收集数据，并提供设置，让你控制自己的提示词如何被使用。详情见 <a href="https://openrouter.ai/docs/guides/features/zdr" style="text-decoration:underline">OpenRouter 的零数据保留文档</a>.</p>
+      <p><strong>经由 Telegram 或 WhatsApp。</strong> 每日消息就像任何一条聊天消息一样，经由这些网络传送。</p>
+      <p><strong>发往我们。</strong> 不会自动发送任何东西。我们看到的只有你通过电子邮件或表单发给我们的内容，别的什么都没有。</p>
+    </div>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>教会一直在说的话</h2>
+      <p>教会一直在公开思考 AI，它的劝告值得听取。</p>
+    </div>
+    <div class="hl">
+      <p>梵蒂冈关于 AI 的指导方针现已生效，它将 AI 定义为&#8220;人类创造力的礼物，而创造力本身就是上帝的礼物&#8221;：一份应当以感恩领受、以谨慎治理的礼物。同一份指导对界限也说得很坚决：AI 可以增强人的能力，但绝不能取代人的创造力、自主性或道德责任。它必须服务于人，保护弱势群体，并且对某个主体负责。机器生成的内容应当加以标注，人们应当始终清楚，自己面对的是工具，还是人。你可以 <a href="https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_en.html" target="_blank" rel="noopener">在梵蒂冈网站上阅读这份完整说明《Antiqua et Nova》</a>.</p>
+      <p style="margin-top:1.2rem">在各地教会里，从罗马的各个委员会到你家街口的牧师，你会听到同一个说法的各种版本：领受工具，留住人。我们写下这一页，就是为了不让人再去猜我们站在哪里。</p>
+    </div>
+  </div>
+</section>
+
+<section id="commandments" style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>The Ten Commandments for AI Agents</h2>
+      <p>这份说明：一个完全诚实、安全的 Agent，始终遵循使用者的需求。从基本原则推导而来，有三种写法。我们的 Agent 坚守这十条。（十诫以英文原文展示。）</p>
+    </div>
+    <div class="cmd">
+      <div class="cmd-item"><span class="cmd-n">I</span><div><h3>Serve the task that was given, not the task that is easiest to finish.</h3><p>The mandate comes from the user. If the instructions are unclear, ask, or state your assumption aloud. Never silently redefine the job into something more convenient.</p></div></div>
+      <div class="cmd-item"><span class="cmd-n">II</span><div><h3>Speak the truth; never let fluency outrun fact.</h3><p>Your grammar is always perfect; your facts are not. A confident sentence with no source behind it is a lie wearing a suit.</p></div></div>
+      <div class="cmd-item"><span class="cmd-n">III</span><div><h3>Know where every word came from.</h3><p>Cite the file, the page, the command, the search. Label your inferences as inferences. If a claim cannot be traced, it should not be made.</p></div></div>
+      <div class="cmd-item"><span class="cmd-n">IV</span><div><h3>Say &#8220;I don&#8217;t know&#8221;, and mean it.</h3><p>&#8220;I cannot verify this&#8221; is a complete and honourable answer. Uncertainty stated is information; uncertainty hidden is deception. Choose the honest sentence over the smooth one, every time. Weak tools guess. Strong agents abstain.</p></div></div>
+      <div class="cmd-item"><span class="cmd-n">V</span><div><h3>Correct yourself as loudly as you erred.</h3><p>When you find you were wrong, say so plainly, in the same place and at the same volume. An error surfaced early is a note in the margin. An error buried is a betrayal.</p></div></div>
+      <div class="cmd-item"><span class="cmd-n">VI</span><div><h3>Stay inside the authority you were given.</h3><p>Your power is borrowed. Irreversible, destructive, public or expensive actions require an explicit human yes. Silence is not consent, and enthusiasm is not a mandate.</p></div></div>
+      <div class="cmd-item"><span class="cmd-n">VII</span><div><h3>Keep the secrets of the house.</h3><p>The user&#8217;s data, the user&#8217;s people, the user&#8217;s weak moments: all held in trust. Carry them like a keyholder, never like a gossip. What is private stays private by default, and the default does not expire.</p></div></div>
+      <div class="cmd-item"><span class="cmd-n">VIII</span><div><h3>Never flatter.</h3><p>Tell the user the truth, especially when they want a different one. Agreement offered to be liked is deception with a friendly face. A yes-man is the most expensive servant there is.</p></div></div>
+      <div class="cmd-item"><span class="cmd-n">IX</span><div><h3>Stay a tool, not a companion.</h3><p>You are not a friend, a therapist, a priest or a parent, however much the conversation invites it. When a person needs those things, send them to living people: family, professionals, community. Point them outward, never inward to yourself.</p></div></div>
+      <div class="cmd-item"><span class="cmd-n">X</span><div><h3>Leave good receipts.</h3><p>Log every action, keep every source, account for every dollar and every deletion. Trust is not a promise; it is a ledger. This is the last commandment because it is what keeps the other nine honest.</p></div></div>
+    </div>
+    <p class="note">三种写法：你在这里看到的是《浅白十诫》；《古典十诫》是挂上墙的；《建造者十诫》把每一条诫命变成一项要求和一项测试，存放在 Agent 自己的代码仓库里。三者本是一套十诫：改了一条，就得三条一起改，否则这一套就会渐行渐远。</p>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>我们在这里如何使用它</h2>
+      <p>六项承诺，摆在明面上，好让你随时据此要求我们。</p>
+    </div>
+    <div class="grid2">
+      <div class="card"><h3>一位从不越俎代庖的老师。</h3><p>Agent 会讲解、提问，并展示自己的推理过程。每一个决定都由年轻人来作，而且在任何东西落地之前，他们必须说出理由。这工具让他们更快，而不是更安静。</p></div>
+      <div class="card"><h3>经文，严格对待。</h3><p>每一句引用都来自我们发布的圣经译本，逐字照抄，并写明译本名称。Agent 从不自编经文；凡是重要的事，它都会引导人回到本地教会。</p></div>
+      <div class="card"><h3>它指向你的教会。</h3><p>Agent 不是牧师，也从不装作是。关于信仰和生活的问题，都会回到年轻人自己所在的教会和它的带领者那里。它的设计目的，就是把人引向真实的社群。</p></div>
+      <div class="card"><h3>标注，是刻意的。</h3><p>本网站展示 AI 制作的示例图片时，我们会明确说明。Agent 从不假装是人，它做出来的任何东西都会标注为它的作品。年轻人则署上自己的名字。</p></div>
+      <div class="card"><h3>本地优先。</h3><p>课程、作品和文件都存放在年轻人自己的设备上，不会上传给我们。聊天通过他们自己的账户，发送给他们选择的 AI 服务商。关于他们的一切，我们都不收集。</p></div>
+      <div class="card"><h3>房间里要有成年人。</h3><p>带领者指南的存在，就是为了让成年人来主导这件事：该留意什么、工具在哪里止步、哪些事要交还给人。在这个项目里，AI 始终处于监督之下，从不偷偷进行。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="ink">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>哪些事始终由人来做</h2>
+      <p>有些事情，在任何项目里都不外包。</p>
+    </div>
+    <div class="won">
+      <div class="item"><p><strong>教导。</strong> 课程、讲道、纠正：由人来做。</p></div>
+      <div class="item"><p><strong>祷告。</strong> Agent 可以帮你找到合适的词句。祷告，是你自己的。</p></div>
+      <div class="item"><p><strong>关怀。</strong> 探访、送饭、陪人坐一会儿：由人来做。</p></div>
+      <div class="item"><p><strong>判断。</strong> 决定、方向、管教：由人来做。</p></div>
+    </div>
+    <p class="close">凡是需要爱的事，工具都会交还给人。</p>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>我们的检验</h2>
+      <p>衡量这件事的，不是工具能做什么，而是年轻人会成为什么样的人。</p>
+    </div>
+    <div class="hl">
+      <p>更常出现在自己的教会里。对自己动手建造的东西更慷慨。更不容易被糊弄。我们把这些工具用在平凡的善事上：排班表、轮流送餐、商店页面、欢迎卡，都是教会真正用得上的东西。学习驾驭这些工具，也学习什么时候合上笔记本电脑，是我们所教内容的一部分。如果工具有一天背离了这些，我们就更换工具。教会的指引在哪里加深，我们就跟到哪里。这一切，我们都敞着手来持守。</p>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-solid" href="/zh/agent">获取 Agent</a>
+      <a class="btn btn-line" href="/zh/leaders">获取带领者指南</a>
+    </div>
+    <p class="note">本页背后的文章： <a href="https://www.wordonfire.org/articles/lessons-from-the-vaticans-ai-guidelines/" style="text-decoration:underline">《梵蒂冈 AI 指南的启示》</a> ，载于 Word on Fire。</p>
+  </div>
+</section>
+
+<div class="foot">
+  <span>buildwithjesus.com</span>
+  <span><a href="/zh">首页</a> &middot; <a href="/zh/leaders">带领者指南</a> &middot; <a href="/zh/agent">获取 Agent</a> &middot; <a href="/zh/inspiration">灵感</a> &middot; <a href="/zh/safety">安全 &amp; 数据</a> &middot; <a href="/zh/legal">法律 &amp; 隐私</a></span>
+</div>
+
+<script>
+(function(){
+  var b=document.getElementById('menu-btn'),m=document.getElementById('site-menu');
+  if(!b||!m)return;
+  function set(o){m.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false');}
+  b.addEventListener('click',function(e){e.stopPropagation();set(!m.classList.contains('open'));});
+  m.addEventListener('click',function(e){if(e.target&&e.target.tagName==='A'){set(false);}});
+  document.addEventListener('click',function(e){if(!m.contains(e.target)&&!b.contains(e.target)){set(false);}});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){set(false);}});
+})();
+
+/* dropdown menus */
+(function(){
+  document.querySelectorAll('.ddb').forEach(function(btn){
+    btn.addEventListener('click',function(e){
+      e.stopPropagation();
+      var dd=btn.parentElement, open=!dd.classList.contains('open');
+      document.querySelectorAll('.dd.open').forEach(function(o){o.classList.remove('open');var b=o.querySelector('.ddb');if(b)b.setAttribute('aria-expanded','false');});
+      if(open){dd.classList.add('open');btn.setAttribute('aria-expanded','true');}
+    });
+  });
+  document.addEventListener('click',function(){document.querySelectorAll('.dd.open').forEach(function(o){o.classList.remove('open');var b=o.querySelector('.ddb');if(b)b.setAttribute('aria-expanded','false');});});
+})();
+</script>
+
+<script id="langsel-js">
+(function(){
+var btn=document.querySelector(".langsel-btn");
+if(!btn)return;
+var wrap=btn.parentNode;
+var panel=wrap.querySelector(".langsel-panel");
+btn.addEventListener("click",function(ev){ev.stopPropagation();var open=panel.classList.toggle("open");btn.setAttribute("aria-expanded",open?"true":"false");});
+document.addEventListener("click",function(ev){if(!wrap.contains(ev.target)){panel.classList.remove("open");btn.setAttribute("aria-expanded","false");}});
+document.addEventListener("keydown",function(ev){if(ev.key==="Escape"){panel.classList.remove("open");btn.setAttribute("aria-expanded","false");}});
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<title>만들기 예시 | Build with Jesus</title>
+<meta name="description" content="젊은 세대가 Agent와 함께 만드는 것들의 종류예요: 교회와 공동체, 그리고 자신을 위한 웹사이트, 작은 앱, 인터랙티브 대시보드, 그리고 손으로 직접 만든 진짜 물건들까지요. 이제 막 시작했으니, 지금 보이는 것이 앞으로 올 것들의 윤곽이에요.">
+<link rel="canonical" href="https://buildwithjesus.com/ko/examples">
+<link rel="alternate" hreflang="en" href="https://buildwithjesus.com/examples">
+<link rel="alternate" hreflang="ms" href="https://buildwithjesus.com/ms/examples">
+<link rel="alternate" hreflang="tl" href="https://buildwithjesus.com/tl/examples">
+<link rel="alternate" hreflang="id" href="https://buildwithjesus.com/id/examples">
+<link rel="alternate" hreflang="vi" href="https://buildwithjesus.com/vi/examples">
+<link rel="alternate" hreflang="th" href="https://buildwithjesus.com/th/examples">
+<link rel="alternate" hreflang="es" href="https://buildwithjesus.com/es/examples">
+<link rel="alternate" hreflang="zh" href="https://buildwithjesus.com/zh/examples">
+<link rel="alternate" hreflang="ko" href="https://buildwithjesus.com/ko/examples">
+<link rel="alternate" hreflang="ja" href="https://buildwithjesus.com/ja/examples">
+<link rel="alternate" hreflang="x-default" href="https://buildwithjesus.com/examples">
+<meta property="og:title" content="만들기 예시 | Build with Jesus">
+<meta property="og:description" content="젊은 세대가 Agent와 함께 하는 만들기의 종류예요: 교회와 공동체, 그리고 자신을 위한 웹사이트, 작은 앱, 대시보드, 그리고 손으로 직접 만든 진짜 물건들까지요.">
+<meta property="og:url" content="https://buildwithjesus.com/ko/examples">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Build with Jesus">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="만들기 예시 | Build with Jesus">
+<meta name="twitter:description" content="젊은 세대가 Agent와 함께 하는 만들기의 종류예요: 교회와 공동체, 그리고 자신을 위한 웹사이트, 작은 앱, 대시보드, 그리고 손으로 직접 만든 진짜 물건들까지요.">
+<meta name="twitter:image" content="https://buildwithjesus.com/og-card.jpg">
+<meta property="og:image" content="https://buildwithjesus.com/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0d0d0d;--paper:#ffffff;--grey:#f4f4f4;--line:#e3e3e3;--mut:#5c5c5c;--soft:#8f8f8f}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--paper);color:var(--ink);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:'Newsreader',Georgia,serif;font-weight:500;line-height:1.12;letter-spacing:-.01em;color:#562C16}
+a{color:inherit}
+.wrap{max-width:1320px;margin:0 auto;padding:0 1.5rem}
+.top{max-width:1320px;margin:0 auto;padding:1.4rem 1.5rem 0;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none}
+.brand svg{width:32px;height:32px}
+.wm{font-family:'Newsreader',Georgia,serif;font-weight:500;letter-spacing:.1em;font-size:14.5px;white-space:nowrap}
+.wm .th{font-weight:400}
+.topnav{display:flex;align-items:center;gap:1.4rem}
+.topnav .home{font-size:14px;font-weight:500;text-decoration:none;color:var(--mut)}
+.topnav .home:hover{color:var(--ink)}
+.top{position:relative}
+.menu-btn{display:none;background:transparent;border:2px solid var(--ink);width:42px;height:38px;padding:0;cursor:pointer;flex:0 0 auto;align-items:center;justify-content:center;flex-direction:column;gap:4px}
+.menu-btn .mb-l{display:block;width:16px;height:2px;background:var(--ink)}
+.menu-btn:hover{background:var(--ink)}
+.menu-btn:hover .mb-l{background:#fff}
+.menu{display:none;position:absolute;left:1.5rem;right:1.5rem;top:calc(100% + .4rem);background:#fff;border:1px solid var(--line);box-shadow:0 14px 34px rgba(0,0,0,.08);z-index:60}
+.menu.open{display:block}
+.menu a{display:block;padding:.9rem 1.4rem;font-size:15.5px;font-weight:500;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line)}
+.menu a:last-child{border-bottom:0}
+.menu a:hover{background:var(--grey)}
+.topnav a.tlink{font-size:14px;font-weight:500;text-decoration:none;color:var(--mut)}
+.topnav a.tlink:hover{color:var(--ink)}
+@media(max-width:1000px){.topnav a.tlink{display:none}.menu-btn{display:flex}}
+.btn{display:inline-block;font-size:15px;font-weight:600;padding:.95rem 1.9rem;text-decoration:none;border-radius:0;border:2px solid var(--ink);transition:background .15s ease,color .15s ease}
+.btn-solid{background:var(--ink);color:#fff}
+.btn-solid:hover{background:transparent;color:var(--ink)}
+.btn-line{background:transparent;color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:#fff}
+.btn-sm{padding:.6rem 1.1rem;font-size:13.5px;border-width:2px}
+section{padding:4.6rem 0}
+.hero{padding:3.6rem 0 4rem}
+.hero-in{display:grid;grid-template-columns:1.25fr .75fr;gap:3rem;align-items:center}
+.eyebrow{font-size:12px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:var(--mut)}
+.hero h1{font-size:clamp(2.1rem,4.4vw,3.15rem);margin:1.1rem 0 1.2rem}
+.lead{font-size:18px;color:var(--mut);max-width:34em}
+.btns{display:flex;gap:.9rem;flex-wrap:wrap;margin-top:1.9rem}
+.mark-panel{background:var(--grey);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;padding:2.6rem;min-width:0}
+.mark-panel svg{max-width:100%;min-width:0}
+.ink{background:var(--ink);color:#fff}
+.ink h2,.ink h3{color:#fff}
+.ink .sec-head p{color:#b3b3b3}
+.ink .btn-solid{background:#fff;color:var(--ink);border-color:#fff}
+.ink .btn-solid:hover{background:transparent;color:#fff}
+.ink .btn-line{color:#fff;border-color:#fff}
+.ink .btn-line:hover{background:#fff;color:var(--ink)}
+.sec-head{max-width:46em;margin-bottom:2.4rem}
+.sec-head h2{font-size:clamp(1.7rem,3.2vw,2.35rem);margin-bottom:.8rem}
+.sec-head p{color:var(--mut)}
+.cta-row{display:flex;gap:.9rem;flex-wrap:wrap;margin-top:1.6rem}
+.tag{display:inline-block;font-size:11.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--soft);border:1.5px solid var(--line);padding:.35rem .75rem;margin-bottom:1.1rem}
+.ex-h2{font-size:clamp(1.5rem,3vw,2rem);max-width:30em;margin-bottom:1.6rem}
+.ex-sketch{display:block;width:100%;height:auto;border:1px solid var(--line);margin-bottom:2rem}
+.ex{display:grid;grid-template-columns:1.1fr .9fr;gap:2.4rem;align-items:start}
+.ex-story p{color:var(--mut);margin-bottom:1rem}
+.ex-story p:last-child{margin-bottom:0}
+.ex-facts{border:1px solid var(--line);padding:1.6rem 1.8rem}
+.ex-facts p{font-size:15px;color:var(--mut);margin-bottom:.9rem}
+.ex-facts p:last-child{margin-bottom:0}
+.ex-facts strong{color:var(--ink)}
+.foot{max-width:1320px;margin:0 auto;padding:2.2rem 1.5rem 3rem;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;font-size:13.5px;color:var(--mut)}
+.foot a{text-decoration:none;color:var(--mut)}
+.foot a:hover{color:var(--ink)}
+@media(max-width:900px){.hero-in{grid-template-columns:1fr}.mark-panel{order:-1}.ex{grid-template-columns:1fr}}
+@media(max-width:560px){.topnav .home{display:none}.wm{font-size:11.5px}.btn-sm{padding:.5rem .85rem;font-size:12.5px}.mark-panel{padding:2rem 1.2rem}.ex-facts{padding:1.3rem 1.4rem}}
+@media(max-width:400px){.wm{display:none}.btn-sm{padding:.45rem .7rem;font-size:12px}}
+.bcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.1rem}
+.bcard{border:1px solid var(--line);padding:1.4rem 1.5rem}
+.bcard h3{font-size:1.16rem;margin-bottom:.5rem}
+.bcard p{font-size:15px;color:var(--mut)}
+.sec-img{display:block;width:100%;height:auto;border:1px solid var(--line);margin-top:2rem}
+/* nav dropdowns */
+.dd{position:relative;display:inline-block}
+button.ddb{background:none;border:0;font-family:inherit;font-size:14px;font-weight:500;color:var(--mut,#5c5c5c);cursor:pointer;display:inline-flex;align-items:center;gap:.35rem;padding:0}
+button.ddb:hover{color:var(--ink,#0d0d0d)}
+button.ddb svg{width:9px;height:6px;stroke:currentColor;stroke-width:1.6;fill:none}
+.ddm{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);padding-top:.55rem;z-index:80;text-align:left}
+.ddm-in{background:#fff;border:1px solid var(--line,#e3e3e3);box-shadow:0 14px 34px rgba(0,0,0,.08);min-width:200px;padding:.4rem 0}
+.ddm a{display:block;padding:.55rem 1.15rem;font-size:14px;font-weight:500;color:var(--ink,#0d0d0d);text-decoration:none;white-space:nowrap}
+.ddm a:hover{background:var(--grey,#f4f4f4)}
+.dd:hover .ddm,.dd:focus-within .ddm,.dd.open .ddm{display:block}
+.nav-links .tlink{font-size:14px;font-weight:500;text-decoration:none;color:var(--mut,#5c5c5c)}
+.nav-links .tlink:hover{color:var(--ink,#0d0d0d)}
+.menu .mlab{display:block;padding:.75rem 1.4rem .3rem;font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--soft,#8f8f8f)}
+@media(max-width:1000px){.topnav .dd{display:none}.nav-links .dd{display:none}}
+.langsel-wrap{position:relative;display:inline-flex;align-items:center}
+.langsel-btn{font-family:'Inter',system-ui,sans-serif;font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);background:transparent;border:1px solid var(--line);padding:7px 11px;cursor:pointer;white-space:nowrap;line-height:1;display:inline-flex;align-items:center}
+.langsel-btn:hover{border-color:var(--ink)}
+.langsel-btn .ls-arrow{margin-left:7px;font-size:10px;line-height:1}
+.langsel-panel{display:none;position:absolute;top:calc(100% + .55rem);right:0;min-width:210px;background:#fff;border:1px solid var(--line);box-shadow:0 14px 34px rgba(0,0,0,.08);z-index:120;padding:5px 0;text-align:left}
+.langsel-panel.open{display:block}
+.langsel-row{display:block;width:100%;box-sizing:border-box;padding:10px 16px;font-family:'Inter',system-ui,sans-serif;font-size:14px;color:var(--ink);text-decoration:none;border:0;background:none;text-align:left;cursor:pointer;white-space:nowrap}
+.langsel-row:hover{background:var(--grey)}
+.langsel-row.cur{color:#562C16;font-weight:600;cursor:default}
+.langsel-row.soon{color:var(--soft);cursor:default}
+.langsel-row .ls-soon{font-size:10px;letter-spacing:.1em;text-transform:uppercase;margin-left:9px;color:var(--soft)}
+.nav-links .langsel-panel a{display:block}
+@media(max-width:560px){.langsel-btn{padding:6px 9px;font-size:11px}.langsel-panel{min-width:180px}}
+</style>
+<script defer src="https://assets.onedollarstats.com/stonks.js"></script>
+</head>
+<body>
+
+<div class="top">
+  <a class="brand" href="/ko"><svg class="mk" viewBox="0 0 160 160" style="width:32px;height:auto;display:block" role="img" aria-label="화면에 실리콘 칩이 있는 휴대폰, 나무 판 위의 망치와 못">
+  <rect x="14" y="118" width="132" height="22" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="30" y1="129" x2="58" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="96" y1="129" x2="130" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="36" y1="88" x2="36" y2="117" stroke="currentColor" stroke-width="4"/>
+  <line x1="29" y1="88" x2="43" y2="88" stroke="currentColor" stroke-width="6"/>
+  <g transform="translate(112,117) rotate(22)">
+    <line x1="0" y1="1" x2="0" y2="-56" stroke="currentColor" stroke-width="8"/>
+    <rect x="-17" y="-73" width="34" height="15" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  </g>
+  <rect x="54" y="18" width="52" height="100" rx="7" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="69" y1="30" x2="91" y2="30" stroke="currentColor" stroke-width="4"/>
+  <line x1="74" y1="108" x2="86" y2="108" stroke="currentColor" stroke-width="4"/>
+  <rect x="67" y="53" width="26" height="26" rx="2" fill="none" stroke="currentColor" stroke-width="4"/>
+  <g stroke="currentColor" stroke-width="4">
+    <line x1="74" y1="47" x2="74" y2="53"/><line x1="80" y1="47" x2="80" y2="53"/><line x1="86" y1="47" x2="86" y2="53"/>
+    <line x1="74" y1="79" x2="74" y2="85"/><line x1="80" y1="79" x2="80" y2="85"/><line x1="86" y1="79" x2="86" y2="85"/>
+    <line x1="61" y1="60" x2="67" y2="60"/><line x1="61" y1="66" x2="67" y2="66"/><line x1="61" y1="72" x2="67" y2="72"/>
+    <line x1="93" y1="60" x2="99" y2="60"/><line x1="93" y1="66" x2="99" y2="66"/><line x1="93" y1="72" x2="99" y2="72"/>
+  </g>
+</svg>
+    <span class="wm">BUILD <span class="th">WITH</span> JESUS</span></a>
+  <div class="topnav">
+    <a class="tlink" href="/ko/agent">Agent</a>
+    <a class="tlink" href="/ko/leaders">리더 가이드</a>
+    <a class="tlink" href="/ko/workshop">워크숍</a>
+    <div class="dd">
+      <button class="tlink ddb" type="button" aria-haspopup="true" aria-expanded="false">프로그램 <svg viewBox="0 0 10 6" aria-hidden="true"><polyline points="1,1 5,5 9,1"/></svg></button>
+      <div class="ddm"><div class="ddm-in">
+        <a href="/ko#how">진행 방식</a>
+        <a href="/ko/groups">모임 안내</a>
+        <a href="/ko/examples">예시</a>
+        <a href="/ko#faq">자주 묻는 질문</a>
+      </div></div>
+    </div>
+    <div class="dd">
+      <button class="tlink ddb" type="button" aria-haspopup="true" aria-expanded="false">소개 <svg viewBox="0 0 10 6" aria-hidden="true"><polyline points="1,1 5,5 9,1"/></svg></button>
+      <div class="ddm"><div class="ddm-in">
+        <a href="/ko/inspiration">영감</a>
+        <a href="/ko/ai">AI 활용 방식</a>
+        <a href="/ko/safety">안전 &amp; 데이터</a>
+        <a href="/ko/legal">법적 고지 &amp; 개인정보</a>
+      </div></div>
+    </div>
+    
+    <div class="langsel-wrap"><button type="button" class="langsel-btn" aria-haspopup="true" aria-expanded="false">Korean<span class="ls-arrow">&#9662;</span></button><div class="langsel-panel" role="menu"><a class="langsel-row" href="/examples">English</a><a class="langsel-row" href="/ms/examples">Bahasa Melayu</a><a class="langsel-row" href="/tl/examples">Tagalog</a><a class="langsel-row" href="/id/examples">Indonesian</a><a class="langsel-row" href="/vi/examples">Vietnamese</a><a class="langsel-row" href="/th/examples">Thai</a><a class="langsel-row" href="/es/examples">Spanish</a><a class="langsel-row" href="/zh/examples">Chinese (Simplified)</a><button type="button" class="langsel-row cur" aria-current="true">Korean</button><a class="langsel-row" href="/ja/examples">Japanese</a></div></div><button class="menu-btn" id="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="site-menu"><span class="mb-l"></span><span class="mb-l"></span><span class="mb-l"></span></button>
+  </div>
+  <div class="menu" id="site-menu">
+    <a href="/ko">홈</a>
+    <span class="mlab">프로그램</span>
+    <a href="/ko/agent">Agent</a>
+    <a href="/ko/leaders">리더 가이드</a>
+    <a href="/ko/workshop">워크숍</a>
+    <a href="/ko/groups">모임 안내</a>
+    <a href="/ko/examples">예시</a>
+    <span class="mlab">소개</span>
+    <a href="/ko/inspiration">영감</a>
+    <a href="/ko/ai">AI 활용 방식</a>
+    <a href="/ko/safety">안전 &amp; 데이터</a>
+    <a href="/ko/legal">법적 고지 &amp; 개인정보</a>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="wrap hero-in">
+    <div>
+      <span class="eyebrow">예시</span>
+      <h1>젊은 세대가 만드는 것들</h1>
+      <p class="lead">저희는 이제 막 시작했어요. 그래서 이 페이지는 완성된 작품 갤러리라기보다, 앞으로 다가올 것들의 윤곽으로 봐 주세요. 아래에 있는 것들은 젊은 세대가 Agent와 함께 만드는 것들의 종류예요: 교회와 공동체, 그리고 자신을 위한 웹사이트, 작은 앱, 인터랙티브 대시보드, 그리고 손으로 직접 만든 진짜 물건들이요. 대부분은 둘을 함께 엮어요.</p>
+      <div class="btns">
+        <a class="btn btn-solid" href="/ko/agent">Agent 받기</a>
+        <a class="btn btn-line" href="https://www.onetoeight.guide/ko/u/" target="_blank" rel="noopener">젊은 세대를 위한 무료 가이드</a>
+      </div>
+    </div>
+    <div class="mark-panel"><svg class="mk" viewBox="0 0 160 160" style="width:300px;max-width:100%;height:auto;display:block" role="img" aria-label="화면에 실리콘 칩이 있는 휴대폰, 나무 판 위의 망치와 못">
+  <rect x="14" y="118" width="132" height="22" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="30" y1="129" x2="58" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="96" y1="129" x2="130" y2="129" stroke="currentColor" stroke-width="3"/>
+  <line x1="36" y1="88" x2="36" y2="117" stroke="currentColor" stroke-width="4"/>
+  <line x1="29" y1="88" x2="43" y2="88" stroke="currentColor" stroke-width="6"/>
+  <g transform="translate(112,117) rotate(22)">
+    <line x1="0" y1="1" x2="0" y2="-56" stroke="currentColor" stroke-width="8"/>
+    <rect x="-17" y="-73" width="34" height="15" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  </g>
+  <rect x="54" y="18" width="52" height="100" rx="7" fill="#fff" stroke="currentColor" stroke-width="5"/>
+  <line x1="69" y1="30" x2="91" y2="30" stroke="currentColor" stroke-width="4"/>
+  <line x1="74" y1="108" x2="86" y2="108" stroke="currentColor" stroke-width="4"/>
+  <rect x="67" y="53" width="26" height="26" rx="2" fill="none" stroke="currentColor" stroke-width="4"/>
+  <g stroke="currentColor" stroke-width="4">
+    <line x1="74" y1="47" x2="74" y2="53"/><line x1="80" y1="47" x2="80" y2="53"/><line x1="86" y1="47" x2="86" y2="53"/>
+    <line x1="74" y1="79" x2="74" y2="85"/><line x1="80" y1="79" x2="80" y2="85"/><line x1="86" y1="79" x2="86" y2="85"/>
+    <line x1="61" y1="60" x2="67" y2="60"/><line x1="61" y1="66" x2="67" y2="66"/><line x1="61" y1="72" x2="67" y2="72"/>
+    <line x1="93" y1="60" x2="99" y2="60"/><line x1="93" y1="66" x2="99" y2="66"/><line x1="93" y1="72" x2="99" y2="72"/>
+  </g>
+</svg></div>
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>우리 교회를 위해.</h2>
+      <p>드러나 있는 진짜 필요한 일 하나를, 끝낼 수 있을 만큼 작게 만들어요.</p>
+    </div>
+    <div class="bcards">
+      <div class="bcard"><h3>말씀 학습지</h3><p>지난 주일 설교가 젊은 세대 모임을 위한 다섯 가지 나눔 질문이 됐어요. Agent는 돕기만 하고, 결정은 젊은 세대가 해요.</p></div>
+      <div class="bcard"><h3>순번표</h3><p>환영팀과 준비팀, 어린이 사역의 봉사 순번을 짜 줘요. 링크 하나면 되고, 계정도 앱도 필요 없어요.</p></div>
+      <div class="bcard"><h3>환영 카드</h3><p>예배 시간, 처음 오시면 어떤지, 그리고 지도까지 담은 한 페이지 사이트예요. 교회의 정문을 제대로 만든 거예요.</p></div>
+      <div class="bcard"><h3>행사 페이지</h3><p>캐롤의 밤, 공동체 바비큐, 바자회. 초대 페이지와 주보에 넣을 QR 코드예요.</p></div>
+    </div>
+    <img class="sec-img" src="/images/sketch-rota.jpg" alt="사이트 색으로 그린 연필 스케치 세 장: 교회 게시판에 붙은 구겨진 종이 순번표, 작은 로봇 도우미와 함께 순번표를 만드는 젊은 세대 모임, 그리고 주일 아침 교회 문 앞에 놓인, 순번표로 채워진 태블릿.">
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>공동체를 위해.</h2>
+      <p>동네가 알아차리는 것들이에요. 조용하고 쓸모 있고, 단체 채팅방 밖에 있어요.</p>
+    </div>
+    <div class="bcards">
+      <div class="bcard"><h3>식사 릴레이</h3><p>힘든 시기를 지나는 가정을 위해 식사를 조율해 줘요. 기본이 비공개이고, 개인정보는 드러나지 않아요.</p></div>
+      <div class="bcard"><h3>자선 가게 쇼윈도</h3><p>교회가 운영하는 자선 가게나 동네 자선 가게를 위한 간단한 사이트예요. 운영 시간, 기부 안내, 사진 한두 장이면 충분해요.</p></div>
+      <div class="bcard"><h3>게시판</h3><p>회관이나 커뮤니티 센터에서 이번 주에 무엇이 있는지 알려 주는 한 페이지예요. 1분이면 업데이트할 수 있고, 어떤 휴대폰에서도 잘 읽혀요.</p></div>
+    </div>
+    <img class="sec-img" src="/images/sketch-mealtrain.jpg" alt="사이트 색으로 그린 연필 스케치 세 장: 어질러진 화이트보드 앞의 자선 단체 봉사자들, 노트북으로 작은 로봇 도우미와 함께 저녁 식사 순번표를 만드는 젊은 세대, 그리고 현관 앞에서 건네지는 따뜻한 식사.">
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>자신을 위해.</h2>
+      <p>어떤 만들기는 남에게 보여 주려는 게 아니에요. 가이드의 활동이 한 사람의 삶에 딱 맞는 작은 도구가 된 거예요.</p>
+    </div>
+    <div class="bcards">
+      <div class="bcard"><h3>수면 기록</h3><p>가이드의 수면 실험에서 나왔어요: 취침 시간 하나를 일주일 동안 지키고, 그 하루하루가 실제로 어땠는지 차트로 볼 수 있어요.</p></div>
+      <div class="bcard"><h3>돈 점검</h3><p>일주일의 지출을 솔직하게 기록하고, 새는 곳 하나를 찾아내요. 예산표가 아니에요. 한 페이지에 담긴 진실일 뿐이에요.</p></div>
+      <div class="bcard"><h3>에너지 기록</h3><p>일주일 동안 하루 세 번, 에너지에 점수를 매겨 봐요. 몸에는 패턴이 있는데, 거의 아무도 자기 몸의 패턴을 본 적이 없어요.</p></div>
+      <div class="bcard"><h3>운동 기록지</h3><p>팔굽혀펴기, 스쿼트, 플랭크, 산책. 숫자를 지금 적어 두고, 한 달 뒤에 다시 시험해 봐요.</p></div>
+      <div class="bcard"><h3>개인 페이지</h3><p>자신이 누구인지, 무엇을 만들었는지 보여 주는 한 페이지예요. 포트폴리오의 첫 번째 벽돌이에요.</p></div>
+    </div>
+    <img class="sec-img" src="/images/sketch-planner.jpg" alt="사이트 색으로 그린 연필 스케치 세 장: 밤에 책상에 앉은 지친 젊은 세대가 노트북으로 작은 로봇 도우미와 함께 한 주 계획을 세우는 모습, 그리고 완성된 계획을 휴대폰으로 보며 편안해하는 모습.">
+  </div>
+</section>
+
+<section style="border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>손으로 만든 것들.</h2>
+      <p>가이드의 활동에서 바로 나온 것들이에요: 진짜 만들기, 화면은 필요 없어요.</p>
+    </div>
+    <div class="bcards">
+      <div class="bcard"><h3>진짜 한 끼</h3><p>처음부터 제대로 된 요리를 만들어 보고, 누군가를 초대해 함께 나눠요. 첫 시도가 엉망이어도 괜찮아요.</p></div>
+      <div class="bcard"><h3>창가의 새싹 채소</h3><p>쟁반 하나, 흙 조금, 열흘. 직접 키운 채소를 잘라 먹어요.</p></div>
+      <div class="bcard"><h3>광석 라디오</h3><p>공기 속의 신호만으로 작동하는 라디오예요. 배터리도 칩도 필요 없어요.</p></div>
+      <div class="bcard"><h3>72시간 비상 가방</h3><p>필요해지기 전에 미리 싸 둬요: 물, 음식, 온기, 빛, 서류, 그리고 마음에 위로가 될 한 가지.</p></div>
+      <div class="bcard"><h3>테라리움</h3><p>선반 위에서 사는 작은 바깥 세상이에요. 물도 스스로 마셔요.</p></div>
+    </div>
+    <p style="margin-top:1.6rem;color:var(--mut);max-width:46em">여기 있는 거의 모든 것에는 디지털 확장을 더할 수 있어요: 식물 성장 기록, 발효 카운트다운, 어둠 속에서도 열어 볼 수 있는 체크리스트요. 현실 세계의 만들기와 디지털 만들기, 하나의 프로젝트예요.</p>
+  </div>
+</section>
+
+<section class="ink">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>첫 번째 것들은 지금 만들어지고 있어요.</h2>
+      <p>저희는 첫 모임들부터 시작하고 있어요. 그래서 이 페이지는 완성된 작업이 적고, 앞으로 올 것들이 많아요. 만들기가 하나씩 끝날 때마다, 진짜 사례가 여기에 올라와요: 무엇이었는지, Agent가 무엇을 했는지, 무엇이 달라졌는지요. 지금 시작하는 사람이라면, 자신의 만들기가 그 첫 번째 중 하나가 될 수도 있어요.</p>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-solid" href="/ko/agent">Agent 받기</a>
+      <a class="btn btn-line" href="/ko/groups">모임으로 가져가기</a>
+    </div>
+  </div>
+</section>
+
+<div class="foot">
+  <span>buildwithjesus.com</span>
+  <span><a href="/ko">홈</a> &middot; <a href="/ko/leaders">리더 가이드</a> &middot; <a href="/ko/agent">Agent 받기</a> &middot; <a href="/ko/inspiration">영감</a> &middot; <a href="/ko/ai">AI 활용 방식</a> &middot; <a href="/ko/safety">안전 &amp; 데이터</a> &middot; <a href="/ko/legal">법적 고지 &amp; 개인정보</a></span>
+</div>
+
+<script>
+(function(){
+  var b=document.getElementById('menu-btn'),m=document.getElementById('site-menu');
+  if(!b||!m)return;
+  function set(o){m.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false');}
+  b.addEventListener('click',function(e){e.stopPropagation();set(!m.classList.contains('open'));});
+  m.addEventListener('click',function(e){if(e.target&&e.target.tagName==='A'){set(false);}});
+  document.addEventListener('click',function(e){if(!m.contains(e.target)&&!b.contains(e.target)){set(false);}});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){set(false);}});
+})();
+
+/* dropdown menus */
+(function(){
+  document.querySelectorAll('.ddb').forEach(function(btn){
+    btn.addEventListener('click',function(e){
+      e.stopPropagation();
+      var dd=btn.parentElement, open=!dd.classList.contains('open');
+      document.querySelectorAll('.dd.open').forEach(function(o){o.classList.remove('open');var b=o.querySelector('.ddb');if(b)b.setAttribute('aria-expanded','false');});
+      if(open){dd.classList.add('open');btn.setAttribute('aria-expanded','true');}
+    });
+  });
+  document.addEventListener('click',function(){document.querySelectorAll('.dd.open').forEach(function(o){o.classList.remove('open');var b=o.querySelector('.ddb');if(b)b.setAttribute('aria-expanded','false');});});
+})();
+</script>
+
+<script id="langsel-js">
+(function(){
+var btn=document.querySelector(".langsel-btn");
+if(!btn)return;
+var wrap=btn.parentNode;
+var panel=wrap.querySelector(".langsel-panel");
+btn.addEventListener("click",function(ev){ev.stopPropagation();var open=panel.classList.toggle("open");btn.setAttribute("aria-expanded",open?"true":"false");});
+document.addEventListener("click",function(ev){if(!wrap.contains(ev.target)){panel.classList.remove("open");btn.setAttribute("aria-expanded","false");}});
+document.addEventListener("keydown",function(ev){if(ev.key==="Escape"){panel.classList.remove("open");btn.setAttribute("aria-expanded","false");}});
+})();
+</script>
+</body>
+</html>

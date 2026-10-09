@@ -1,0 +1,32 @@
+{
+ "runs": {
+  "Inspiration: The Lord's Prayer and the Ten Commandments | Build with Jesus": "Inspirasi: Doa Bapa Kami dan Sepuluh Perintah | Build with Jesus",
+  "The Lord's Prayer": "Doa Bapa Kami",
+  "The prayer Jesus taught his friends, and the church has prayed ever since. Read it slowly. It is short on purpose.": "Doa yang Yesus ajarkan kepada sahabat-sahabat-Nya, dan yang didoakan gereja sejak saat itu. Baca perlahan-lahan. Sengaja dibuat pendek.",
+  "The Lord&#8217;s Prayer, read aloud &middot; King James Version": "Doa Bapa Kami, dibaca dengan lantang &middot; King James Version",
+  "The same passage, World English Bible": "Petikan yang sama &middot; TB",
+  "A short watch": "Tontonan singkat",
+  "On what happens in a person who returns to a prayer like this, daily.": "Tentang apa yang terjadi dalam diri seseorang yang kembali ke doa seperti ini, setiap hari.",
+  "Eight passages": "Delapan petikan",
+  "The eight passages behind the whole programme, quoted exactly from the World English Bible. Open one to read it, or press play to hear it.": "Delapan petikan di balik seluruh program, dikutip dari edisi Indonesia yang terverifikasi (ayat dari kitab Mazmur tetap dalam bahasa Inggris dengan nama WEB). Buka satu untuk membacanya, atau tekan putar untuk mendengarnya.",
+  "Follow": "Ikut",
+  "Taken seriously": "Dianggap serius",
+  "Skill as a gift": "Keterampilan sebagai anugerah",
+  "How the work is done": "Bagaimana karya ini dikerjakan",
+  "What it stands on": "Apa dasarnya",
+  "One body": "Satu tubuh",
+  "Why the work is seen": "Mengapa karya ini terlihat",
+  "The give-away": "Pemberian",
+  "His commandments": "Perintah-Nya",
+  "Ten words from the One who made you. They still hold.": "Sepuluh firman dari Dia yang menciptakanmu. Semuanya masih berlaku.",
+  "The commandments are not a cage. They are a foundation, and everything you build stands or falls on them. God did not hand them down to shrink you. He gave them so you would know, plainly, how a human life actually runs: what to run from, what to hold on to, and who to become. Break them and life cracks in ways you feel long before anyone sees. Keep them and you are standing on ground that has held for three thousand years.": "Perintah-perintah itu bukan kurungan. Semuanya adalah fondasi, dan segala yang kamu bangun berdiri atau runtuh di atasnya. Tuhan tidak menurunkannya untuk mengecilkanmu. Ia memberikannya supaya kamu tahu dengan jelas bagaimana hidup manusia sebenarnya berjalan: apa yang harus dijauhi, apa yang harus dipegang, dan siapa yang harus kamu jadi. Kalau kamu melanggarnya, hidupmu akan retak dengan cara yang kamu rasakan jauh sebelum orang lain melihatnya. Kalau kamu menaatinya, kamu berdiri di atas tanah yang sudah bertahan selama tiga ribu tahun.",
+  "The world will tell you they are chains. Read them for yourself instead. You will find they are walls around everything worth having: your God, your name, your rest, your family, your marriage, your word, your peace.": "Dunia bilang semua itu belenggu. Coba baca sendiri. Kamu akan menemukan bahwa semuanya itu tembok yang mengelilingi segala hal yang layak dimiliki: Tuhanmu, namamu, istirahatmu, keluargamu, pernikahanmu, perkataanmu, kedamaianmu.",
+  "You will not keep them perfectly. Nobody does, and the grace of Jesus is bigger than that. But do not make the oldest mistake and treat them as optional. They are not advice from a stranger. They are the instructions for a life that works, from the One who made you.": "Kamu tidak akan bisa menaatinya dengan sempurna. Tidak ada yang sanggup, dan kasih karunia Yesus lebih besar dari itu. Tapi jangan lakukan kesalahan paling tua dan menganggapnya opsional. Semua itu bukan nasihat dari orang asing. Semua itu adalah petunjuk untuk hidup yang berjalan dengan baik, dari Dia yang menciptakanmu."
+ },
+ "attrs": {
+  "The Lord's Prayer, as the church has prayed it for two thousand years, the Ten Commandments, and eight Bible passages behind Build with Jesus, each with spoken audio, plus a short film on praying daily.": "Doa Bapa Kami, seperti yang didoakan gereja selama dua ribu tahun, Sepuluh Perintah, dan delapan petikan Alkitab di balik Build with Jesus, masing-masing dengan audio bacaan, serta film pendek tentang berdoa setiap hari.",
+  "Inspiration: The Lord's Prayer | Build with Jesus": "Inspirasi: Doa Bapa Kami | Build with Jesus",
+  "The prayer Jesus taught his friends, the Ten Commandments, and eight passages behind Build with Jesus, each with spoken audio.": "Doa yang Yesus ajarkan kepada sahabat-sahabat-Nya, Sepuluh Perintah, dan delapan petikan di balik Build with Jesus, masing-masing dengan audio bacaan."
+ },
+ "notes": "Scripture text, citations and verse references are masked by design (scripture machinery, id edition = TB). The three runs carrying owner OVERRIDES (the KJV read-aloud caption, 'The same passage', and the eight-passages intro) reuse the required id renderings verbatim from _loc_common.py. Quoted YouTube video title kept in English per brief."
+}
