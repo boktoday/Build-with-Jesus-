@@ -52,3 +52,20 @@ When a verified Malay edition lands, swap these to quote it exactly and name it.
   inspiration, ai, safety, legal (8 Oct 2026).
 - Scripture on the inspiration page stays English with World English Bible named and a
   Malay note saying why; swap to a verified edition when it lands.
+
+## Prices and dates (founding price, from 8 Oct 2026)
+
+- "Founding price" = **Harga pengasas** (introduced for the $19.99 launch window).
+- Amounts keep the English shape with (AUD): "$19.99 (AUD)", "$29.99 (AUD)", "$1,000 (AUD)".
+  "$19.99 (AUD)" and "$29.99 (AUD)" are both on the machinery keep list, so bare price
+  runs stay identical across locales by design.
+- Dates: "1 Disember 2026"; "sehingga 1 Disember 2026" = until; "kemudian $29.99 (AUD)" = then.
+  Sentence-start form: "Harga pengasas $19.99 (AUD) sehingga 1 Disember 2026, kemudian
+  $29.99 (AUD)."; mid-sentence: "sebagai harga pengasas sehingga 1 Disember 2026, kemudian $29.99 (AUD)".
+- Run shapes on file: agent card "Harga pengasas $19.99 (AUD) sehingga 1 Disember 2026,
+  kemudian $29.99 (AUD). Sekali bayaran, tiada pembaharuan."; leader/agent note prefix
+  "Harga pengasas sehingga 1 Disember 2026, kemudian $29.99 (AUD). ..." (after the ". &middot; "
+  separator on the leaders page).
+- When the window closes (1 December 2026), the reverse sweep is: drop "founding" phrasing,
+  set every "$19.99 (AUD)" to "$29.99 (AUD)", and remove the machinery keep entry for
+  "$19.99 (AUD)" only after no page carries it.
