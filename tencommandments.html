@@ -306,6 +306,11 @@ details[open] summary .acc-arrow{transform:rotate(180deg)}
 .tc-audio-h{font-size:24px;color:var(--brown);margin:0 0 20px;line-height:1.25}
 .tc-audio .prayer-player{margin:0}
 .tc-audio-cap{font-size:13.5px;color:var(--mut);margin:16px 0 0;line-height:1.55}
+.pl-tabs{display:flex;margin:0 0 18px;border:1px solid var(--line)}
+.pl-tab{flex:1;font:inherit;font-size:13.5px;font-weight:600;letter-spacing:.02em;padding:10px 12px;background:transparent;border:0;border-right:1px solid var(--line);color:var(--mut);cursor:pointer;border-radius:0}
+.pl-tab:last-child{border-right:0}
+.pl-tab:hover{color:var(--ink)}
+.pl-tab.cur{background:var(--ink);color:var(--paper)}
 @media(max-width:880px){
   .tc-hero-grid{grid-template-columns:1fr;gap:30px;padding:52px 0 44px}
   .tc-audio{padding:22px 18px 20px}
@@ -406,9 +411,12 @@ details[open] summary .acc-arrow{transform:rotate(180deg)}
       </div>
       <p class="tc-meta">Drafted 7 October 2026 &middot; Governs the assistant at buildwithjesus.com</p>
     </div>
-    <aside class="tc-audio" aria-label="Listen to the Plain Ten">
+    <aside class="tc-audio" aria-label="Listen to the Ten Commandments for AI Agents">
       <p class="tc-kicker">Listen</p>
-      <h2 class="tc-audio-h">The Plain Ten, read aloud</h2>
+      <div class="pl-tabs" role="group" aria-label="Choose the version">
+        <button type="button" class="pl-tab cur" id="pl-tab-plain" aria-pressed="true">The Plain Ten</button>
+        <button type="button" class="pl-tab" id="pl-tab-classic" aria-pressed="false">The Classical Ten</button>
+      </div>
       <div class="prayer-player">
         <div class="pl">
           <button class="pl-btn" id="pl-btn" aria-label="Play the recording"><span class="pl-ic" id="pl-ic"></span></button>
@@ -416,8 +424,8 @@ details[open] summary .acc-arrow{transform:rotate(180deg)}
           <span class="pl-time" id="pl-time">0:00</span>
         </div>
       </div>
-      <p class="tc-audio-cap">The ten, in the everyday form, read in the voice of the Lord&rsquo;s Prayer recording.</p>
-      <audio id="pl-audio" src="/audio/plain-ten.mp3" preload="metadata"></audio>
+      <p class="tc-audio-cap">Both readings are in the voice of the Lord&rsquo;s Prayer recording: the Plain Ten in the everyday form, and the Classical Ten.</p>
+      <audio id="pl-audio" src="/audio/plain-ten.mp3" data-src-plain="/audio/plain-ten.mp3" data-src-classic="/audio/classical-ten.mp3" preload="metadata"></audio>
     </aside>
   </div>
 </header>
@@ -888,6 +896,36 @@ b.setAttribute("aria-pressed",n==="dark"?"true":"false");});})();
       if (el) copyText(el.textContent.trim(), b);
     });
   });
+})();
+</script>
+<script>
+/* version selector: swap between the plain and classical readings on the same player */
+(function(){
+  var a = document.getElementById('pl-audio');
+  if (!a) return;
+  var plain = document.getElementById('pl-tab-plain');
+  var classic = document.getElementById('pl-tab-classic');
+  if (!plain || !classic) return;
+  function pick(tab){
+    var src = (tab === classic) ? a.getAttribute('data-src-classic') : a.getAttribute('data-src-plain');
+    if (a.getAttribute('src') === src) return;
+    var wasPlaying = !a.paused && !a.ended;
+    [plain, classic].forEach(function(t){
+      var cur = (t === tab);
+      t.classList.toggle('cur', cur);
+      t.setAttribute('aria-pressed', cur ? 'true' : 'false');
+    });
+    a.pause();
+    a.setAttribute('src', src);
+    a.load();
+    var fill = document.getElementById('pl-fill');
+    var time = document.getElementById('pl-time');
+    if (fill) fill.style.width = '0%';
+    if (time) time.textContent = '0:00';
+    if (wasPlaying) { var p = a.play(); if (p && p.catch) p.catch(function(){}); }
+  }
+  plain.addEventListener('click', function(){ pick(plain); });
+  classic.addEventListener('click', function(){ pick(classic); });
 })();
 </script>
 </body>
