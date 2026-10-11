@@ -11,11 +11,6 @@
       "source": "/register.html",
       "destination": "/leaders",
       "permanent": false
-    },
-    {
-      "source": "/book",
-      "destination": "/book/",
-      "permanent": true
     }
   ],
   "rewrites": [
