@@ -162,7 +162,7 @@ html[data-theme="dark"] .theme-btn .i-moon{display:block}
 @media(max-width:560px){.theme-btn{padding:6px 9px}}
 </style>
 <script defer src="https://assets.onedollarstats.com/stonks.js"></script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Brendan O'Keefe","jobTitle":"AI agent builder and coach","url":"https://buildwithjesus.com/hire","worksFor":{"@type":"Organization","name":"AI Orchestrator","url":"https://aiorchestrator.com.au"},"telephone":"+61490393533","email":"brendan@aiorchestrator.com.au"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Brendan O'Keefe","jobTitle":"AI agent builder and coach","url":"https://buildwithjesus.com/hire","worksFor":{"@type":"Organization","name":"AI Orchestrator","url":"https://aiorchestrator.com.au"},"telephone":"+61490393533","email":"brendan@aichampion.com.au"}</script>
 <style>
 .field{margin-bottom:1.05rem}
 .field label{display:block;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);margin-bottom:.45rem}
@@ -354,7 +354,7 @@ html[data-theme="dark"] .theme-btn .i-moon{display:block}
         <h3>Prefer to talk?</h3>
         <p class="big"><a href="tel:+61490393533">+61 490 393 533</a></p>
         <p>Call or text, any weekday. If it rings out, I am with a family or a group, and I will come back to you.</p>
-        <p><a href="mailto:brendan@aiorchestrator.com.au">brendan@aiorchestrator.com.au</a></p>
+        <p><a href="mailto:brendan@aichampion.com.au">brendan@aichampion.com.au</a></p>
         <p style="margin-bottom:0">I reply within a day or two.</p>
       </div>
     </div>
@@ -421,7 +421,7 @@ f.addEventListener('submit',function(e){
   if(f.querySelector('[name=company]').value){st.textContent='Thank you.';return;}
   var data={name:f.name.value.trim(),email:f.email.value.trim(),message:f.message.value.trim(),page:'hire',at:new Date().toISOString()};
   if(!data.name||!data.email||!data.message){st.textContent='Please fill in your name, email and a short message.';return;}
-  if(!WEBHOOK){st.textContent='The form is being connected. For now, please call or text +61 490 393 533, or email brendan@aiorchestrator.com.au and it will reach me straight away.';return;}
+  if(!WEBHOOK){st.textContent='The form is being connected. For now, please call or text +61 490 393 533, or email brendan@aichampion.com.au and it will reach me straight away.';return;}
   st.textContent='Sending...';
   fetch(WEBHOOK,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
    .then(function(r){if(r.ok){f.reset();st.textContent='Thank you. I will come back to you within a day or two.';}else{st.textContent='Something went wrong sending that. Please call or text +61 490 393 533.';}})
