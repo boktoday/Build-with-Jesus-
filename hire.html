@@ -172,6 +172,8 @@ html[data-theme="dark"] .theme-btn .i-moon{display:block}
 .hp{position:absolute;left:-5000px;top:-5000px;height:0;width:0;overflow:hidden}
 .fstatus{font-size:14.5px;color:var(--mut);margin-top:.9rem}
 .cgrid{display:grid;grid-template-columns:1.15fr .85fr;gap:2.6rem;align-items:start}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem}
+@media(max-width:960px){.grid3{grid-template-columns:1fr}}
 .cside{border:1px solid var(--line);padding:2rem}
 .cside h3{font-size:1.05rem;margin-bottom:.6rem}
 .cside .big{font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(1.5rem,2.6vw,1.95rem);letter-spacing:-.01em;margin:.2rem 0 1.1rem}
@@ -327,7 +329,7 @@ html[data-theme="dark"] .theme-btn .i-moon{display:block}
       <h2>How it works</h2>
       <p>Three steps, and the first one costs nothing but half an hour.</p>
     </div>
-    <div class="grid2" style="grid-template-columns:1fr 1fr 1fr">
+    <div class="grid2 grid3">
       <div class="card"><span class="num">01</span><h3>A conversation</h3><p>Thirty minutes, no charge. Tell me what your people need and where AI might fit. If it doesn&rsquo;t fit, I will say so, and you have lost nothing.</p></div>
       <div class="card"><span class="num">02</span><h3>A plan</h3><p>A short, plain plan: what we will build or teach, what it involves, what it costs, and what done looks like. No jargon, no surprises.</p></div>
       <div class="card"><span class="num">03</span><h3>The work, handed over</h3><p>I build it, teach it, or coach you through it, and leave you holding something that works without me. Then we are done, or we keep going. Your call.</p></div>
